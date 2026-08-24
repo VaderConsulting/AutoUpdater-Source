@@ -1,0 +1,38 @@
+{
+  "SnapshotId": "20260405125318_ea8a8568",
+  "CapturedUtc": "2026-04-05T12:53:18.7856835+00:00",
+  "NormalisedContentHash": "06B07CA7CC1C8A701916C3ADF33AE4B61CDA0F7B9DA7C21D27AE5AE13D436C7F",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "AutoUpdaterTest",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdaterTest\\AutoUpdaterTest.csproj",
+    "SolutionKey": "DE91CCFCE7E7C302",
+    "SourceIdentity": {
+      "IdentityKey": "DE91CCFCE7E7C302",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdaterTest\\AutoUpdaterTest.csproj",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdaterTest",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "56B60082E4CDBB82",
+      "ProjectName": "AutoUpdaterTest",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdaterTest\\AutoUpdaterTest.csproj",
+      "ProjectStyle": "Unknown",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": "net8.0-windows",
+      "AssetsFilePath": null,
+      "PackagesLockFilePath": null,
+      "Packages": [],
+      "DependencyEdges": [],
+      "Diagnostics": [],
+      "Warnings": []
+    }
+  ],
+  "Warnings": []
+}

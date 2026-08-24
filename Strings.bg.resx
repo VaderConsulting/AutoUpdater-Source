@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>За</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Добави</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Купи ми една бира</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Отказ</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Проверка</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Клас Име</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Class кратко име</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Общност</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Създавам</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Е-мейл адрес</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Износ</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Сфера</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Помощ</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Скрий Object BA Ако първият параметър</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Идентичност</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Внос</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>библиотеки</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Библиотека</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Библиотека Paths</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Заредете XML по поръчка</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Методи</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>Добре</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Опции</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Парола</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Имоти</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Освободете</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Премахване</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Спасяване</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Покажи празни скоби</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Покажи пълното име тип</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Покажи Labels</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Покажи Резултат от търсенето в клас библиотека Treeview TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Покажи празнота В Употреба</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Обновете</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Интернет адрес</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Използване на Общността на данни</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Потребителско име</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Версия</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Преглед</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Позволява четене / запис на достъп до таблицата "свойства" в проверявам базата данни, да се променят ценностите, които се добавени</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Разрешава на приложението достъп до приблизителното местоположение, получени от източници, място в мрежата, като например клетъчни кули и Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Разрешава на приложението достъп до точното местоположение от локализация източници, като например GPS, клетъчни кули и Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Разрешава на приложението за достъп до допълнителни команди на доставчика локализация</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Разрешава на приложението да създаде макет доставчици на местоположение за тестване</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Позволява заявления за достъп до информация за мрежи</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Разрешава на приложението да използва ниски характеристики SurfaceFlinger на ниво</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Позволява заявления за достъп до информация за Wi-Fi мрежи</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Позволява на приложенията да се обадя в модули AccountAuthenticator</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Добави Гласувайте за този коментар</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Разрешава на приложението да добавите гласови съобщения в системата</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Документация за всички копиран в клипборда (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android пакети</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Анотация</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Сигурни ли сте? Тази операция ще отнеме много време и не може да се прекъсва.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Като</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Разрешава на приложението да действа като AccountAuthenticator за AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Автор</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a форум</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Помощ</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a обект браузър</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (Общността Content разрешени)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x Търсене в сайта</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Разрешава на приложението да събират батерии статистика</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Трябва да се изисква от AccessibilityService, за да се гарантира, че само на системата може да се свърже, за да</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Разрешава на приложението да кажа на услугата AppWidget кое приложение може да получи достъп до данни AppWidget на</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Трябва да се изисква от приемника изделие, за да се гарантира, че само системата може да взаимодейства с него</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Трябва да се изисква от InputMethodService, за да се гарантира, че само на системата може да се свърже, за да</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Трябва да се изисква от RemoteViewsService, за да се гарантира, че само на системата може да се свърже, за да</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Трябва да се изисква от TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Трябва да се изисква от VpnService, за да се гарантира, че само на системата може да се свърже, за да</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Трябва да се изисква от WallpaperService, за да се гарантира, че само на системата може да се свърже, за да</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Позволява на приложенията да се свържете с сдвоените устройства Bluetooth</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Позволява на приложенията да се открият и сдвоите Bluetooth устройства</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Изисква се да бъде в състояние да изключите устройството (много опасно!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Разрешава на приложението да излъчва известие, че един пакет за кандидатстване е публикуван на автентичната</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Разрешава на приложението да излъчи получаване SMS нотификация</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Разрешава на приложението да излъчва лепкави намерения</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Разрешава на приложението да излъчва известие WAP получаване PUSH</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Разрешава на приложението да започне телефонен разговор, без да минава през интерфейса Dialer ръководство за потребителя да потвърди поканата да бъдат пуснати</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Разрешава на приложението да се обадя на всеки телефонен номер, включително спешни номера, без да минава през интерфейса Dialer ръководство за потребителя да потвърди поканата да бъдат пуснати</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Изисква се да бъде в състояние за достъп до камерата на устройството</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Разрешава на приложението да променя дали заявлението компонент (различни от нейния собствен) е включен или не</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Разрешава на приложението да променя текущата конфигурация, като например локала</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Позволява на приложенията да се промени състоянието на мрежата свързаност</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Позволява на приложенията да влязат Wi-Fi Multicast режим</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Позволява на приложенията да се промени Wi-Fi свързаност състояние</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Клас Детайли</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Документация за Class копиран в клипборда (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Класове</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Изчистване</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Разрешава на приложението да изчистите кеша на всички инсталирани приложения на устройството</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Разрешава на приложението да изчистите данните на потребителя</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Коментар</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Позволява Разрешаване / забрана уведомления за актуализиране на местоположението от радиото</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Копирайте</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Копирай пълния път</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>препис име</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Копиране на имена</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>препис RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Копиране на текста</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Разрешава на приложението да изтриете кеш файлове</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Разрешава на приложението да изтриете пакети</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Зависи от</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Описание</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Позволява ниско ниво на достъп до управлението на захранването</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Позволява на приложенията да RW за диагностични ресурси</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Позволява на приложенията да деактивирате защитата на клавиатурата</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Документират всички</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Документ випуск</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Документиране</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Библиотека с документи</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Изтегляне на данни от Общността</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Разрешава на приложението да изтегли държавата сметището информация от системни услуги</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Редактирам</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Публикувай коментара</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Редактиране на описанието</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Въведете дума за търсене</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Събития</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Пример</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Изход</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Разрешава на приложението да разгънете или свиете лентата на състоянието</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>работя като заявка за тест от производителя, работи като корен потребител</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Област</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Досие</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Позволява достъп до фенерче</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Разрешава на приложението да се принуди BACK операция по какъвто и да е отгоре дейност</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Позволява достъп до списъка на сметки в сметките Service</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Разрешава на приложението да разберете пространството се използва от всеки пакет</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Разрешава на приложението, за да получите информация за момента или наскоро текущите задачи</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>Режим на</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Документация за библиотека копиран в клипборда (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Библиотека Избрани; Изберете випуск</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Зареждане на Общността Коментари</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Зареждане на Общността Гласа</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Зареждане на библиотеки</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Зареждане на библиотека на файла</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Методи Имоти Сфера</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Методи, Properties и полета, копирани в клипборда</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Име</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Не е нужно Приложение Paths конфигуриран, но имате резервно копие на конфигурацията. Заредете тази конфигурация?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>обект обвивка</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Преглед</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Собственик</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Разрешения</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Моля изберете опции, включително и папката, в която са инсталирани на B4x библиотеки</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Моля Потвърдете</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Имотът е само за четене</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Имотът е четене / запис</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Презареди библиотеки</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Забележки</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Махни Гласувайте за този коментар</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Върната стойност</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF копиран в клипборда</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Търсене</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Търсене B4a сайта</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Търсене&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Вижте също</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Кратко наименование</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Стандарт</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>стандарт XML файл</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Синтаксис</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Текст копиран в клипборда</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Този клас Зависи от</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Този клас Тайна</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Инструменти</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Тип</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Стойност</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Версия Приложимост</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Гласа</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(Ти)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Вие вече сте гласували за този коментар</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[нула зависими]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Вие сте посочили правилни подробности.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Не може да експортирате настройки за текущата директория. Проверка за сигурност на папка.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Този имейл адрес е в употреба вече.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Уверете се, че сте въвели стойност за всеки, и опитайте отново.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>идентичност създаден.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>идентичност актуален.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Грешен имейл адрес.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Неправилна парола.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Грешна парола или имейл адрес.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Неправилни име.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Моля, изберете папка за износ.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Моля, изберете файла, който искате да импортирате.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Това потребителско име не съществува.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Потребителско име записва настройките.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Грешка</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Език</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>История на търсенията</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>кредити</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Благодарности на следните хора за помощ за превод и тестване:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>Метод</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>Имот</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Позволява на приложенията да отворите мрежа гнезда</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Промяната на тази настройка изисква заявление рестартирате.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Покажи Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Покажи Property Get и Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Покажи DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Остани на върха</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Проверка за актуализация</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>Дарете
+</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 щатски долара (на цената на един McDonalds брашно) ще ме държи щастливи</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Смятате ли да дарявате?
+A малък принос ще ми даде възможност да продължат да подкрепят В4а общност.
+След като ви дари, няма да бъдат отново попита.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x форум</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x помощ</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x обект браузър съдържание от Общността разрешено</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Търсене B4x сайта</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>IOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x обект браузър</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet версия</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i помощ</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j помощ</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Разреши редактиране</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x код откъси</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Добави фрагмент</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Премахнете фрагмента</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Разреши фрагмент плъзгане пускане</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Фрагменти от програмен код</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Обект</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Етикет</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Откъс текст</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r Помощ</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Този клас има същото кратко име като "&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Един или повече класове в тази библиотека имат дубликат ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Изтриване на фрагмента</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Редактиране на фрагмента</value>
+	</data>
+</root>

@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Про</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Додавати</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Купіть мене пивом</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Скасувати</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Перевірка</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Ім'я класу</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Клас Коротка назва</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Спільнота</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Створювати</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Адреса електронної пошти</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Експорт</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Поля</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Допоможіть</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Сховати BA об'єкта Якщо перший параметр</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Особистість</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Імпорт</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Бібліотеки</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Бібліотека</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Бібліотека Шляхи</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Завантаження XML On Demand</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Методика</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>Добре</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Опції</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Пароль</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Властивості</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Відпустіть</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Видалення</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Економити</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Показати порожні дужки</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Показати повне ім'я типу</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Показати Етикетки</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Показати результати пошуку в TreeView бібліотеки класів</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Показати Порожнеча у використанні</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Оновлення</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Адреса в інтернеті</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Використовуйте Спільнота даних</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Ім'я користувача</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Версія</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Дивитися</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Дозволяє читання / запис в таблиці "Властивості" В реєстрацією баз даних, щоб змінити значення, які отримують завантажено</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Додаток зможе отримати доступ до приблизне місце розташування на основі мережевого розташування джерел, таких як стільникові вежі і Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Додаток зможе отримати доступ точне місце розташування від місця розташування джерел, таких як GPS, веж стільникового зв'язку, а також Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Дозволяє додатком доступ до додаткових команд постачальника розташування</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Дозволяє додаток для створення макета постачальниками місце для тестування</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Дозволяє додаткам отримувати доступ до інформації про мережах</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Дозволяє додатком використовувати SurfaceFlinger з низьким рівнем особливості</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Дозволяє додаткам отримувати доступ до інформації про Wi-Fi мережах</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Дозволяє додаткам викликати в AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Додати свій голос за цей коментар</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Додаток зможе додавати голосові повідомлення в систему</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Документація для всіх скопійованих в буфер обміну (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android пакети</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Анотація</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Ви впевнені? Ця операція займе багато часу і не може бути перерваний.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Як</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Додаток зможе виступати в якості AccountAuthenticator для AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Автор</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a форум</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Допомога</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4A Object Browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4A Object Browser (Вміст спільноти Включено)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x Пошук по сайту</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Дозволяє додаток для збору статистики батареї</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Необхідно вимагає AccessibilityService, щоб гарантувати, що тільки система може прив'язати до нього</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Додаток зможе сказати AppWidget сервіс, який додаток може отримати доступ до даних в AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Необхідно потрібний пристрій адміністрація приймача, щоб гарантувати, що тільки система може взаємодіяти з ним</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Необхідно вимагає InputMethodService, щоб гарантувати, що тільки система може прив'язати до нього</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Необхідно вимагає RemoteViewsService, щоб гарантувати, що тільки система може прив'язати до нього</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Необхідно вимагає TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Необхідно вимагає VpnService, щоб гарантувати, що тільки система може прив'язати до нього</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Необхідно вимагає WallpaperService, щоб гарантувати, що тільки система може прив'язати до нього</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Дозволяє додаткам підключатися до парних пристроїв Bluetooth</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Дозволяє додаткам знаходити і сполучення Bluetooth-пристрої</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Вимагається, щоб мати можливість відключити пристрій (дуже небезпечно!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Додаток зможе транслювати повідомлення, що заявка пакет був видалений</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Додаток зможе транслювати оповіщення SMS отриманні</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Додаток зможе транслювати липкою намірів</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Додаток зможе транслювати отримання WAP Push Notification</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Додаток зможе ініціювати телефонний дзвінок, минаючи користувальницький інтерфейс Dialer для користувача, щоб підтвердити виклик робиться</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Додаток зможе дзвонити на будь-який телефон, в тому числі номери екстрених служб, не проходячи через користувальницький інтерфейс Dialer для користувача, щоб підтвердити виклик робиться</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Вимагається, щоб мати можливість доступу до камери пристрою</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Дозволяє додатком змінювати чи компонент додатка (крім своїх власних) включений чи ні</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Дозволяє програмі змінювати поточну конфігурацію, наприклад, мову</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Дозволяє додаткам змінити стан підключення до мережі</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Дозволяє додаткам входити Wi-Fi Multicast режимі</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Дозволяє додаткам змінити Wi-Fi підключення стані</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Відомості про клас</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Документація для класу скопійовані в буфер обміну (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Класи</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Очистити</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Додаток зможе очистити кеш всіх встановлених додатків на пристрої</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Додаток зможе очистити дані користувача</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Коментувати</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Дозволяє вмикати / вимикати повідомленнями про оновлення місцеположення по радіо</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Скопіювати</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Скопіюйте повний шлях</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Ім'я копії</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Копіювати імена</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Копіювати RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Копіювати текст</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Дозволяє додатком видаляти файли з кешу</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Дозволяє додатком видаляти пакети</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Залежить від</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Опис</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Дозволяє доступ низького рівня до влади управління</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Дозволяє додаткам RW діагностичної ресурсів</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Дозволяє додаткам для розблокування клавіатури</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Документ всі</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Клас документа</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Документування</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Бібліотека документів</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Завантажити Спільнота даних</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Дозволяє програмі отримувати інформацію про стан дампа від системних служб</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Редагувати</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Редагувати коментар</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Редагувати опис</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Введіть умови пошуку</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Події</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Приклад</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Вихід</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Додаток зможе розгортати або згортати рядок стану</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Запуск тестової програми виробник, що працює в якості кореневого користувача</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Поле</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Файл</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Дозволяє доступ до ліхтариком</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Додаток зможе змусити НАЗАД операція на все, що верхній діяльності</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Забезпечує доступ до списку рахунків в облікові записи служб</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Додаток зможе дізнатися простору, використовуваного будь пакет</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Дозволяє програмі отримувати інформацію про поточні та нещодавно запущених завданнях</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>нечинний</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Документація для бібліотеки скопійовані в буфер обміну (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Бібліотека Обрана; вибрати клас</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Завантаження Спільнота Коментарі</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Завантаження Спільнота голосів</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Завантаження бібліотеки</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Завантаження файлу бібліотеки</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Методи Властивості полів</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Методи, властивості і поля скопійований в буфер обміну</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Ім'я</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Ви не повинні Шляхи додатків налаштовані, але у вас є резервна копія конфігурації. Завантажте цю конфігурацію?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Об'єкт Wrapper</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Огляд</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Власник</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Дозволи</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Будь ласка, налаштування параметрів, в тому числі папку, в якій B4x бібліотеки встановлені</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Будь ласка, підтвердіть</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Нерухомість лише для читання</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Нерухомість для читання / запису</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Перезавантажити бібліотеки</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Зауваження</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Видаліть свій голос за цей коментар</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Повертає значення</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF скопійований в буфер обміну</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Шукати</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Пошук по сайту B4a</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Шукати&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Див також</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Коротка назва</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Стандарт</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Стандартний XML-файлу</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Синтаксис</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Текст скопійований в буфер обміну</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Цей клас залежить від</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Цей клас Обгортання</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Інструментарій</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Тип</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Значення</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Версія Застосовність</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Голосів</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(Ви)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Ви вже голосували на цей коментар</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero Залежності]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Ви ввели правильний деталей.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Не вдалося експортувати настройки в поточному каталозі. Перевірте безпеку на папку.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Ця адреса використовується вже.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Переконайтеся, що ви ввели значення для кожного, і спробуйте знову.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Ідентичність створений.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Ідентичність оновлюється.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Неправильна адреса електронної пошти.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Неправильний пароль.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Неправильний пароль або адресу електронної пошти.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Неправильне Ім'я користувача.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Будь ласка, виберіть папку для експорту.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Будь ласка, оберіть файл, який ви хочете імпортувати.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Це ім'я користувача не існує.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Ім'я користувача зберігається в налаштуваннях.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>помилка</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>мова</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Історія пошуку</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>кредити
+</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Завдяки перейти до наступних людям за допомогу переклад і тестування:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>метод</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>власність</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Дозволяє додаткам відкривати мережеві сокети</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Зміна цього параметра потрібно перезапуск програми.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Показати Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Показати Property Get і Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Показати DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Будьте в курсі</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Перевірити оновлення</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>жертвувати</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (ціна одного McDonalds їжі) буде тримати мене щасливим.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Чи розглядали ви пожертвувати?
+Невеликий внесок дозволить мені продовжувати надавати підтримку співтовариству B4A.
+Після того, як ви будете здавати, ви не будете знову запитав.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x форум</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x допомога</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x об'єкт браузера спільноти авторські включений</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Пошук по сайту B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>IOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>Оглядач об'єктів B4x</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Версія Doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i допомога</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j допомога</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Дозволити редагування</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x фрагменти коду</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Додати фрагмент</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Видаліть фрагмент</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Увімкнути фрагмент перетягнути падіння</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Фрагменти коду</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Об'єкт</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Етикетка</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Фрагмент тексту</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r допомога</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Цей клас має те ж саме коротке ім'я, що й "&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;"</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Один або кілька класів у цій бібліотеці мають дублікат ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Видалити фрагмент</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Редагувати фрагмент</value>
+	</data>
+</root>

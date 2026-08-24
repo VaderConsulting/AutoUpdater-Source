@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Om</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Lägg</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Köp mig en öl</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Avbryt</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Kontrollera</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Klassnamn</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Klass Kortnamn</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Gemenskapen</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Skapa</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>E-postadress</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Exportera</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Fält</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Hjälp</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Göm BA Object Om första parametern</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identitet</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importera</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Bibliotek</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Bibliotek</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Bibliotek sökvägar</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Fyll XML On Demand</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Metoder</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Alternativ</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Lösenord</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Egenskaper</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Släpp</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Ta bort</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Spara</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Visa Tomma Parenteser</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Visa fullständig typ namn</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Visa etiketter</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Visa sökresultat i biblioteket klass TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Visa tomrum i användning</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Uppdatera</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Internetadress</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Använd gemenskapens Data</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Användarnamn</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Version</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Visa</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Tillåter läs / skriv tillgång till "egenskaper" bord i checkin databasen för att ändra värden som får laddas upp</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Tillåter att en app åt ungefärliga position härrör från källor nätverksplatstyper som mobilmaster och Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Tillåter att en app åt exakt läge från platser, till exempel GPS, torn cell och Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Tillåter att ett program åt extra kommandon för platsleverantörer</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Tillåter att ett program skapar håna plats leverantörer för att testa</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Tillåter applikationer att komma åt information om nätverk</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Tillåter att ett program använder SurfaceFlinger låga nivå funktioner</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Tillåter applikationer att komma åt information om Wi-Fi-nätverk</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Tillåter att ett program för att ringa in AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Lägg din röst för denna kommentar</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Tillåter att ett program lägger röstmeddelanden i systemet</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Dokumentation för alla kopieras till klippbordet (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android-paket</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Anteckning</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Är du säker? Denna operation kommer att ta lång tid och kan inte avbrytas.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Som</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Tillåter att ett program fungera som AccountAuthenticator för AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Författare</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a Forum</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Hjälp</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a Objektgranskning</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Objektgranskning (Gruppinnehåll aktiverat)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x webbplatssökning</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Tillåter att ett program samla batteri statistik</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Måste krävas av en AccessibilityService, för att säkerställa att endast systemet kan binda till den</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Tillåter att ett program berätta AppWidget tjänst som ansökan kan komma AppWidget data</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Måste krävas av enhetens administration mottagare, för att säkerställa att endast systemet kan interagera med det</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Måste krävas av en InputMethodService, för att säkerställa att endast systemet kan binda till den</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Måste krävas av ett RemoteViewsService, för att säkerställa att endast systemet kan binda till den</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Måste krävas av en TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Måste krävas av ett VpnService, för att säkerställa att endast systemet kan binda till den</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Måste krävas av en WallpaperService, för att säkerställa att endast systemet kan binda till den</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Tillåter program att ansluta till ihopkopplade Bluetooth-enheter</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Tillåter applikationer att upptäcka och koppla Bluetooth-enheter</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Krävs för att kunna inaktivera enheten (mycket farligt!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Tillåter att ett program sända ett meddelande om att ett programpaket har tagits bort</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Tillåter att ett program sända ett SMS kvitto meddelande</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Tillåter att ett program sända klibbiga väsentligt</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Tillåter att ett program sända en WAP anmälan PUSH kvitto</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Tillåter att ett program initiera ett telefonsamtal utan att gå via Dialer användargränssnitt för användaren att bekräfta samtalet placeras</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Tillåter att ett program ringer ett telefonnummer, inklusive nödnummer, utan att gå via Dialer användargränssnitt för användaren att bekräfta samtalet placeras</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Krävs för att kunna få åtkomst till kameran enheten</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Tillåter att ett program ändrar om en ansökan komponent (andra än sina egna) är aktiverad eller inte</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Tillåter att ett program ändrar den aktuella konfigurationen, till exempel språk</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Tillåter applikationer att ändra nätverksanslutning tillstånd</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Tillåter att ett program för att ange Wi-Fi-multicast-läge</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Tillåter applikationer att ändra Wi-Fi-anslutning tillstånd</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Kursinformation</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Dokumentation för klass kopieras till klippbordet (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Klasser</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Rensa</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Tillåter att ett program rensa cachar i alla installerade program på enheten</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Tillåter att ett program rensa användardata</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Kommentar</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Tillåter aktivera / inaktivera meddelanden platsuppdatering från radion</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Kopiera</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Kopiera fullständig sökväg</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Kopiera namn</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Kopiera namn</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Kopiera RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Kopiera text</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Tillåter att ett program raderar cachefiler</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Tillåter att ett program tar bort paket</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Beror på</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Beskrivning</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Tillåter låg nivå tillgång till strömhantering</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Tillåter applikationer att RW till diagnostiska resurser</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Tillåter att ett program för att inaktivera knapplåset</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Dokumentera alla</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Dokument klass</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Dokumentera</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Dokumentbibliotek</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Ladda gemenskapens Data</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Tillåter att ett program hämtar statliga dumpa information från systemtjänster</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Redigera</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Redigera kommentar</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Redigera beskrivning</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Skriv sökord</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Evenemang</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Exempel</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Utgång</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Tillåter att ett program expanderar eller komprimerar statusfältet</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Kör som en tillverkare testa program körs som root-användare</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Fält</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Arkiv</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Ger tillgång till ficklampan</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Tillåter att ett program tvingar en BACK operation på allt som är den översta aktiviteten</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Ger tillgång till en lista över konton i bokföringen service</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Tillåter att ett program ta reda på utrymme som används av alla paket</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Tillåter att ett program får information om de för närvarande eller nyligen körs uppgifter</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>inaktiv</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Dokumentation för bibliotek kopieras till klippbordet (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Bibliotek Vald, Välj klass</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Laddar gemenskapens Kommentarer</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Laddar gemenskapen röstar</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Laddar bibliotek</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Laddar biblioteksfil</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Metoder Egenskaper Fält</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Metoder, egenskaper och fält kopieras till Urklipp</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Namn</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Du har inte Application Paths konfigurerats, men du har en säkerhetskopia av konfigurationen. Fyll denna konfiguration?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Object Wrapper</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Översikt</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Ägare</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Behörigheter</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Vänligen konfigurera alternativ, inklusive mappen där B4x biblioteken är installerade</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Bekräfta</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Fastigheten är skrivskyddad</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Fastigheten är läs / skriv</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Ladda Bibliotek</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Anmärkningar</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Ta din röst för denna kommentar</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Returvärde</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF kopieras till klippbordet</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Sök</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Sök på B4a webbplatsen</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Sök&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Se även</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Kortnamn</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Standard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Standard XML-fil</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Syntax</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Texten kopieras till Urklipp</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Denna klass Beror på</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Denna klass Wraps</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Verktyg</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Typ</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Värde</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Version Tillämplighet</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Röster</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(Du)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Du har redan röstat på denna kommentar</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[ZERO Beroenden]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Du har gett korrekta uppgifter.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Det gick inte att exportera inställningarna till aktuell katalog. Kontrollera säkerheten på mappen.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Denna e-postadress används redan.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Se till att du har angett ett värde för varje, och försök igen.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identitet skapas.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identitet uppdaterats.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Felaktig e-postadress.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Felaktigt lösenord.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Felaktigt lösenord eller e-postadress.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Felaktig användarnamn.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Välj en mapp för exporten.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Välj den fil du vill importera.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Användarnamnet finns inte.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Användarnamn sparas inställningarna.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>fel</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Språk</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Sökhistorik</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>krediter</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Tack till följande personer för översättning och testning bistånd:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>metod</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>egendom</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Tillåter program att öppna nätverksuttag</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Ändring av denna inställning kräver ett program startas.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Visa Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Visa Property Get och Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Visa DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Håll koll på</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Kontrollera om uppdatering</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>Donera</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (priset på en McDonalds måltid) kommer att hålla mig glad.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Har du funderat på att donera?
+Ett litet bidrag gör det möjligt för mig att fortsätta att stödja B4x samhället.
+När du donerar, kommer du inte att bli tillfrågad igen.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Forum</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x hjälp</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x Object Browser Community-innehåll aktiverad</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Sök på B4x webbplatsen</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Object Browser</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet Version</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i hjälp</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j hjälp</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Aktivera redigeringar</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x kodstycken</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Lägg till snutt</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Ta bort snutt</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Aktivera utdrag dra släpp</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Kodstycken</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Objekt</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Etikett</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Utdrag text</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r hjälp</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Denna klass har samma ShortName som &lt;PARENTNAME&gt;. &lt;SHORTNAME&gt; '</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>En eller flera klasser inom detta bibliotek har en dubblett ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Ta bort snippet</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Redigera snippet</value>
+	</data>
+</root>

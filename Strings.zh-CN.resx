@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+	<data name="Add" xml:space="preserve">
+    <value>加</value>
+  </data>
+	<data name="BuymeaBeer" xml:space="preserve">
+    <value>我買啤酒</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+	<data name="Check" xml:space="preserve">
+    <value>查</value>
+  </data>
+	<data name="ClassName" xml:space="preserve">
+    <value>類名“</value>
+  </data>
+	<data name="ClassShortName" xml:space="preserve">
+    <value>一流的簡稱</value>
+  </data>
+	<data name="Community" xml:space="preserve">
+    <value>社區</value>
+  </data>
+	<data name="Create" xml:space="preserve">
+    <value>創建</value>
+  </data>
+	<data name="EmailAddress" xml:space="preserve">
+    <value>電郵地址</value>
+  </data>
+	<data name="Export" xml:space="preserve">
+    <value>出口</value>
+  </data>
+	<data name="Fields" xml:space="preserve">
+    <value>字段</value>
+  </data>
+	<data name="Help" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+    <value>隱藏BA對象，如果第一個參數</value>
+  </data>
+	<data name="Identity" xml:space="preserve">
+    <value>特性</value>
+  </data>
+	<data name="Import" xml:space="preserve">
+    <value>進口</value>
+  </data>
+	<data name="Libraries" xml:space="preserve">
+    <value>圖書館</value>
+  </data>
+	<data name="Library" xml:space="preserve">
+    <value>文庫</value>
+  </data>
+	<data name="LibraryPaths" xml:space="preserve">
+    <value>庫路徑</value>
+  </data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+    <value>加載XML需求</value>
+  </data>
+	<data name="Methods" xml:space="preserve">
+    <value>方法</value>
+  </data>
+	<data name="OK" xml:space="preserve">
+    <value>行</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>選項</value>
+  </data>
+	<data name="Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+	<data name="Properties" xml:space="preserve">
+    <value>屬性</value>
+  </data>
+	<data name="Release" xml:space="preserve">
+    <value>釋放</value>
+  </data>
+	<data name="Remove" xml:space="preserve">
+    <value>清除</value>
+  </data>
+	<data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+    <value>顯示空括號</value>
+  </data>
+	<data name="ShowFullTypename" xml:space="preserve">
+    <value>顯示完整類型名</value>
+  </data>
+	<data name="ShowLabels" xml:space="preserve">
+    <value>顯示標籤</value>
+  </data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+    <value>庫類樹形顯示搜索結果</value>
+  </data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+    <value>顯示在使用無效</value>
+  </data>
+	<data name="Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+	<data name="URL" xml:space="preserve">
+    <value>互联网地址</value>
+  </data>
+	<data name="UseCommunityData" xml:space="preserve">
+    <value>社區數據</value>
+  </data>
+	<data name="Username" xml:space="preserve">
+    <value>用戶名</value>
+  </data>
+	<data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+	<data name="View" xml:space="preserve">
+    <value>看</value>
+  </data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+    <value>允許讀/寫訪問權限“屬性”簽入數據庫中的表，要上載的改變值</value>
+  </data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+    <value>允許應用程序訪問來自網絡的位置源，例如手機信號發射塔和Wi-Fi的大致位置</value>
+  </data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+    <value>允許應用程序訪問的確切位置，從位置源，例如GPS，手機信號發射塔和Wi-Fi</value>
+  </data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+    <value>允許應用程序訪問額外的位置提供命令</value>
+  </data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+    <value>允許應用程序創建模擬位置提供用於測試</value>
+  </data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+    <value>允許應用程序訪問有關GSM網絡</value>
+  </data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+    <value>允許應用程序使用SurfaceFlinger的低級別的功能</value>
+  </data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+    <value>允許應用程序訪問Wi-Fi網絡的信息</value>
+  </data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+    <value>允許應用程序調用AccountAuthenticators</value>
+  </data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+    <value>此評論添加您的投票</value>
+  </data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+    <value>允許應用程序添加到系統中的語音郵件</value>
+  </data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+    <value>所有的文件複製到剪貼板（RTF）</value>
+  </data>
+	<data name="AndroidPackages" xml:space="preserve">
+    <value>Android包</value>
+  </data>
+	<data name="Annotation" xml:space="preserve">
+    <value>註解</value>
+  </data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+    <value>你確定嗎？此操作將花費很長的時間，並且不能被中斷。</value>
+  </data>
+	<data name="As" xml:space="preserve">
+    <value>如</value>
+  </data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+    <value>允許應用程序作為一個AccountAuthenticator的AccountManager</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+	<data name="B4aForum" xml:space="preserve">
+    <value>B4a論壇</value>
+  </data>
+	<data name="B4aHelp" xml:space="preserve">
+    <value>B4a幫助</value>
+  </data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+    <value>B4a對象瀏覽器</value>
+  </data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+    <value>的B4a對象瀏覽器（啟用社區內容）</value>
+  </data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+    <value>B4x站內搜索</value>
+  </data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+    <value>允許一個應用程序來收集手機電池統計信息</value>
+  </data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+    <value>必須由AccessibilityService需要，以確保只有系統可以綁定到它</value>
+  </data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+    <value>允許應用程序告訴AppWidget服務的應用程序可以訪問AppWidget的數據</value>
+  </data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+    <value>由設備管理接收機，必須要求，以確保只有系統可以與它進行交互</value>
+  </data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+    <value>必須由InputMethodService要求，以確保只有系統可以綁定到</value>
+  </data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+    <value>必須由RemoteViewsService需要，以確保只有系統可以綁定到它</value>
+  </data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+    <value>必須要求由TextService中</value>
+  </data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+    <value>必須由VpnService需要，以確保只有系統可以綁定到它</value>
+  </data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+    <value>由WallpaperService必須要求，以確保只有系統可以綁定到它</value>
+  </data>
+	<data name="BLUETOOTH" xml:space="preserve">
+    <value>允許應用程序連接到已配對的藍牙設備</value>
+  </data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+    <value>允許應用程序發現和配對藍牙設備</value>
+  </data>
+	<data name="BRICK" xml:space="preserve">
+    <value>須能夠禁用設備（非常危險的！）</value>
+  </data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+    <value>允許應用程序廣播一個通知，一個應用程序包已經移除後</value>
+  </data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+    <value>允許應用程序廣播一個短信回執通知</value>
+  </data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+    <value>允許應用程序廣播粘意圖</value>
+  </data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+    <value>允許應用程序廣播WAP PUSH收到通知，</value>
+  </data>
+	<data name="CALL_PHONE" xml:space="preserve">
+    <value>允許一個程序初始化一個電話撥號不需通過撥號用戶界面需要用戶確認的呼叫被置於</value>
+  </data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+    <value>允許應用程序撥打任何號碼，包括緊急電話號碼，無需通過撥號用戶界面需要用戶確認的呼叫被置於</value>
+  </data>
+	<data name="CAMERA" xml:space="preserve">
+    <value>須能夠訪問攝像頭的移動設備</value>
+  </data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+    <value>允許應用程序更改是否啟用或應用程序組件（自己的）</value>
+  </data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+    <value>允許應用程序修改當前設置，如本地化</value>
+  </data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+    <value>允許應用程序改變網絡連接狀態</value>
+  </data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+    <value>允許應用程序輸入的Wi-Fi多播模式</value>
+  </data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+    <value>允許應用程序更改Wi-Fi連接狀態</value>
+  </data>
+	<data name="ClassDetails" xml:space="preserve">
+    <value>課程詳細信息</value>
+  </data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+    <value>類文件複製到剪貼板（RTF）</value>
+  </data>
+	<data name="Classes" xml:space="preserve">
+    <value>類</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+    <value>允許一個程序清除所有已安裝的應用程序在設備上的高速緩存</value>
+  </data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+    <value>允許一個程序清除用戶數據</value>
+  </data>
+	<data name="Comment" xml:space="preserve">
+    <value>評論</value>
+  </data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+    <value>允許啟用/禁用位置更新提示從無線模塊</value>
+  </data>
+	<data name="Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+	<data name="CopyFullPath" xml:space="preserve">
+    <value>複製完整路徑</value>
+  </data>
+	<data name="CopyName" xml:space="preserve">
+    <value>副本名稱</value>
+  </data>
+	<data name="CopyNames" xml:space="preserve">
+    <value>複製姓名</value>
+  </data>
+	<data name="CopyRTF" xml:space="preserve">
+    <value>複製RTF</value>
+  </data>
+	<data name="CopyText" xml:space="preserve">
+    <value>複製文本</value>
+  </data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+    <value>允許應用程序刪除緩存文件</value>
+  </data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+    <value>允許應用程序刪除包</value>
+  </data>
+	<data name="DependsOn" xml:space="preserve">
+    <value>取決於</value>
+  </data>
+	<data name="Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+    <value>允許低級別的訪問電源管理</value>
+  </data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+    <value>允許應用程序RW診斷資源</value>
+  </data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+    <value>允許應用程序禁用鍵盤鎖</value>
+  </data>
+	<data name="DocumentAll" xml:space="preserve">
+    <value>文件中的所有</value>
+  </data>
+	<data name="DocumentClass" xml:space="preserve">
+    <value>文檔類</value>
+  </data>
+	<data name="Documenting" xml:space="preserve">
+    <value>記錄</value>
+  </data>
+	<data name="DocumentLibrary" xml:space="preserve">
+    <value>文檔庫</value>
+  </data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+    <value>社區數據</value>
+  </data>
+	<data name="DUMP" xml:space="preserve">
+    <value>允許應用程序狀態抓取信息從系統服務</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+	<data name="EditComment" xml:space="preserve">
+    <value>編輯點評</value>
+  </data>
+	<data name="EditDescription" xml:space="preserve">
+    <value>編輯說明</value>
+  </data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+    <value>輸入搜索詞</value>
+  </data>
+	<data name="Events" xml:space="preserve">
+    <value>活動</value>
+  </data>
+	<data name="Example" xml:space="preserve">
+    <value>例子</value>
+  </data>
+	<data name="Exit" xml:space="preserve">
+    <value>出口</value>
+  </data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+    <value>允許應用程序展開或折疊狀態欄</value>
+  </data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+    <value>作為一個工廠測試程序，運行作為root用戶運行</value>
+  </data>
+	<data name="Field" xml:space="preserve">
+    <value>領域</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+    <value>允許訪問的手電筒</value>
+  </data>
+	<data name="FORCE_BACK" xml:space="preserve">
+    <value>允許應用程序強行一個後退操作，無論是在頂</value>
+  </data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+    <value>允許訪問的帳戶列表中的賬戶服務</value>
+  </data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+    <value>允許應用程序，以找出任何包所使用的空間</value>
+  </data>
+	<data name="GET_TASKS" xml:space="preserve">
+    <value>允許一個程序獲取信息有關當前或最近運行的任務</value>
+  </data>
+	<data name="Idle" xml:space="preserve">
+    <value>空閒</value>
+  </data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+    <value>文檔庫複製到剪貼板（RTF）</value>
+  </data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+    <value>圖書館選擇，選擇A類</value>
+  </data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+    <value>正在載入社群評論</value>
+  </data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+    <value>載入社區投票</value>
+  </data>
+	<data name="LoadingLibraries" xml:space="preserve">
+    <value>加載庫</value>
+  </data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+    <value>載入庫文件</value>
+  </data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+    <value>方法屬性字段</value>
+  </data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+    <value>方法，屬性和字段複製到剪貼板</value>
+  </data>
+	<data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+    <value>你沒有配置的應用程序路徑，但你必須配置的備份副本。加載此配置？</value>
+  </data>
+	<data name="ObjectWrapper" xml:space="preserve">
+    <value>對象包裝</value>
+  </data>
+	<data name="Overview" xml:space="preserve">
+    <value>概觀</value>
+  </data>
+	<data name="Owner" xml:space="preserve">
+    <value>業主</value>
+  </data>
+	<data name="Permissions" xml:space="preserve">
+    <value>權限</value>
+  </data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+    <value>請配置選項，包括B4x圖書館安裝的文件夾</value>
+  </data>
+	<data name="PleaseConfirm" xml:space="preserve">
+    <value>請確認</value>
+  </data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>屬性為只讀</value>
+  </data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+    <value>屬性是讀/寫</value>
+  </data>
+	<data name="ReloadLibraries" xml:space="preserve">
+    <value>刷新庫</value>
+  </data>
+	<data name="Remarks" xml:space="preserve">
+    <value>備註</value>
+  </data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+    <value>此評論刪除您的投票</value>
+  </data>
+	<data name="ReturnValue" xml:space="preserve">
+    <value>返回值</value>
+  </data>
+	<data name="RTFCopied" xml:space="preserve">
+    <value>RTF複製到剪貼板</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+	<data name="SearchB4aSite" xml:space="preserve">
+    <value>搜索B4a網站</value>
+  </data>
+	<data name="SearchText" xml:space="preserve">
+    <value>&lt;搜索&gt;</value>
+  </data>
+	<data name="SeeAlso" xml:space="preserve">
+    <value>參見</value>
+  </data>
+	<data name="ShortName" xml:space="preserve">
+    <value>短名稱</value>
+  </data>
+	<data name="Standard" xml:space="preserve">
+    <value>標準</value>
+  </data>
+	<data name="StandardXMLFile" xml:space="preserve">
+    <value>標準的XML文件</value>
+  </data>
+	<data name="Syntax" xml:space="preserve">
+    <value>句法</value>
+  </data>
+	<data name="TextCopied" xml:space="preserve">
+    <value>文本複製到剪貼板</value>
+  </data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+    <value>這個類依賴於</value>
+  </data>
+	<data name="ThisClassWraps" xml:space="preserve">
+    <value>這個類封裝</value>
+  </data>
+	<data name="Tools" xml:space="preserve">
+    <value>工具</value>
+  </data>
+	<data name="Type" xml:space="preserve">
+    <value>類型</value>
+  </data>
+	<data name="Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+	<data name="VersionApplicability" xml:space="preserve">
+    <value>版本適用</value>
+  </data>
+	<data name="Votes" xml:space="preserve">
+    <value>投票</value>
+  </data>
+	<data name="You" xml:space="preserve">
+    <value>（你）</value>
+  </data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+    <value>您已經投過此評論</value>
+  </data>
+	<data name="ZeroDependencies" xml:space="preserve">
+    <value>[零依存關係]</value>
+  </data>
+	<data name="CorrectDetails" xml:space="preserve">
+    <value>您已提供正确的信息。</value>
+  </data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+    <value>无法导出设置到当前目录。查看该文件夹的安全性。</value>
+  </data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+    <value>此电子邮件地址已在使用中。</value>
+  </data>
+	<data name="EnterValues" xml:space="preserve">
+    <value>确保你已经进入每一个的值，然后再试一次。</value>
+  </data>
+	<data name="IdentityCreated" xml:space="preserve">
+    <value>身份创建。</value>
+  </data>
+	<data name="IdentityUpdated" xml:space="preserve">
+    <value>标识更新。</value>
+  </data>
+	<data name="IncorrectEmail" xml:space="preserve">
+    <value>不正确的电子邮件地址。</value>
+  </data>
+	<data name="IncorrectPassword" xml:space="preserve">
+    <value>不正确的密码。</value>
+  </data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+    <value>不正确的密码或电子邮件地址。</value>
+  </data>
+	<data name="IncorrectUsername" xml:space="preserve">
+    <value>不正确的用户名。</value>
+  </data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+    <value>请选择一个文件夹的出口。</value>
+  </data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+    <value>请选择您要导入的文件。</value>
+  </data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+    <value>该用户名不存在。</value>
+  </data>
+	<data name="UsernameSaved" xml:space="preserve">
+    <value>用户名保存的设置。</value>
+  </data>
+	<data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+	<data name="GUILanguage" xml:space="preserve">
+    <value>语</value>
+  </data>
+	<data name="SearchHistory" xml:space="preserve">
+    <value>搜索历史</value>
+  </data>
+	<data name="CreditThanks" xml:space="preserve">
+    <value>感谢下面这些人的翻译和测试援助：</value>
+  </data>
+	<data name="Credits" xml:space="preserve">
+    <value>积分</value>
+  </data>
+	<data name="Method" xml:space="preserve">
+		<value>方法</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>财产</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>允許應用程序打開網絡套接字</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>更改此设置需要重新启动应用程序。</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>顯示Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>顯示Property Get，Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>顯示DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>留在上面</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>检查更新</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>捐赠</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>十元（只一个麦当劳餐的价格）会令我不开心。</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>你有没有考虑捐赠？
+小额捐款将使我能够继续支持B4A社区。
+一旦你捐，你会不会再次询问。</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x論壇</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x 帮助</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>启用的 B4x 对象浏览器社区内容</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>搜索B4x網站</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>API ios</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x 对象浏览器</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet 版本</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i 帮助</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j 帮助</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>启用编辑</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x 代码片段</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>添加代码段</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>删除代码段</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>启用代码段拖放</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>代码片段</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>对象</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>标签</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>代码段文本</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r 帮助</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>此类与“&lt;PARENTNAME”相同的ShortName。&lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>此库中的一个或多个类具有重复的ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>删除片段</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>编辑代码段</value>
+	</data>
+</root>

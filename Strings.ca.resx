@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Sobre</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Afegir</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Comprar-me una cervesa</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Cancel·la</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Registre d'entrada</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Nom de la classe</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Nom curt de classe</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Comunitat</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Crear</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Adreça de correu electrònic</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Exportació</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Camps</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Ajuda</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Amagar BA objecte si primer paràmetre</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identitat</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importació</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Biblioteques</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Biblioteca</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Biblioteca camins</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Càrrega XML en la demanda</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Mètodes</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>Correcte</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Opcions</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Contrasenya</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Propietats</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Llançament</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Treure</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Desa</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Mostra els parèntesis buits</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Mostra complet Typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Mostra les etiquetes</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Mostrar resultats de la cerca en TreeView de classe de Biblioteca</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Mostrar el buit en l'ús</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Actualització</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Adreça d'Internet</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Utilitzar dades de comunitat</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Nom d'usuari</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Versió</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Veure</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Permet l'accés de lectura/write a la taula 'propietats' en entrada la base de dades, de canviar els valors que es traslladen</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Permet un app accedir a una ubicació aproximada derivades de fonts de localització de xarxa com torres de cèl·lules i Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Permet un app per accedir a la ubicació precisa de fonts de localització com el GPS, Wi-Fi i torres de cèl·lules</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Permet una aplicació accedir a comandes de proveïdor extres de situació</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Permet una aplicació crear proveïdors d ubicació simulacres per a proves</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Permet a les aplicacions per accedir a informació sobre les xarxes</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Permet una aplicació utilitzar funcions de nivell baixes de SurfaceFlinger</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Permet a les aplicacions per accedir a informació sobre xarxes Wi-Fi</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Permet a les aplicacions trucar a AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Afegir el vostre vot per a aquest comentari</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Permet una aplicació afegir voicemails en el sistema</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Documentació per a tots els copia al porta-retalls (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Paquets androide</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Anotació</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Esteu segur?  Aquesta operació tindrà molt de temps i no es pot interrompre.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Com</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Permet una aplicació actuar com un AccountAuthenticator per la AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Autor</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a Fòrum</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a ajuda</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>Explorador d'objectes B4x</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a objecte navegador (comunitat de contingut habilitada)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>Cerca al lloc B4x</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Permet una aplicació recollir estadístiques de bateria</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Cal ser requerit per un AccessibilityService, per assegurar-se que només el sistema poden unir-s'hi</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Permet una aplicació explicar el servei AppWidget quina aplicació pot accedir a dades de AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Cal ser requerit per receptor de l'administració de dispositiu, per assegurar-se que només el sistema pot interactuar amb ella</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Cal ser requerit per un InputMethodService, per assegurar-se que només el sistema poden unir-s'hi</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Cal ser requerit per un RemoteViewsService, per assegurar-se que només el sistema poden unir-s'hi</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Cal ser requerit per un TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Cal ser requerit per un VpnService, per assegurar-se que només el sistema poden unir-s'hi</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Cal ser requerit per un WallpaperService, per assegurar-se que només el sistema poden unir-s'hi</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Permet a les aplicacions connectar-se a mecanismes bluetooth aparellats</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Permet a les aplicacions descobrir i un parell de dispositius bluetooth</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Cal ser capaç d'impossibilitar el mecanisme (molt perillós!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Permet una aplicació emetre una notificació que s'ha eliminat un paquet d'aplicació</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Permet una aplicació emetre un justificant de SMS</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Permet una aplicació emetre intencions enganxós</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Permet una aplicació emetre un avís de rebuda WAP PUSH</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Permet una aplicació iniciar una trucada de telèfon sense passar per la interfície d'usuari de Dialer per a l'usuari confirmar la trucada col·locats</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Permet una aplicació trucar a qualsevol número de telèfon, incloent números d'emergència, sense passar per la interfície d'usuari de Dialer per a l'usuari confirmar la trucada col·locats</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Cal ser capaç d'accedir al dispositiu de càmera</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Permet una aplicació canviar si un component d'aplicació (altre que el seu propi) és permès o no</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Permet una aplicació modificar la configuració actual, com ara locale</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Permet a les aplicacions canviar l'estat de connectivitat de xarxa</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Permet a les aplicacions entrar en mode de Multicast Wi-Fi</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Permet a les aplicacions canviar l'estat de connectivitat Wi-Fi</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Detalls de classe</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Documentació per a la classe de copiar al porta-retalls (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Classes</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Clar</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Permet una aplicació netejar els amagatalls de totes les aplicacions instal·lades al dispositiu</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Permet una aplicació esborrar les dades d'usuari</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Comentari</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Permet activar/desactivar les notificacions d'actualització ubicació des de la ràdio</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Còpia</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Còpia ple camí</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Copia el nom</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Copiï noms</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Còpia RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Copiar Text</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Permet una aplicació suprimir arxius de memòria cau</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Permet una aplicació esborrar paquets</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Depèn de la</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Descripció</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Permet l'accés de nivell baix a direcció de poder</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Permet a les aplicacions a RW de recursos diagnòstics</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Permet a les aplicacions d'impossibilitar el keyguard</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Document tota</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Classe de document</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Documentar</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Biblioteca de documents</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Descarregar les dades de la comunitat</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Permet una aplicació recuperar informació d'estat bolcat de serveis del sistema</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Editar</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Editar comentari</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Edita la descripció</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Introduir terme de cerca</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Esdeveniments</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Exemple</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Sortida</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Permet una aplicació ampliar o reduir el bar d'estatus</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Córrer com una aplicació de prova de fabricant, corrent com l'usuari d'arrel</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Camp</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Arxiu</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Permet l'accés a la llanterna</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Permet una aplicació forçar una operació d'esquena en sigui l'activitat superior</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Permet accedir a la llista de comptes en el servei de comptes</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Permet una aplicació esbrinar l'espai utilitzat per qualsevol paquet</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Permet una aplicació obtenir informació sobre les tasques en execució actualment o recentment</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>Inactiu</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Documentació per a la biblioteca copiar al porta-retalls (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Biblioteca seleccionat; Triar una classe</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Carregant comentaris comunitat</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Càrrega comunitat vots</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Biblioteques de càrrega</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Carregant l'arxiu de Biblioteca</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Mètodes propietats camps</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Camps, propietats i mètodes copiar al porta-retalls</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Nom</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>No teniu configurat camins d'aplicació, però teniu una còpia de seguretat de la configuració.  Carregar aquesta configuració?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Embolcall d'objecte</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Visió de conjunt</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Propietari</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Permisos</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Configureu les opcions, com ara la carpeta on s'instal·len les biblioteques B4x</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Si us plau, confirmar</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Propietat és només de lectura</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>És propietat de Lectura/Write</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Recarregar les biblioteques</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Observacions</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Treure el vostre vot per a aquest comentari</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Valor de retorn</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF copiar al porta-retalls</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Cerca</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Lloc de cerca de B4a</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Cerca&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Vegeu també</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Nom curt</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Estàndard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Fitxer XML estàndard</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Sintaxi</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Text copiat al portapapers</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Aquesta classe depèn</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Aquesta classe embolcalls</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Eines</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Tipus</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Valor</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Versió aplicabilitat</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Vots</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(vostè)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Ja has votat en aquest comentari</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero dependències]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Que han proporcionat els detalls correctes.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>No s'ha pogut exportar la configuració al directori actual. Comprovar la seguretat a la carpeta.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Aquesta adreça electrònica és ja en ús.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Assegureu-vos que heu introduït un valor per a cada un i torneu.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identitat creada.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identitat actualitzat.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Adreça electrònica incorrecta.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Contrasenya incorrecta.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Incorrecte contrasenya o adreça electrònica.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Nom d'usuari incorrecte.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Trieu una carpeta per a l'exportació.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Seleccioneu el fitxer que voleu importar.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Aquest usuari no existeix.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Nom guardat a la configuració d'usuari.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Error</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Llengua</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Historial de cerca</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Crèdits</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Agraïment a les següents persones per a la traducció i assistència proves:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>Mètode</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>Propietat</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Permet a les aplicacions obrir sòcols de xarxa</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Canviant aquesta escena requereix reiniciar-lo.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Mostra el Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Mostra propietat Get i Set de propietat</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Mostra el DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Quedar sobre unes</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Buscar l'actualització</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>Donar</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$10 (el preu d'un McDonalds dinar) em mantindrà feliç.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Has pensat en donació?
+Una petita contribució permetrà me continuar donant suport a la comunitat B4x.
+Una vegada que vostè donar, no se li demanarà una altra vegada.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Fòrum</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x ajuda</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x objecte navegador comunitat contingut habilitat</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Lloc de cerca de B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>API de Java</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>Explorador d'objectes B4a</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Versió Doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i ajuda</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j ajuda</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Permetre modificacions</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>Fragments de codi B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Afegir fragment</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Suprimiu el fragment</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Permetre fragment Drag gota</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Fragments de codi perillosos</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Objecte</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Etiqueta</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Text del fragment</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4R Ajuda</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Aquesta classe té el mateix ShortName que '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Una o més classes dins d'aquesta biblioteca tenen un nom breu duplicat</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Suprimeix el fragment</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Edita el fragment</value>
+	</data>
+</root>

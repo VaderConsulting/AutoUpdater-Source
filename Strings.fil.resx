@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Tietoja</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Lisää</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Osta minulle Beer</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Peruuta</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Tarkista</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Luokkanimi</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Luokan lyhyt nimi</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Yhteisön</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Luo</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Sähköpostiosoite</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Vienti</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Kentät</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Apua</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>BA objektin piilottaminen jos ensimmäinen parametri</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identiteetti</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Tuonti</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Kirjastot</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Kirjasto</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Kirjasto polkuja</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Kuorma XML On Demand</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Menetelmät</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>Okei</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Asetukset</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Salasana</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Ominaisuudet</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Julkaisu</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Poista</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Tallenna</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Näytä tyhjät sulkeet</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Näytä koko Typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Näytä otsikot</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Näytä hakutulokset Kirjasto luokan TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Näytä hotelli Void käyttö</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Päivitys</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Internet-osoite</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Yhteisön tietojen käyttäminen</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Käyttäjätunnus</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Versio</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Näkymä</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Antaa kirjoitusoikeudet tiloihin 'ominaisuudet'-taulukkoon checkin tietokantaan muuttaa arvoja, jotka saa ladata</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Avulla sovelluksen käyttää likimääräistä sijaintiasi peräisin verkon sijainti lähteistä kuten matkapuhelintukiasemien ja pysäköinti</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Avulla sovelluksen käyttää tarkka sijainti sijainti lähteistä kuten GPS, radiomastojen ja pysäköinti</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Avulla sovellus voi käyttää ylimääräisiä sijainti tarjoaja komentoja</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Avulla sovellus voi luoda vedos sijainti tarjoajien testaus</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Avulla sovellukset voivat käyttää tietoja verkkojen</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Avulla sovellus voi käyttää SurfaceFlinger's matalan tason ominaisuudet</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Avulla sovellukset voivat käyttää tietoja WiFi-verkkoihin</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Avulla sovellukset voivat kyseenalaistaa AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Äänestää tästä kommentoida</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Avulla sovellus voi lisätä voicemails järjestelmään</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Asiakirjat kaikille kopioida Leikepöydälle (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android pakettiin</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Huomautus</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Oletko varma?  Tämä toiminto kestää kauan ja ei voi keskeyttää.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Kuin</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Avulla sovellus voi toimia AccountAuthenticator accountmanager liittyvät paketit</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Kirjoittaja</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a foorumi</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a ohje</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a Object Browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (yhteisön sisältö käytössä)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x sivustohaku</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Avulla sovellus voi kerätä akku tilastotietoja</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>AccessibilityService on velvoitettava varmistamaan, että vain järjestelmä voi sitoutua siihen</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Avulla sovellus voi kertoa mikä ohjelma käyttää AppWidget's tietoja AppWidget-palvelu</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>On vaadittava laite hallinnon vastaanotin, varmistaa, että vain järjestelmä voi käyttää</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>InputMethodService on velvoitettava varmistamaan, että vain järjestelmä voi sitoutua siihen</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>RemoteViewsService, on tarpeen varmistaa, että vain järjestelmä voi sitoutua siihen</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>On vaadittava TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>VpnService, on tarpeen varmistaa, että vain järjestelmä voi sitoutua siihen</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>WallpaperService, on tarpeen varmistaa, että vain järjestelmä voi sitoutua siihen</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Mahdollistaa sovellusten pariksi bluetooth-laitteisiin</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Mahdollistaa sovellusten ja muodosta laitepari bluetooth-laitteista</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Tarvitse pystyä poistaa laitteen (erittäin vaarallinen)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Avulla sovellus voi lähettää ilmoituksen hakemuksen paketti on poistettu</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Avulla sovellus voi lähettää SMS saatuaan ilmoituksen</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Avulla sovellus lähettää tahmea linjaukset</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Avulla sovellus voi lähettää WAP PUSH saatuaan ilmoituksen</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Avulla sovellus voi aloittaa puhelun ilman läpi Dialer käyttäjä liitäntä ajaksi käyttäjä vahvistaa, puhelu</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Sallii sovelluksen Soita mihin tahansa puhelinnumeroon, kuten hätänumeroihin ilman läpi Dialer käyttäjä liitäntä ajaksi käyttäjä vahvistaa, puhelu</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Tarvitse käyttää kamera-laite</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Avulla sovellus voi muuttaa sovelluksen komponentti (kuin omiin) käytössä vai ei</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Avulla sovellus voi muokata nykyisen kokoonpanon, kuten maa</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Avulla sovellukset voivat muuttaa verkko connectivity</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Mahdollistaa sovellusten pysäköinti Multicast-tilaan</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Avulla sovellukset voivat muuttaa Wi-Fi connectivity</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Luokan tiedot</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Luokan ohjeista kopioida Leikepöydälle (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Luokat</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Selkeä</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Sallii sovelluksen kaikkien asennettujen sovellusten laitteen välimuistit</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Avulla sovellus voi poistaa käyttäjätiedot</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Kommentti</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Avulla mahdollistaminen/tehdä kykenemättömäksi sijainti ilmoitusten vastaanottajaksi radiosta</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Kopioi</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Kopioi koko polku</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Nimen kopioiminen</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Nimien kopioiminen</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Kopioi RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Kopioi teksti</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Avulla sovellus voi poistaa välimuistitiedostoja</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Avulla sovellus voi poistaa paketit</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Riippuu</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Kuvaus</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Matalan tason pääsy virranhallinta</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Mahdollistaa sovellusten RW diagnostinen resurssit</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Mahdollistaa sovellusten käytöstä näppäinlukko</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Asiakirjan kaikki</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Asiakirjaluokka</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Dokumentointi</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Asiakirjakirjaston</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Imuroi yhteisön tiedot</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Avulla sovellus voi hakea valtion Vedostiedot järjestelmäpalvelut</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Muokkaa</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Muokkaa kommenttia</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Muokkaa kuvausta</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Syötä hakusana</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Tapahtumat</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Esimerkki</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Exit</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Avulla sovellus voi laajentaa tai kutistaa tilarivillä</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Suorita valmistajan testitulokset käynnissä pääkäyttäjänä</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Kenttä</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Tiedosto</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Mahdollistaa pääsyn taskulamppu</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Avulla sovellus voi pakottaa takaisin toimintaa siitä, mikä on top toiminta</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Pääset tililuettelosta Accounts-palvelua</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Avulla sovellus voi selvittää minkä tahansa paketin käyttämän tilan</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Sallii sovelluksen tiedot tällä hetkellä tai äskettäin käynnissä olevat tehtävät</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>Tyhjäkäynnillä</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Asiakirjat kirjaston kopioida Leikepöydälle (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Kirjasto valittuna. Valitse luokka</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Lastaus yhteisön kommentit</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Lastaus yhteisöäänet</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Lastaus kirjastoja</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Kirjaston tiedoston lataaminen</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Menetelmien ominaisuuksien kenttiin</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Menetelmiä, ominaisuuksia ja kenttiä pärjäävä jotta clipboard</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Nimi</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Sinulla ei ole sovellus Paths määritetty, mutta sinulla on varmuuskopio kokoonpano.  Tämän kokoonpanomäärityksen?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Objektin kääre</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Yleiskatsaus</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Omistaja</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Käyttöoikeudet</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Määritä asetuksia, kuten B4x kirjastoja asennuskansion</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Vahvista</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Ominaisuus on vain luku</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Ominaisuus on luku ja kirjoitus</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Lataa kirjastot</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Huomautukset</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Poista tämä kommentti äänestä</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Palauttaa arvon</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF kopioida leikepöydälle</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Etsi</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Haku B4a päällä</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Etsi&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Katso myös</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Lyhyt nimi</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Standardi</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Standardi XML-tiedosto</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Syntaksi</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Teksti kopioidaan leikepöydälle</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Tämän luokan riippuu</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Tämän luokan huivi</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Työkalut</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Tyyppi</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Arvo</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Versio sovellettavuus</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Äänet</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(te)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Sinä olet jo äänestänyt tämän kommentin</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Nolla riippuvuudet]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Olet antanut oikeat tiedot.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Asetuksia ei voinut viedä nykyisen hakemiston. Tarkista suojaus kansio.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Tämä sähköpostiosoite on jo käytössä.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Varmista syöttänyt arvon kullekin ja yritä uudelleen.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identiteetti luonut.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Käyttäjätiedot päivittää.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Virheellinen sähköpostiosoite</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Väärä salasana.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Virheellinen salasana tai email osoite.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Virheellinen käyttäjätunnus.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Valitse kansio vientiä.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Valitse tiedosto, jonka haluat tuoda.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Tämä käyttäjätunnus ei ole olemassa.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Käyttäjänimi tallentaa asetukset.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Virhe</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Kieli</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Hakuhistoria</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Luottojen</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Kiitokset käännös ja testaus apua seuraavat henkilöt:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>Menetelmä</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>Ominaisuus</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Avulla sovellukset voivat avata verkon pistorasiat</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Tämän asetuksen muuttaminen edellyttää sovelluksen uudelleen.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Näytä Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Get-ominaisuutta ja ominaisuusjoukko</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Näytä DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Päällimmäisenä pysyminen</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Etsi päivityksiä</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>Lahjoita</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 dollaria (hinta yksi McDonalds ateria) pitää minut onnelliseksi.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Oletko ajatellut lahjoittaa?
+Pieni panos auttaa minua jatkossakin tukea B4x yhteisön.
+Kun lahjoitat, sinua ei pyydetä uudelleen.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x foorumi</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x ohje</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x Object Browser yhteisösisältöä käytössä</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Haku B4x päällä</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Object Browser</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet versio</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i ohje</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j ohje</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Salli muokkaukset</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x koodinpätkiä</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Lisätä koodinpätkän</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Poista pätkä</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Ota pätkä vedä pudota</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Koodinpätkät</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Objekti</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Etiketti</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Pätkä tekstiä</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r ohje</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Ang Klase na ito ay may parehong Maikling Pangalan bilang '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Ang isa o higit pang mga klase sa Library na ito ay mayroong isang duplicate na ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Tanggalin ang Snippet</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>I-edit ang Snippet</value>
+	</data>
+</root>

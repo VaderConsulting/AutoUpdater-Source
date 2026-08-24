@@ -1,0 +1,400 @@
+{
+  "SnapshotId": "20260405125321_5d8a50a9",
+  "CapturedUtc": "2026-04-05T12:53:21.0783507+00:00",
+  "NormalisedContentHash": "3936DF67EE86FC30CD890B24771EBAB13868288CA89D697DFFFFC42069DE2499",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "AutoUpdater.NET",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET.sln",
+    "SolutionKey": "A3C4BBEA314E450D",
+    "SourceIdentity": {
+      "IdentityKey": "A3C4BBEA314E450D",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET.sln",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "4159CC9D8AC675CF",
+      "ProjectName": "AutoUpdater.NET",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+      "ProjectStyle": "PackageReference",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": "net8.0-windows",
+      "AssetsFilePath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\obj\\project.assets.json",
+      "PackagesLockFilePath": null,
+      "Packages": [
+        {
+          "PackageId": "System.Configuration.ConfigurationManager",
+          "RequestedVersion": "8.0.0",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS|NONE|SYSTEM.CONFIGURATION.CONFIGURATIONMANAGER"
+        },
+        {
+          "PackageId": "System.Configuration.ConfigurationManager",
+          "RequestedVersion": null,
+          "ResolvedVersion": "8.0.0",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "System.Configuration.ConfigurationManager"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.CONFIGURATION.CONFIGURATIONMANAGER"
+        },
+        {
+          "PackageId": "System.Diagnostics.EventLog",
+          "RequestedVersion": null,
+          "ResolvedVersion": "8.0.0",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [
+            "System.Configuration.ConfigurationManager"
+          ],
+          "DependencyPath": [
+            "System.Diagnostics.EventLog",
+            "System.Configuration.ConfigurationManager"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.DIAGNOSTICS.EVENTLOG"
+        },
+        {
+          "PackageId": "System.Security.AccessControl",
+          "RequestedVersion": "6.0.0",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "6.0.1",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS|NONE|SYSTEM.SECURITY.ACCESSCONTROL"
+        },
+        {
+          "PackageId": "System.Security.AccessControl",
+          "RequestedVersion": null,
+          "ResolvedVersion": "6.0.0",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "System.Security.AccessControl"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "6.0.1",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.SECURITY.ACCESSCONTROL"
+        },
+        {
+          "PackageId": "System.Security.Cryptography.ProtectedData",
+          "RequestedVersion": null,
+          "ResolvedVersion": "8.0.0",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [
+            "System.Configuration.ConfigurationManager"
+          ],
+          "DependencyPath": [
+            "System.Security.Cryptography.ProtectedData",
+            "System.Configuration.ConfigurationManager"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.SECURITY.CRYPTOGRAPHY.PROTECTEDDATA"
+        },
+        {
+          "PackageId": "System.Security.Permissions",
+          "RequestedVersion": "8.0.0",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS|NONE|SYSTEM.SECURITY.PERMISSIONS"
+        },
+        {
+          "PackageId": "System.Security.Permissions",
+          "RequestedVersion": null,
+          "ResolvedVersion": "8.0.0",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "System.Security.Permissions"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.SECURITY.PERMISSIONS"
+        },
+        {
+          "PackageId": "System.Windows.Extensions",
+          "RequestedVersion": null,
+          "ResolvedVersion": "8.0.0",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "DependencyParents": [
+            "System.Security.Permissions"
+          ],
+          "DependencyPath": [
+            "System.Windows.Extensions",
+            "System.Security.Permissions"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.WINDOWS.EXTENSIONS"
+        }
+      ],
+      "DependencyEdges": [
+        {
+          "FromPackageId": "System.Configuration.ConfigurationManager",
+          "ToPackageId": "System.Diagnostics.EventLog",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.CONFIGURATION.CONFIGURATIONMANAGER",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.DIAGNOSTICS.EVENTLOG"
+        },
+        {
+          "FromPackageId": "System.Configuration.ConfigurationManager",
+          "ToPackageId": "System.Security.Cryptography.ProtectedData",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.CONFIGURATION.CONFIGURATIONMANAGER",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.SECURITY.CRYPTOGRAPHY.PROTECTEDDATA"
+        },
+        {
+          "FromPackageId": "System.Security.Permissions",
+          "ToPackageId": "System.Windows.Extensions",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.SECURITY.PERMISSIONS",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET.SLN|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/AUTOUPDATER SOURCE/AUTOUPDATER.NET/AUTOUPDATER.NET/AUTOUPDATER.CSPROJ|NET8.0-WINDOWS7.0|NONE|SYSTEM.WINDOWS.EXTENSIONS"
+        }
+      ],
+      "Diagnostics": [
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Configuration.ConfigurationManager\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Configuration.ConfigurationManager",
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Configuration.ConfigurationManager\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Configuration.ConfigurationManager",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Diagnostics.EventLog\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Diagnostics.EventLog",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Security.AccessControl\u0027 6.0.0 is outdated. Latest compatible stable version: 6.0.1.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Security.AccessControl",
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Security.AccessControl\u0027 6.0.0 is outdated. Latest compatible stable version: 6.0.1.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Security.AccessControl",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Security.Cryptography.ProtectedData\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Security.Cryptography.ProtectedData",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Security.Permissions\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Security.Permissions",
+          "TargetFrameworkMoniker": "net8.0-windows",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Security.Permissions\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Security.Permissions",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Windows.Extensions\u0027 8.0.0 is outdated. Latest compatible stable version: 10.0.5.",
+          "ProjectName": "AutoUpdater.NET",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\AutoUpdater.NET\\AutoUpdater.NET\\AutoUpdater.csproj",
+          "PackageId": "System.Windows.Extensions",
+          "TargetFrameworkMoniker": "net8.0-windows7.0",
+          "HelpLink": null
+        }
+      ],
+      "Warnings": []
+    }
+  ],
+  "Warnings": [
+    "Attention required: 9 package diagnostics are warnings."
+  ]
+}

@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Over</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Toevoegen</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Koop me een Bier</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Annuleren</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Controleren</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Class Naam</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Klasse Korte naam</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Gemeenschap</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Creëren</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>E-mail adres</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Exporteren</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Velden</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Helpen</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Verberg BA Object Als eerste parameter</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identiteit</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importeren</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Bibliotheken</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Bibliotheek</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Bibliotheek Paden</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Laad XML On Demand</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Methoden</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Opties</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Wachtwoord</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Eigenschappen</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Laat</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Verwijderen</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Besparen</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Toon lege haakjes</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Toon volledige typenaam</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Labels weergeven</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Toon Zoekresultaten In Bibliotheek Class TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Toon Void In Gebruik</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Bijwerken</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Internet-adres</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Gebruik de communautaire gegevens</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Gebruikersnaam</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Versie</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Zien</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Hiermee lees / schrijf-toegang tot de 'eigenschappen' tabel in de checkin-database, om waarden die krijgen geupload wijzigen</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Hiermee kan een app toegang tot locatie bij benadering afgeleid van het netwerk locatiebronnen, zoals GSM-masten en Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Hiermee kan een app om precieze locatie openen vanaf locatiebronnen, zoals GPS, GSM-masten en Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Hiermee kan een app toegang tot extra opdrachten van locatieaanbieder</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Hiermee kan een app neplocatiebronnen aanbieders te creëren voor het testen van</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen toegang krijgen tot informatie over netwerken</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Hiermee kan een app te gebruiken laag niveau SurfaceFlinger de functies</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen toegang krijgen tot informatie over de Wi-Fi-netwerken</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen doen aan AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Voeg uw stem voor deze reactie</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Hiermee kan een app voicemails toe te voegen in het systeem</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Documentatie voor alle gekopieerd naar het klembord (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android-pakketten</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Aantekening</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Weet je het zeker? Deze operatie zal een lange tijd duren en kan niet worden onderbroken.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Als</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Hiermee kan een app om op te treden als een AccountAuthenticator voor de SiteControl</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Auteur</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a Forum</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Hulp</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a object browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (Community-inhoud ingeschakeld)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x Site Search</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Hiermee kan een app te verzamelen accustatistieken</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Moet worden geëist door een AccessibilityService, zodat alleen het systeem te binden</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Hiermee kan een app vertellen de AppWidget dienst die applicatie kan toegang krijgen tot de gegevens van AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Worden vereist apparaatbeheer ontvanger, zodat alleen het systeem kan samenwerken met het</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Moet worden geëist door een InputMethodService, zodat alleen het systeem te binden</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Worden vereist door een RemoteViewsService, zodat alleen het systeem te binden</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Moet zij daartoe door een Textservice</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Worden vereist door een VpnService, zodat alleen het systeem te binden</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Worden vereist door een WallpaperService, zodat alleen het systeem te binden</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen verbinding te maken met gekoppelde Bluetooth-apparaten</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen te ontdekken en te koppelen Bluetooth-apparaten</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Nodig om te kunnen om het apparaat uit te schakelen (zeer gevaarlijk!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Hiermee kan een app een melding verzenden dat een toepassingspakket is verwijderd</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Hiermee kan een app uit te zenden van een SMS-ontvangst melding</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Hiermee kan een app om uit te zenden sticky intenties</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Hiermee kan een app een WAP PUSH ontvangst kennisgeving</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Hiermee kan een app een telefoongesprek te starten zonder tussenkomst van de Dialer interface voor de gebruiker om de oproep wordt geplaatst bevestigen</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Hiermee kan een app te bellen elk telefoonnummer, inclusief alarmnummers, zonder tussenkomst van de Dialer interface voor de gebruiker om de oproep wordt geplaatst bevestigen</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Nodig kunnen de camera apparaat te openen</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Hiermee kan een app te wijzigen of een aanvraag component (anders dan zijn eigen) is ingeschakeld of niet</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Hiermee kan een app de huidige configuratie, zoals de landinstelling</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen netwerkverbinding wijzigen staat</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen in te voeren Wi-Fi Multicast-modus</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen wijzigen Wi-Fi-connectiviteit staat</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Klasse Details</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Documentatie voor klasse gekopieerd naar het klembord (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Klassen</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Wis</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Hiermee kan een app de caches van alle geïnstalleerde toepassingen te verwijderen op het apparaat</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Hiermee kan een app gebruikersgegevens wissen</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Commentaar</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Maakt inschakelen / uitschakelen locatie updatemeldingen van de radio</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Kopieer</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Kopieer Volledig pad</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Naam van kopie</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Kopieer Namen</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Kopieer RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Tekst kopiëren</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Hiermee kan een app cachebestanden verwijderen</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Hiermee kan een app te verwijderen pakketten</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Hangt af van</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Beschrijving</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Maakt low-level toegang tot energiebeheer</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen RW tot diagnostische middelen</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Hiermee kunnen toepassingen uitschakelen van de toetsenblokkering</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Document Alle</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Document Class</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Het documenteren van</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Document Library</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Download de communautaire gegevens</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Hiermee kan een app op te halen staat dump informatie uit het systeem diensten</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Redigeren</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Opmerking bewerken</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Beschrijving bewerken</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Voer zoekterm in</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Evenementen</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Voorbeeld</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Uitgang</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Hiermee kan een app uitvouwen of samenvouwen de statusbalk</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Uitvoeren als een fabrikant test applicatie, uitgevoerd als de root gebruiker</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Veld</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Bestand</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Geeft toegang tot de zaklamp</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Hiermee kan een app te dwingen een rugoperatie op wat is de top-activiteit</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Geeft toegang tot de lijst met accounts in het Accounts Dienst</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Hiermee kan een app te vinden van de ruimte die wordt gebruikt door een pakket</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Hiermee kan een app informatie krijgen over de huidige of recent uitgevoerde taken</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>inactief</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Documentatie voor Bibliotheek gekopieerd naar het klembord (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Bibliotheek Geselecteerde; Kies een klasse</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Laden Gemeenschap Reacties</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Laden Gemeenschap Stemmen</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Laden Bibliotheken</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Laden Library File</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Methoden Eigenschappen Velden</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Methoden, eigenschappen en velden gekopieerd naar het klembord</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Naam</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Je hoeft niet Applicatie Paden geconfigureerd, maar u moet een back-up van de configuratie. Laad deze configuratie?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Object Wrapper</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Overzicht</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Eigenaar</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Rechten</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Configureer opties, inclusief de map waarin de B4x bibliotheken zijn geïnstalleerd</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Gelieve te bevestigen</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Eigendom is alleen-lezen</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Property Is Lezen Schrijven /</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Pagina vernieuwen Bibliotheken</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Opmerkingen</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Verwijder uw stem voor deze reactie</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Keer terug Value</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF gekopieerd naar het klembord</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Zoek</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Zoeken B4a Site</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Zoeken&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Zie ook</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Korte naam</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Standaard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Standaard XML-bestand</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Syntaxis</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Tekst gekopieerd naar het klembord</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Deze klasse is afhankelijk van</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Dit Klasse Wraps</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Gereedschap</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Type</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Waarde</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Versie Toepasselijkheid</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Stemmen</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(U)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Je hebt al gestemd op deze reactie</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero Afhankelijkheden]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>U heeft op voorwaarde dat de juiste gegevens.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Kan niet exporteren instellingen van de huidige directory. Controleer de veiligheid op de map.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Dit e-mailadres is al in gebruik.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Zorg ervoor dat u een waarde voor elke heeft ingevoerd en probeer het opnieuw.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identiteit gemaakt.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identity bijgewerkt.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Onjuist e-mailadres.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Onjuist wachtwoord.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Onjuist wachtwoord of e-mailadres.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Onjuiste gebruikersnaam.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Kies een map voor de export.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Selecteer het bestand dat u wilt importeren.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Deze gebruikersnaam bestaat niet.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Gebruikersnaam opgeslagen instellingen.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>fout</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>taal</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Zoekgeschiedenis</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Credits</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Dank gaat uit naar de volgende mensen voor vertaling en het testen van bijstand:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>methode</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>eigendom</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Kunnen toepassingen Netwerk sockets openen</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Wijzigen van deze instelling een aanvraag herstarten.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Show Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Show Property Get en Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Show DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Blijf op de hoogte</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Controleren op updates</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>schenken
+</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (de prijs van een McDonalds maaltijd) zal me gelukkig.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Hebt u overwogen doneren?
+Een kleine bijdrage zal mij in staat stellen te blijven steunen de B4x gemeenschap.
+Zodra u doneert, wordt u niet meer gevraagd worden.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Forum</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x Help</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x Object Browser Community-inhoud ingeschakeld</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Zoeken B4x Site</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>IOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Object Browser</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet versie</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i Help</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j Help</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Inschakelen van bewerkingen</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x Code Snippets</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Fragment toevoegen</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Fragment verwijderen</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Fragment slepen inschakelen</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Codefragmenten</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Object</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Label</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Fragment tekst</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r Help</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Deze klasse heeft dezelfde ShortName als '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Een of meerdere lessen in deze bibliotheek hebben een duplicaat ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Verwijder het fragment</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Bewerk het fragment</value>
+	</data>
+</root>

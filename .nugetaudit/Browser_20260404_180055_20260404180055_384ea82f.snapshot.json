@@ -1,0 +1,38 @@
+{
+  "SnapshotId": "20260404180055_384ea82f",
+  "CapturedUtc": "2026-04-04T18:00:55.4131737+00:00",
+  "NormalisedContentHash": "CC76A8EF84AF470E89F0516AECC68009C8F33E4AAC6A21FEC7962A2585F34B2B",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "Browser",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\B4x Browser.csproj",
+    "SolutionKey": "1CBE4CC164B652CA",
+    "SourceIdentity": {
+      "IdentityKey": "1CBE4CC164B652CA",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\B4x Browser.csproj",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "F063A718D794C67F",
+      "ProjectName": "Browser",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\AutoUpdater Source\\B4x Browser.csproj",
+      "ProjectStyle": "Unknown",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": null,
+      "AssetsFilePath": null,
+      "PackagesLockFilePath": null,
+      "Packages": [],
+      "DependencyEdges": [],
+      "Diagnostics": [],
+      "Warnings": []
+    }
+  ],
+  "Warnings": []
+}

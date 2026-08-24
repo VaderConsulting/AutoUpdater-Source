@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+    <value>על</value>
+  </data>
+	<data name="Add" xml:space="preserve">
+    <value>להוסיף</value>
+  </data>
+	<data name="BuymeaBeer" xml:space="preserve">
+    <value>קנה לי בירה</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+	<data name="Check" xml:space="preserve">
+    <value>לבדוק</value>
+  </data>
+	<data name="ClassName" xml:space="preserve">
+    <value>שם כיתה</value>
+  </data>
+	<data name="ClassShortName" xml:space="preserve">
+    <value>שם קצר כיתה</value>
+  </data>
+	<data name="Community" xml:space="preserve">
+    <value>קהל</value>
+  </data>
+	<data name="Create" xml:space="preserve">
+    <value>ליצור</value>
+  </data>
+	<data name="EmailAddress" xml:space="preserve">
+    <value>כתובת דוא"ל</value>
+  </data>
+	<data name="Export" xml:space="preserve">
+    <value>יצוא</value>
+  </data>
+	<data name="Fields" xml:space="preserve">
+    <value>שדות</value>
+  </data>
+	<data name="Help" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+    <value>סתר אובייקט התואר ראשון אם הפרמטר ראשון</value>
+  </data>
+	<data name="Identity" xml:space="preserve">
+    <value>זהות</value>
+  </data>
+	<data name="Import" xml:space="preserve">
+    <value>יבוא</value>
+  </data>
+	<data name="Libraries" xml:space="preserve">
+    <value>ספריות</value>
+  </data>
+	<data name="Library" xml:space="preserve">
+    <value>הספרייה</value>
+  </data>
+	<data name="LibraryPaths" xml:space="preserve">
+    <value>נתיבי הספרייה</value>
+  </data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+    <value>טען XML לפי דרישה</value>
+  </data>
+	<data name="Methods" xml:space="preserve">
+    <value>שיטות</value>
+  </data>
+	<data name="OK" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+	<data name="Password" xml:space="preserve">
+    <value>סיסמא</value>
+  </data>
+	<data name="Properties" xml:space="preserve">
+    <value>מאפיינים</value>
+  </data>
+	<data name="Release" xml:space="preserve">
+    <value>לשחרר</value>
+  </data>
+	<data name="Remove" xml:space="preserve">
+    <value>להסיר</value>
+  </data>
+	<data name="Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+    <value>צג סוגריים ריקים</value>
+  </data>
+	<data name="ShowFullTypename" xml:space="preserve">
+    <value>הצג סוג שם מלא</value>
+  </data>
+	<data name="ShowLabels" xml:space="preserve">
+    <value>צג תוויות</value>
+  </data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+    <value>צג תוצאות חיפוש בTreeView הייצוגי הספרייה</value>
+  </data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+    <value>צג Void בשימוש</value>
+  </data>
+	<data name="Update" xml:space="preserve">
+    <value>לעדכן</value>
+  </data>
+	<data name="URL" xml:space="preserve">
+    <value>כתובת אינטרנט</value>
+  </data>
+	<data name="UseCommunityData" xml:space="preserve">
+    <value>השתמש בנתוני קהילה</value>
+  </data>
+	<data name="Username" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+	<data name="Version" xml:space="preserve">
+    <value>גרסה</value>
+  </data>
+	<data name="View" xml:space="preserve">
+    <value>לצפות</value>
+  </data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+    <value>מאפשר גישת קריאה / כתיבה לשולחן 'המאפיינים' במסד נתוני checkin, כדי לשנות את הערכים שיועלו</value>
+  </data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+    <value>מאפשר ליישום לגשת למיקום משוער נגזר ממקורות מיקום רשת כגון אנטנות סלולריות, ואינטרנט אלחוטי</value>
+  </data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+    <value>מאפשר ליישום לגשת למיקום מדויק ממקורות מיקום כמו GPS, מגדלים סלולריים, ואינטרנט אלחוטי</value>
+  </data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+    <value>מאפשר ליישום לגשת לפקודות נוספות של ספק מיקום</value>
+  </data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+    <value>מאפשר יישום ליצור ספקי מיקום מדומים לבדיקה</value>
+  </data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+    <value>מאפשר ליישומים לגישה למידע על רשתות סלולריות</value>
+  </data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+    <value>מאפשר ליישום להשתמש בתכונות ברמה הנמוכה של SurfaceFlinger</value>
+  </data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+    <value>מאפשר ליישומים לגשת למידע על רשתות Wi-Fi</value>
+  </data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+    <value>יישומים מאפשר להתקשר לAccountAuthenticators</value>
+  </data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+    <value>הוסף את הקול שלכם לתגובות זה</value>
+  </data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+    <value>מאפשר ליישום להוסיף הודעות קוליות למערכת</value>
+  </data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+    <value>תיעוד לכל הועתק ללוח (RTF)</value>
+  </data>
+	<data name="AndroidPackages" xml:space="preserve">
+    <value>חבילות אנדרואיד</value>
+  </data>
+	<data name="Annotation" xml:space="preserve">
+    <value>גהה</value>
+  </data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+    <value>האם אתה בטוח? פעולה זו לוקחת זמן רב ולא יכולה להיות מופרעת.</value>
+  </data>
+	<data name="As" xml:space="preserve">
+    <value>כמו</value>
+  </data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+    <value>מאפשר ליישום לפעול כAccountAuthenticator למנהל החשבון</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>מחבר</value>
+  </data>
+	<data name="B4aForum" xml:space="preserve">
+    <value>B4a פורום</value>
+  </data>
+	<data name="B4aHelp" xml:space="preserve">
+    <value>עזרת B4a</value>
+  </data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+    <value>דפדפן אובייקטים B4a</value>
+  </data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+    <value>דפדפן אובייקטים B4a (תוכן קהילה מופעלת)</value>
+  </data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+    <value>חיפוש באתר B4x</value>
+  </data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+    <value>מאפשר יישום לאסוף נתוני סוללה</value>
+  </data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי AccessibilityService, כדי להבטיח שרק המערכת יכולה להיקשר אליו</value>
+  </data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+    <value>מאפשר יישום לספר שירות AppWidget שיישום יכול לגשת לנתונים של AppWidget</value>
+  </data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי כונס ממשל מכשיר, כדי לוודא שרק המערכת יכולה לקיים אינטראקציה עם זה</value>
+  </data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי InputMethodService, כדי להבטיח שרק המערכת יכולה להיקשר אליו</value>
+  </data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי RemoteViewsService, כדי להבטיח שרק המערכת יכולה להיקשר אליו</value>
+  </data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי TextService</value>
+  </data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי VpnService, כדי להבטיח שרק המערכת יכולה להיקשר אליו</value>
+  </data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+    <value>חייב להיות נדרש על ידי WallpaperService, כדי להבטיח שרק המערכת יכולה להיקשר אליו</value>
+  </data>
+	<data name="BLUETOOTH" xml:space="preserve">
+    <value>יישומים מאפשר להתחבר להתקני Bluetooth לזווג</value>
+  </data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+    <value>יישומים מאפשר לגלות ולשייך את ההתקנים Bluetooth</value>
+  </data>
+	<data name="BRICK" xml:space="preserve">
+    <value>נדרש להיות מסוגל להשבית את המכשיר (מסוכן מאוד!)</value>
+  </data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+    <value>מאפשר ליישום לשדר התראה שחבילת יישום הוסרה</value>
+  </data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+    <value>מאפשר ליישום לשדר התראת קבלת SMS</value>
+  </data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+    <value>מאפשר ליישום לשדר דבר דביק</value>
+  </data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+    <value>מאפשר ליישום לשדר התראת קבלת PUSH WAP</value>
+  </data>
+	<data name="CALL_PHONE" xml:space="preserve">
+    <value>מאפשר יישום ליזום שיחת טלפון מבלי לעבור דרך ממשק משתמש חייגן למשתמש לאשר את השיחה שתוצב</value>
+  </data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+    <value>מאפשר ליישום להתקשר לכל מספר טלפון, כולל מספרי חירום, מבלי לעבור דרך ממשק משתמש חייגן למשתמש לאשר את השיחה שתוצב</value>
+  </data>
+	<data name="CAMERA" xml:space="preserve">
+    <value>נדרש כדי להיות מסוגל לגשת למכשיר המצלמה</value>
+  </data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+    <value>מאפשר ליישום לשנות אם רכיב אפליקציה (מלבדו) מופעל או לא</value>
+  </data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+    <value>מאפשר ליישום לשנות את התצורה הנוכחית, כגון אזור</value>
+  </data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+    <value>יישומים מאפשר לשנות את מצב קישוריות לרשת</value>
+  </data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+    <value>יישומים מאפשר להיכנס למצב שידור Wi-Fi</value>
+  </data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+    <value>יישומים מאפשר לשנות קישוריות Wi-Fi המדינה</value>
+  </data>
+	<data name="ClassDetails" xml:space="preserve">
+    <value>פרטים ייצוגיים</value>
+  </data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+    <value>תיעוד למחלקה הועתק ללוח (RTF)</value>
+  </data>
+	<data name="Classes" xml:space="preserve">
+    <value>כיתות</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>ברור</value>
+  </data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+    <value>מאפשר יישום כדי לנקות את המטמון של כל היישומים המותקנים במכשיר</value>
+  </data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+    <value>מאפשר ליישום לנקות נתוני משתמש</value>
+  </data>
+	<data name="Comment" xml:space="preserve">
+    <value>הערה</value>
+  </data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+    <value>מאפשר הפעלה / השבתת התראות על עדכון מיקום מהרדיו</value>
+  </data>
+	<data name="Copy" xml:space="preserve">
+    <value>העתק</value>
+  </data>
+	<data name="CopyFullPath" xml:space="preserve">
+    <value>העתק נתיב מלא</value>
+  </data>
+	<data name="CopyName" xml:space="preserve">
+    <value>שם העתקה</value>
+  </data>
+	<data name="CopyNames" xml:space="preserve">
+    <value>שמות העתקה</value>
+  </data>
+	<data name="CopyRTF" xml:space="preserve">
+    <value>העתק RTF</value>
+  </data>
+	<data name="CopyText" xml:space="preserve">
+    <value>העתק טקסט</value>
+  </data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+    <value>מאפשר ליישום למחוק קבצי מטמון</value>
+  </data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+    <value>מאפשר ליישום למחוק חבילות</value>
+  </data>
+	<data name="DependsOn" xml:space="preserve">
+    <value>תלוי</value>
+  </data>
+	<data name="Description" xml:space="preserve">
+    <value>תיאור</value>
+  </data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+    <value>מאפשר גישה ברמה נמוכה לניהול צריכת החשמל</value>
+  </data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+    <value>מאפשר ליישומי RW למשאבי אבחון</value>
+  </data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+    <value>יישומים מאפשר להשבית את נעילת המקשים</value>
+  </data>
+	<data name="DocumentAll" xml:space="preserve">
+    <value>לתעד הכל</value>
+  </data>
+	<data name="DocumentClass" xml:space="preserve">
+    <value>ייצוגי מסמך</value>
+  </data>
+	<data name="Documenting" xml:space="preserve">
+    <value>תיעוד</value>
+  </data>
+	<data name="DocumentLibrary" xml:space="preserve">
+    <value>ספריית מסמכים</value>
+  </data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+    <value>הורד נתוני קהילה</value>
+  </data>
+	<data name="DUMP" xml:space="preserve">
+    <value>מאפשר ליישום לאחזר מידע מזבלת מדינה משירותי מערכת</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>לערוך</value>
+  </data>
+	<data name="EditComment" xml:space="preserve">
+    <value>עריכת תגובה</value>
+  </data>
+	<data name="EditDescription" xml:space="preserve">
+    <value>ערוך תיאור</value>
+  </data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+    <value>הזן את מונח חיפוש</value>
+  </data>
+	<data name="Events" xml:space="preserve">
+    <value>אירועים</value>
+  </data>
+	<data name="Example" xml:space="preserve">
+    <value>דוגמה</value>
+  </data>
+	<data name="Exit" xml:space="preserve">
+    <value>יציאה</value>
+  </data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+    <value>מאפשר ליישום להרחיב או לכווץ את שורת המצב</value>
+  </data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+    <value>הפעל כיישום בדיקת יצרן, פועל כמשתמש root</value>
+  </data>
+	<data name="Field" xml:space="preserve">
+    <value>שדה</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>קובץ</value>
+  </data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+    <value>מאפשר גישה לפנס</value>
+  </data>
+	<data name="FORCE_BACK" xml:space="preserve">
+    <value>מאפשר ליישום לאלץ פעולה בחזרה על מה היא הפעילות העליונה</value>
+  </data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+    <value>מאפשר גישה לרשימה של חשבונות בשירות החשבונות</value>
+  </data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+    <value>מאפשר יישום כדי לגלות את החלל בשימוש על ידי כל חבילה</value>
+  </data>
+	<data name="GET_TASKS" xml:space="preserve">
+    <value>מאפשר ליישום לקבל מידע על משימות שוטפות או לאחרונה פועלות</value>
+  </data>
+	<data name="Idle" xml:space="preserve">
+    <value>להתבטל</value>
+  </data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+    <value>תיעוד עבור הספרייה הועתק ללוח (RTF)</value>
+  </data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+    <value>הספרייה נבחרת; בחר כיתה</value>
+  </data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+    <value>טוען תגובות קהילה</value>
+  </data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+    <value>טוען הצבעות קהילה</value>
+  </data>
+	<data name="LoadingLibraries" xml:space="preserve">
+    <value>ספריות טוענות</value>
+  </data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+    <value>טעינת קובץ הספרייה</value>
+  </data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+    <value>שיטות שדות נכסים</value>
+  </data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+    <value>שיטות, מאפיינים ושדות שהועתקו ללוח</value>
+  </data>
+	<data name="Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+    <value>אין לך נתיבי יישום מוגדר, אבל יש לך עותק גיבוי של התצורה. טען תצורה זו?</value>
+  </data>
+	<data name="ObjectWrapper" xml:space="preserve">
+    <value>עטיפת אובייקט</value>
+  </data>
+	<data name="Overview" xml:space="preserve">
+    <value>סקירה</value>
+  </data>
+	<data name="Owner" xml:space="preserve">
+    <value>בעלים</value>
+  </data>
+	<data name="Permissions" xml:space="preserve">
+    <value>הרשאות</value>
+  </data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+    <value>נא להגדיר את האפשרויות, כולל תיקייה שבה ספריות B4x מותקנות</value>
+  </data>
+	<data name="PleaseConfirm" xml:space="preserve">
+    <value>אנא אשר</value>
+  </data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>נכס הוא לקריאה בלבד</value>
+  </data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+    <value>נכס האם קריאה / כתיבה</value>
+  </data>
+	<data name="ReloadLibraries" xml:space="preserve">
+    <value>רענן ספריות</value>
+  </data>
+	<data name="Remarks" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+    <value>הסר את הקול שלכם לתגובות זה</value>
+  </data>
+	<data name="ReturnValue" xml:space="preserve">
+    <value>להחזיר ערך</value>
+  </data>
+	<data name="RTFCopied" xml:space="preserve">
+    <value>RTF הועתק ללוח</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>לחפש</value>
+  </data>
+	<data name="SearchB4aSite" xml:space="preserve">
+    <value>אתר חיפוש B4a</value>
+  </data>
+	<data name="SearchText" xml:space="preserve">
+    <value>&lt;לחפש&gt;</value>
+  </data>
+	<data name="SeeAlso" xml:space="preserve">
+    <value>ראה גם</value>
+  </data>
+	<data name="ShortName" xml:space="preserve">
+    <value>שם קצר</value>
+  </data>
+	<data name="Standard" xml:space="preserve">
+    <value>תקן</value>
+  </data>
+	<data name="StandardXMLFile" xml:space="preserve">
+    <value>קובץ XML סטנדרטי</value>
+  </data>
+	<data name="Syntax" xml:space="preserve">
+    <value>תחביר</value>
+  </data>
+	<data name="TextCopied" xml:space="preserve">
+    <value>העתקת טקסט ללוח</value>
+  </data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+    <value>שיעור זה תלוי</value>
+  </data>
+	<data name="ThisClassWraps" xml:space="preserve">
+    <value>מחלקה זו כורכת</value>
+  </data>
+	<data name="Tools" xml:space="preserve">
+    <value>כלי עבודה</value>
+  </data>
+	<data name="Type" xml:space="preserve">
+    <value>סוג</value>
+  </data>
+	<data name="Value" xml:space="preserve">
+    <value>ערך</value>
+  </data>
+	<data name="VersionApplicability" xml:space="preserve">
+    <value>תחולת גרסה</value>
+  </data>
+	<data name="Votes" xml:space="preserve">
+    <value>הצבעות</value>
+  </data>
+	<data name="You" xml:space="preserve">
+    <value>(לך)</value>
+  </data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+    <value>כבר הצביע על תגובה זו</value>
+  </data>
+	<data name="ZeroDependencies" xml:space="preserve">
+    <value>[אפס תלוי]</value>
+  </data>
+	<data name="CorrectDetails" xml:space="preserve">
+    <value>שספקת את הפרטים הנכונים.</value>
+  </data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+    <value>לא ניתן לייצא את ההגדרות לספרייה נוכחית. בדקו בטחוני בתיקייה.</value>
+  </data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+    <value>כתובת דוא"ל זו נמצאת בשימוש כבר.</value>
+  </data>
+	<data name="EnterValues" xml:space="preserve">
+    <value>ודא כי הזנת ערך עבור כל אחד, ונסה שוב.</value>
+  </data>
+	<data name="IdentityCreated" xml:space="preserve">
+    <value>זהות שנוצרה.</value>
+  </data>
+	<data name="IdentityUpdated" xml:space="preserve">
+    <value>זהות מעודכנת.</value>
+  </data>
+	<data name="IncorrectEmail" xml:space="preserve">
+    <value>כתובת דואר אלקטרוני שגויה.</value>
+  </data>
+	<data name="IncorrectPassword" xml:space="preserve">
+    <value>סיסמא שגויה.</value>
+  </data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+    <value>סיסמא שגויה או כתובת דואר אלקטרוני.</value>
+  </data>
+	<data name="IncorrectUsername" xml:space="preserve">
+    <value>שם משתמש שגוי.</value>
+  </data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+    <value>בחר תיקייה ליצוא.</value>
+  </data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+    <value>אנא בחר את הקובץ שברצונך לייבא.</value>
+  </data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+    <value>שם המשתמש הזה לא מקיים.</value>
+  </data>
+	<data name="UsernameSaved" xml:space="preserve">
+    <value>שם משתמש נשמר הגדרות.</value>
+  </data>
+	<data name="Error" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+	<data name="GUILanguage" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+	<data name="SearchHistory" xml:space="preserve">
+    <value>היסטוריית חיפוש</value>
+  </data>
+	<data name="Credits" xml:space="preserve">
+    <value>קרדיטים</value>
+  </data>
+	<data name="CreditThanks" xml:space="preserve">
+    <value>תודה לאנשים הבאים לסיוע תרגום ובדיקה:</value>
+  </data>
+	<data name="Method" xml:space="preserve">
+    <value>שיטה</value>
+  </data>
+	<data name="Property" xml:space="preserve">
+    <value>נכס</value>
+  </data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>יישומים מאפשר לפתוח שקעי רשת</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>שינוי הגדרה זו דורש יישום מחדש.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>הצג Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>הצג Property Get וProperty Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>הצג DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>הישאר על גבי</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>בדוק עבור עדכון</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>לתרום</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (במחיר של אחד ארוחת מקדונלד 'ס) ישמור אותי מאושרים.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>האם שקל לתרום?
+תרומה קטנה תאפשר לי להמשיך ולתמוך בקהילת B4x.
+ברגע שאתה תורם, אתה לא תתבקש שוב.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x פורום</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>עזרה B4x</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x בדפדפן אובייקט תוכן קהילתי זמין</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>אתר חיפוש B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>ios API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>סורק האובייקטים B4x</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>גירסה Doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>עזרה B4i</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>עזרה B4j</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>אפשר עריכות</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>מקטעי קוד B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>הוסף מקטע</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>להסיר מקטע</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>לאפשר מקטע בורלנד</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>מקטעי קוד</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>אובייקט</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>תווית</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>גזיר טקסט</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>עזרה B4r</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>מחלקה זו מכילה שם קצר בשם '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>אחד או יותר מחלקות בתוך ספריה זו יש ShortName כפולים</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>מחק קטע טקסט</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>ערוך קטע טקסט</value>
+	</data>
+</root>

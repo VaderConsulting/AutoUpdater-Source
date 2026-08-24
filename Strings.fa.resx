@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>درباره</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>اضافه کردن</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>من آبجو فروش</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>لفو</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>بررسی</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>نام کلاس</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>نام کلاس کوتاه</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>انجمن</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>جدید</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>پست الکترونیکی</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>خروجی گرفتن</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>فیلد ها</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>راهنما</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>نمایان نکن وقتی اولین پارامتر BA بود</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>هویت</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>وارد کردن</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>کتابخانه ها</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>کتابخانه</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>مسیر کتابخانه ها</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>بارگزاری XML در صورت نیاز</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>متد ها</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>بله</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>تنظیمات</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>کلمه عبور</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>ویژگی ها</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>انتشار</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>پاک کردن</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>ذخیره</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>نشان دادن پرانتز های خالی</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>نمایش کامل Typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>نمایش لیبل ها</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>نمایش جستجو در کتابخانه ها بصورت درختی</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>نمایش خالی در استفاده از</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>به روز رسانی</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>آدرس اینترنتی</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>استفاده از اطلاعات انجمن</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>نام کاربری</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>نسخه</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>نمایش</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>خواندن و نوشتن دسترسی به جدول 'خواص' اجازه می دهد تا در پایگاه checkin برای تغییر مقادیر که آپلود کنید</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای دسترسی به مکان تقریبی مشتق شده از منابع مکان شبکه Wi-Fi و برج های سلولی</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>اجازه می دهد تا یک برنامه دقیق دسترسی به محل از محل منابع مانند GPS، برج های سلولی و Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای دسترسی به مکان فوق العاده ارائه دستورات</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای ایجاد مکان ساختگی ارائه دهندگان برای تست</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای دسترسی به اطلاعات در مورد شبکه های</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای استفاده از SurfaceFlinger را ویژگی های سطح پایین</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای دسترسی به اطلاعات در مورد شبکه های Wi-Fi</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی را به AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>اضافه کردن رای خود را برای این نظر</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>برنامه برای اضافه کردن پست صوتی به سیستم اجازه می دهد</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>مستندات برای همه کپی به کلیپ بورد (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>بسته های اندروید</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>حاشیه نویسی</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>این عملیات ممکن است طول بکشد. آیا از اجرای آن اطمینان دارید؟</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>به عنوان</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>اجازه می دهد تا یک برنامه عمل به عنوان AccountAuthenticator برای AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>نویسنده</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>انجمن B4a</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>مستندات B4a</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a Object Browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a شئ کاوشگر (محتوا جامعه فعال)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>جستجو در سایت B4x</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>اجازه می دهد برنامه ای برای جمع آوری آمار کارکرد باتری</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>باید توسط AccessibilityService اطمینان حاصل شود که فقط سیستم به آن متصل می تواند مورد نیاز</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار به سرویس AppWidget برنامه ای را که می تواند دسترسی به داده های AppWidget را</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>باید توسط دستگاه گیرنده دولت، اطمینان حاصل شود که فقط سیستم می تواند با آن ارتباط برقرار کردن مورد نیاز</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>باید توسط InputMethodService اطمینان حاصل شود که فقط سیستم به آن متصل می تواند مورد نیاز</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>باید توسط RemoteViewsService اطمینان حاصل شود که فقط سیستم به آن متصل می تواند مورد نیاز</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>باید TextService مورد نیاز</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>باید توسط VpnService اطمینان حاصل شود که فقط سیستم به آن متصل می تواند مورد نیاز</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>باید توسط WallpaperService اطمینان حاصل شود که فقط سیستم به آن متصل می تواند مورد نیاز</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای اتصال به دستگاه های بلوتوث زوج</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای کشف و جفت دستگاه های بلوتوث</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>مورد نیاز قادر به غیر فعال کردن دستگاه (که بسیار در خطرناک است!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای پخش یک اعلان که بسته نرم افزار حذف شده است</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای پخش یک اعلان دریافت اس ام اس</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای پخش مفاهیم مهم</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای پخش یک اعلان دریافت فشار WAP</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>اجازه می دهد تا یک برنامه کاربردی برای آغاز یک تماس تلفنی و بدون رفتن را از طریق رابط کاربر شماره گیر برای کاربر تایید تماس قرار می گیرد</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای تماس با هر شماره تلفن از جمله شماره های اضطراری بدون رفتن را از طریق رابط کاربر شماره گیر برای کاربر تایید تماس قرار می گیرد</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>مورد نیاز قادر به دسترسی به دستگاه دوربین</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا یک برنامه کاربردی را تغییر دهید که آیا جزء برنامه (به غیر از خود) فعال است یا نه</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>اجازه می دهد برنامه ای برای تغییر تنظیمات فعلی مانند منطقه</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای تغییر وضعیت اتصال به شبکه</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی به حالت چندپخشی Wi-Fi را وارد کنید</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای تغییر وضعیت اتصال Wi-Fi</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>جزئیات طبقه</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>مستندات کلاس کپی به کلیپ بورد (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>کلاس ها</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>پاک کردن</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای پاک کردن حافظه پنهان کند همه برنامه های کاربردی نصب شده بر روی دستگاه</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای پاک کردن داده های کاربر</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>نظر</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>اجازه می دهد فعال/غیرفعال کردن محل اعلان های به روز رسانی از رادیو</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>کپی</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>کپی کردن کامل مسیر</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>نام کپی</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>نام کپی ها</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>کپی RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>کپی کردن متن</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای حذف فایل های کش</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>اجازه می دهد برنامه ای برای حذف بسته های</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>بستگی دارد</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>توضیحات</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>اجازه می دهد تا سطح دسترسی به مدیریت برق</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی رو به منابع تشخیصی</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه های کاربردی برای غیر فعال کردن keyguard</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>همه مستند ها</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>مستند کلاس</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>مستند</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>مستندات کتابخانه</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>دربافت اطلاعات انجمن</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار برای بازیابی اطلاعات روگرفت دولت از خدمات سیستم</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>ویرایش</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>ویرایش نظر</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>ویرایش توضیحات</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>عبارت جستجو را وارد کنید</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>رویداد ها</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>مثال</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>خروج</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>اجازه می دهد تا یک برنامه کاربردی برای توسعه و یا سقوط نوار وضعیت</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>به عنوان تولید کننده برنامه تست، در حال اجرا به عنوان کاربر ریشه اجرا</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>فیلد</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>فایل</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>اجازه می دهد تا دسترسی به چراغ قوه</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>اجازه می دهد تا نرم افزار به نیروی عملیات بازگشت در هر فعالیت بالا است</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای پیدا کردن فضای استفاده شده توسط هر بسته</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای پیدا کردن فضای استفاده شده توسط هر بسته</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>اجازه می دهد برنامه ای برای گرفتن اطلاعات درباره وظایف در حال حاضر و یا به تازگی در حال اجرا</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>بیکار</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>کپی کردن مستندات کتابخانه در کلیپبورد</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>انتخاب کتابخانه، انتخاب کلاس</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>بارگذاری نظرات انجمن</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>بارگزاری امتیاز های انجمن</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>بارگذاری کتابخانه ها</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>بارگذاری فایل کتابخانه</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>امکانات متد فیلد</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>متد ها، خواس و فیلد ها در کلیپبودر ذخیره شوند</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>نام</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>شما مسیر برنامه پیکربندی را ندارید اما شما باید یک کپی پشتیبان از تنظیمات.  بارگذاری این پیکربندی?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>شی لفاف بسته بندی</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>بررسی</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>صاحب</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>دسترسی ها</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>لطفا تنظیمات را کامل نمایید، پوشه کتابخانه های B4A</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>لطفا تایید کنید</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>ویژگی فقط قابل خواندن است</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>ویژگی قابل خواندن/نوشتن است</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>بارگذاری کتابخانه ها</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>ملاحظات</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>حذف رای خود را برای این نظر</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>مقدار بازگشتی</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>حالت راست به چپ در کلیبورد کپی شود</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>جستجو</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>جستجو در سایت B4a</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;جستجو&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>همچنین ببینید</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>نام کوتاه</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>استاندارد</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>فایل استاندارد XML</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>نحو</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>متن در کلیپبورد کپی شد</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>این کلاس بستگی دارد</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>این کلاس را پایان می رسد</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>ابزار</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>نوع</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>مقدار</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>نسخه</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>رای</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(شما)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>شما به این نظر اعتبار داده اید</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[صفر وابسته]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>قادر به ارائه اطلاعات صحیح است.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>می توانیم در این پوشه خروجی بگیریم. لطفا تنظیمات امنیتی سیستم خود را بررسی کنید</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>این پست الکترونیکی در سیستم وجود دارد.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>اطمینان از مقدار برای هر یک وارد کرده اید و دوباره امتحان کنید.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>هویت ایجاد شده است.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>هویت به روز شده.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>آدرس ایمیل اشتباه است.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>کلمه عبور نادرست است.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>کلمه عبور یا آدرس پست الکترونیکی اشتباه است.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>نام کاربری نادرست است.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>لطفاً یک پوشه برای خروجی انتخاب نمایید.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>لطفا فایل خود را برای وارد کردن انتخاب نمایید.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>این نام کاربری وجود ندارد.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>نام کاربری ذخیره شد.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>خطا</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>زبان</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>تاریخچه جستجو</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>اعتبارات</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>با تشکر به افراد زیر برای ترجمه و کمک آزمایش:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>متد</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>خاصیت</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>اجازه می دهد تا برنامه برای باز کردن سوکت شبکه</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>تغییر تنظیمات این نرم افزار مجدد شود.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>نمایش Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>دریافت اموال و املاک مجموعه نشان می دهد</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>نمایش DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>اقامت در بالای</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>بررسی برای به روز رسانی</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>حمایت</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 دلار (قیمت یک وعده غذایی مک دونالد) مرا راضی نگه دارید.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>آیا می خواهید حمایت کنید؟
+سهم کوچک من برای ادامه حمایت از جامعه B4x را فعال کنید.
+یکبار حمایت کنید! دیگر از شما درخواست نمی شود!</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>انجمن B4x</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>کمک B4x</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x شی مرورگر جامعه محتوای فعال</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>جستجو در سایت B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>ios API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>API جاوا</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>مرورگر B4x</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>نسخه Doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>کمک B4i</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>کمک B4j</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>فعال کردن ویرایش</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>قطعه کد B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>افزودن قطعه</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>حذف قطعه</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>قطعه کشیدن و رها کردن را قادر می سازد</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>قطعه کد</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>شی</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>برچسب</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>متن تکهتکه</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>کمک B4r</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>این کلاس دارای همان ShortName به عنوان &lt;PARENTNAME&gt; است. &lt;SHORTNAME&gt;</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>یک یا چند کلاس در این کتابخانه دارای نام اختصاری تکراری است</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>حذف قطعه</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>ویرایش قطعه</value>
+	</data>
+</root>

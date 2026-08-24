@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Om</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Legg</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Kjøpe meg en øl</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Avbryt</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Sjekk</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Klasse Navn</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Klasse kortnavnet</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Samfunnet</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Lag</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>E-postadresse</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Eksportere</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Felt</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Hjelp</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Skjul BA Object Hvis første parameter</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identitet</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importer</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Bibliotekene</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Bibliotek</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Bibliotek Paths</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Last XML On Demand</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Metoder</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Alternativer</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Passord</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Egenskaper</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Slipp</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Fjern</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Lagre</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Vis Tomme Parenteser</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Vis hele typenavn</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Vis etiketter</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Toon zoekresultaten In bibliotheek klasse Treeview</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Vis Void i bruk</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Oppdater</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Internett-adresse</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Bruk Community data</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Brukernavn</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Versjon</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Vis</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Gir lese / skrive-tilgang til 'egenskaper' bord i den mislykkede database, for å endre verdier som blir lastet opp</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Lar appen tilgang omtrentlig plassering avledet fra Nettverksplassering kilder som basestasjoner og Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Lar appen tilgang presis plassering fra plassering slik som GPS, celle tårn, og Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Tillater applikasjoner å få tilgang til ekstra posisjonsangiverkommandoer</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Tillater applikasjoner å opprette simulerte posisjonskilder leverandører for testing</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Tillater programmer å få tilgang til informasjon om nettverk</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Tillater applikasjoner å bruke SurfaceFlinger er lavt nivå funksjoner</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Tillater programmer å få tilgang til informasjon om Wi-Fi-nettverk</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Tillater programmer å kalle inn kontoautentiseringstjenester</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Legg inn din stemme på denne kommentar</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Tillater applikasjoner å legge talepost inn i systemet</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Dokumentasjon for alle kopiert til utklippstavlen (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android-pakker</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Merknad</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Er du sikker? Denne operasjonen vil ta lang tid og kan ikke avbrytes.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Som</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Tillater applikasjoner å opptre som en AccountAuthenticator for kontoautentisering</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Forfatter</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a Forum</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Hjelp</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a objekt nettleser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (Community innhold aktivert)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x nettstedsøk</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Tillater applikasjoner å samle batteristatistikk</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Må kreves av et AccessibilityService, for å sikre at bare systemet kan binde seg til den</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Lar applikasjonen fortelle AppWidget tjenesten som programmet kan få tilgang AppWidget data</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Må kreves av enheten administrasjon mottaker, for å sikre at bare systemet kan samhandle med det</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Må kreves av et InputMethodService, for å sikre at bare systemet kan binde seg til den</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Må kreves av et RemoteViewsService, for å sikre at bare systemet kan binde seg til den</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Må kreves av en TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Må kreves av et VpnService, for å sikre at bare systemet kan binde seg til den</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Må kreves av et WallpaperService, for å sikre at bare systemet kan binde seg til den</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Tillater programmer å koble til sammenkoblede Bluetooth-enheter</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Tillater programmer å oppdage og pare Bluetooth-enheter</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Nødvendig å være i stand til å deaktivere enheten (svært farlig!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Tillater applikasjoner å kringkaste en varsling om at en søknad er blitt fjernet</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Tillater applikasjoner å kringkaste en SMS kvittering varsling</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Tillater applikasjoner å kringkaste klissete hensikter</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Tillater applikasjoner å kringkaste en WAP-PUSH kvittering varsling</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Tillater applikasjoner å starte en telefonsamtale uten å gå gjennom Dialer brukergrensesnitt for brukeren å bekrefte samtalen blir plassert</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Tillater applikasjoner å ringe hvilket som helst telefonnummer, inkludert nødnummer, uten å gå gjennom Dialer brukergrensesnitt for brukeren å bekrefte samtalen blir plassert</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Nødvendig å være i stand til å få tilgang til kameraet enheten</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Tillater applikasjoner å endre om et program komponent (annet enn sin egen) er aktivert eller ikke</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Tillater applikasjoner å endre gjeldende konfigurasjon, for eksempel lokalitet</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Tillater programmer å endre nettverksforbindelsen staten</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Tillater programmer å angi Wi-Fi multicast-modus</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Tillater programmer å endre Wi-Fi-tilkobling staten</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Klasse Detaljer</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Dokumentasjon for klasse kopiert til utklippstavlen (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Klasser</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Fjerne</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Lar applikasjonen fjerne cachene av alle installerte programmer på enheten</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Lar applikasjonen fjerne brukerdata</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Kommentar</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Lar aktivere / deaktivere plassering varsling fra radioen</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Kopier</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Kopiere hele banen</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Kopier Navn</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Kopiere navn</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Kopier RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Kopier tekst</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Tillater applikasjoner å slette cache-filer</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Tillater applikasjoner å slette pakker</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Avhenger</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Beskrivelse</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Lar lavt nivå tilgang til strømstyring</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Tillater applikasjoner til RW til diagnostiske ressurser</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Tillater programmer å deaktivere tastelåsen</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Dokumentere alle</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Dokument-klassen</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Dokumentere</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Dokumentbibliotek</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Last ned Community data</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Tillater applikasjoner å hente statlige dump informasjon fra systemtjenester</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Redigere</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Rediger Kommentar</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Rediger beskrivelse</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Inn søkeord</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Hendelser</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Eksempel</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Utgang</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Tillater applikasjoner å vise eller skjule statuslinjen</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Kjør som en produsent test program, som kjører som root brukeren</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Feltet</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Fil</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Gir tilgang til lommelykten</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Tillater applikasjoner å tvinge en ryggoperasjon på hva som er den øverste aktivitet</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Gir tilgang til listen over kontoer i Kontoer service</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Tillater applikasjoner å finne ut plassen som brukes av en pakke</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Tillater applikasjoner å få informasjon om de nå eller nylig kjørende oppgaver</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>inaktiv</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Dokumentasjon for Library kopiert til utklippstavlen (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Bibliotek Valgt; Velg en klasse</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Lasting samfunnet Kommentarer</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Lasting samfunnet Stemmer</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Lasting Libraries</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Lasting bibliotekfil</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Metoder Properties Felt</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Metoder, egenskaper og felt som kopieres til utklippstavlen</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Navn</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Du har ikke Application Paths konfigurert, men du har en sikkerhetskopi av konfigurasjonen. Laste denne konfigurasjonen?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Objekt Wrapper</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Oversikt</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Eier</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Tillatelser</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Konfigurer alternativer, inkludert mappen der B4x Bibliotekene er installert</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Vennligst bekreft</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Eiendom er skrivebeskyttet</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Eiendommen er lese / skrive</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Last Biblioteker</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Merknader</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Fjern din stemme for denne kommentaren</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Returverdi</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF kopiert til utklippstavlen</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Søk</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Søk B4a nettstedet</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Søk&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Se også</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Kort navn</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Standard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Standard XML File</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Syntaks</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Tekst kopiert til utklippstavlen</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Denne klassen er avhengig av</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Denne klassen Wraps</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Verktøy</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Type</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Verdi</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Versjon Virkeområde</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Stemmer</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(Du)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Du har allerede stemt på denne kommentaren</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero avhengigheter]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Du har gitt riktige opplysninger.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Kunne ikke eksportere innstillingene til gjeldende katalog. Sjekk sikkerheten på mappen.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Denne e-postadressen er i bruk allerede.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Kontroller at du har angitt en verdi for hver, og prøv igjen.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identitet opprettet.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identitet oppdatert.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Feil e-postadresse.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Feil passord.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Feil passord eller e-postadresse.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Feil brukernavn.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Velg en mappe for eksport.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Vennligst velg filen du ønsker å importere.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Dette brukernavnet finnes ikke.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Brukernavn lagret i innstillingene.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>feil</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>språk</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>søkelogg</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>studiepoeng</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Takk går til følgende personer for oversettelse og testing hjelp:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>metode</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>eiendom</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Tillater applikasjoner å åpne nettverkskontakter</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Endre denne innstillingen krever en søknad på nytt.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Vis Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Vis Property Get og Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Vis DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Hold deg på toppen</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Se etter oppdatering</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>donere
+</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (prisen på en McDonalds måltid) vil holde meg glad.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Har du vurdert å donere?
+Et lite bidrag vil gjøre meg til å fortsette å støtte B4x samfunnet.
+Når du donere, vil du ikke bli spurt igjen.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Forum</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x hjelp</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x Object Browser fellesskapsinnhold aktivert</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Søk B4x nettstedet</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>IOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Objektsøking</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet versjon</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i hjelp</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j hjelp</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Aktiver redigering</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x kodesnutter</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Legge til tekstutdrag</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Fjerne kodebiten</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Aktiver tekstutdrag dra slipp</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Kodesnutter</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Objekt</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Etikett</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Tekstutdrag tekst</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r hjelp</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Denne klassen har samme ShortName som &lt;PARENTNAME&gt;. &lt;SHORTNAME&gt; '</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>En eller flere klasser i dette biblioteket har en duplikat ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Slett tekstutskrift</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Rediger utdrag</value>
+	</data>
+</root>

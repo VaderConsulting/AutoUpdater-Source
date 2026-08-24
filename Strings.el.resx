@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Σχετικά με</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Προσθέστε</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Μου αγοράσετε μια μπύρα</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>"Άκυρο"</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Ελέγχου</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Το όνομα της κλάσης</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Το σύντομο όνομα της κλάσης</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Κοινότητα</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Δημιουργία</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Διεύθυνση ηλεκτρονικού ταχυδρομείου</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Εξαγωγή</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Πεδία</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Βοήθεια</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Απόκρυψη BA αντικειμένου, εάν η πρώτη παράμετρος</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Ταυτότητα</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Εισαγωγή</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Βιβλιοθήκες</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Βιβλιοθήκη</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Βιβλιοθήκη μονοπάτια</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Φορτίο XML κατά παραγγελία</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Μέθοδοι</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>Ok</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Επιλογές</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Κωδικός πρόσβασης</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Ιδιότητες</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Απελευθέρωση</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Κατάργηση</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Αποθήκευση</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Εμφάνιση κενών παρενθέσεων ακολουθούμενων</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Εμφάνιση πλήρους Typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Εμφάνιση ετικετών</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Εμφάνιση αποτελεσμάτων αναζήτησης στη βιβλιοθήκη κλάσης TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Εμφάνιση κενό στη χρήση</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Ενημέρωση</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Διεύθυνση στο Διαδίκτυο</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Χρήση κοινοτικών δεδομένων</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Όνομα χρήστη</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Έκδοση</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Θέα</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Επιτρέπει πρόσβαση ανάγνωσης/εγγραφής στον πίνακα 'Ιδιότητες' στη checkin βάση δεδομένων, για να αλλάξετε τιμές που να ανεβάσει</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να αποκτήσει πρόσβαση στην τοποθεσία κατά προσέγγιση που προέρχεται από δίκτυο τοποθεσία πηγές, όπως κεραίες κινητής τηλεφωνίας και Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να πρόσβαση ακριβή τοποθεσία προέλευσης τοποθεσία όπως το GPS, κεραίες κινητής τηλεφωνίας και Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για να αποκτήσετε πρόσβαση σε επιπλέον θέση παροχέα εντολών</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για τη δημιουργία πλαστή τοποθεσία υπηρεσίες παροχής για τη δοκιμή</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να έχουν πρόσβαση σε πληροφορίες σχετικά με τα δίκτυα</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για να χρησιμοποιήσετε το χαμηλό επίπεδο χαρακτηριστικά του SurfaceFlinger</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να έχουν πρόσβαση σε πληροφορίες σχετικά με τα δίκτυα Wi-Fi</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να την θέτουν υπό AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Προσθέστε την ψήφο σας για αυτό το σχόλιο</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να προσθέσετε φωνητικά ταχυδρομεία στο σύστημα</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Τεκμηρίωση για όλα αντιγράφονται στο Πρόχειρο (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android πακέτα</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Σχολιασμός</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Είσαι σίγουρος?  Αυτή η λειτουργία θα πάρει πολύ χρόνο και είναι αδύνατο να διακοπεί.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Ως</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να ενεργεί ως ένα AccountAuthenticator για το λογαριασμού</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Συγγραφέας</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a φόρουμ</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a βοήθεια</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x αντικειμένων</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a αντικειμένων (περιεχόμενο Κοινότητας ενεργοποιημένη)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>Αναζήτηση στον ιστότοπο B4x</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για τη συλλογή στατιστικών μπαταρία</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Πρέπει να απαιτείται από ένα AccessibilityService, για να εξασφαλιστεί ότι μόνο το σύστημα μπορεί να δεσμεύσει σε αυτό</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για να πω την υπηρεσία AppWidget ποια εφαρμογή να πρόσβαση σε δεδομένα του AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Πρέπει να υποχρεωθούν από συσκευή δέκτη διοίκηση, να διασφαλίζουν ότι μόνο το σύστημα μπορεί να αλληλεπιδράσει με αυτό</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Πρέπει να απαιτείται από ένα InputMethodService, για να εξασφαλιστεί ότι μόνο το σύστημα μπορεί να δεσμεύσει σε αυτό</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Πρέπει να απαιτείται από ένα RemoteViewsService, για να εξασφαλιστεί ότι μόνο το σύστημα μπορεί να δεσμεύσει σε αυτό</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Θα πρέπει να απαιτείται από μια υπηρεσία κειμένου</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Πρέπει να απαιτείται από ένα VpnService, για να εξασφαλιστεί ότι μόνο το σύστημα μπορεί να δεσμεύσει σε αυτό</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Πρέπει να απαιτείται από ένα WallpaperService, για να εξασφαλιστεί ότι μόνο το σύστημα μπορεί να δεσμεύσει σε αυτό</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να συνδέσει με ζεύγη bluetooth συσκευές</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να ανακαλύψουν και να ζεύγος συσκευές bluetooth</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Απαιτείται να είναι σε θέση να απενεργοποιήσετε τη συσκευή (πολύ επικίνδυνο!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να μεταδίδει μια ειδοποίηση ότι έχει αφαιρεθεί ένα πακέτο εφαρμογών</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να μεταδίδει μια γνωστοποίηση παραλαβής SMS</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να μεταδίδει κολλώδη προθέσεις</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να μεταδίδει ένα WAP PUSH γνωστοποίηση παραλαβής</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να κινήσει ένα τηλεφώνημα χωρίς να περάσει από το Dialer ενδιάμεσο με τον χρήστη για τον χρήστη να επιβεβαιώσει την κλήση που τοποθετείται</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να καλέσει οποιοδήποτε αριθμό τηλεφώνου, συμπεριλαμβανομένων αριθμούς έκτακτης ανάγκης, χωρίς να περάσει από το Dialer ενδιάμεσο με τον χρήστη για τον χρήστη να επιβεβαιώσει την κλήση που τοποθετείται</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Απαιτείται να είναι σε θέση να έχουν πρόσβαση στη συσκευή φωτογραφική μηχανή</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να αλλάξει αν ένα στοιχείο εφαρμογή (εκτός από το δικό του) είναι ενεργοποιημένη ή όχι</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να τροποποιήσετε τις τρέχουσες παραμέτρους, όπως η εντοπιότητα</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να αλλάξετε την κατάσταση της σύνδεσης δικτύου</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να ενεργοποιήσετε τη λειτουργία πολλαπλής διανομής Wi-Fi</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να αλλάξει κατάσταση συνδεσιμότητα Wi-Fi</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Κατηγορίας λεπτομέρειες</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Τεκμηρίωση ηηρ αντιγραφεί στο Πρόχειρο (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Μαθήματα</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Σαφές</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για να καθαρίσετε την cache του όλες τις εγκατεστημένες εφαρμογές στη συσκευή</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να καταργήσετε δεδομένα χρήστη</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Σχόλιο</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Επιτρέπει την ενεργοποίηση/απενεργοποίηση θέση κοινοποιήσεις ενημέρωση από το ραδιόφωνο</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Αντίγραφο</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Αντιγράψτε την πλήρη διαδρομή</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Αντιγράψτε το όνομα</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Αντιγράψτε τα ονόματα</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Αντίγραφο RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Αντιγραφή κειμένου</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να διαγράψει αρχεία cache</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να διαγράψετε πακέτα</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Εξαρτάται από την</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Περιγραφή</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Επιτρέπει πρόσβαση χαμηλού επιπέδου σε διαχείριση ενέργειας</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να RW σε διαγνωστικό πόρους</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να θέσει εκτός λειτουργίας το κλείδωμα</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Τον ΟΛΕΣ</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Έγγραφο της κατηγορίας</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Τεκμηρίωση</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Βιβλιοθήκη εγγράφων</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Λήψη δεδομένων της Κοινότητας</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να ανακτήσετε πληροφορίες ένδειξης κατάστασης από τις υπηρεσίες συστήματος</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Επεξεργασία</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Επεξεργαστείτε το σχόλιο</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Επεξεργαστείτε περιγραφή</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Εισάγετε όρο αναζήτησης</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Εκδηλώσεις</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Παράδειγμα</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Έξοδος</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να αναπτύξετε ή να συμπτύξετε τη γραμμή κατάστασης</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Τρέχει ως εφαρμογή δοκιμής κατασκευαστής, τρέχει ως χρήστης root</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Πεδίο</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Αρχείο</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Επιτρέπει την πρόσβαση σε το φακό</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να αναγκάσει μια λειτουργία πίσω σε ό, τι αποτελεί την κορυφαία δραστηριότητα</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Επιτρέπει την πρόσβαση στη λίστα των λογαριασμών στην υπηρεσία λογαριασμών</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή να ανακαλύψει το χώρο που χρησιμοποιείται από οποιοδήποτε πακέτο</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Επιτρέπει σε μια εφαρμογή για να πάρει πληροφορίες σχετικά με την επί του παρόντος ή πρόσφατα εκτελούμενες εργασίες</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>ΑΔΡΑΝΩΝ</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Τεκμηρίωση για βιβλιοθήκη αντιγραφεί στο Πρόχειρο (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Βιβλιοθήκη επιλεγεί? Επιλέξτε μια κατηγορία</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Φόρτωση Κοινότητα σχόλια</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Φόρτωση Κοινότητα ψήφους</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Φόρτωση των βιβλιοθηκών</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Φόρτωση αρχείου βιβλιοθήκης</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Μέθοδοι ιδιοτήτων πεδίων</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Μεθόδους, ιδιότητες και πεδία αντιγραφή στο Πρόχειρο</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Όνομα</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Δεν έχετε εφαρμογή ρυθμισμένες διαδρομές, αλλά έχετε ένα αντίγραφο ασφαλείας της διαμόρφωσης.  Φορτίο αυτήν τη ρύθμιση;</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Αντικείμενο περιτύλιγμα</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Επισκόπηση</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Ιδιοκτήτης</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Δικαιώματα</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Ρυθμίστε τις επιλογές, συμπεριλαμβανομένου του φακέλου όπου εγκαθίστανται οι B4x βιβλιοθήκες</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Επιβεβαιώστε</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Ιδιότητα είναι μόνο για ανάγνωση</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Η ιδιότητα είναι ανάγνωσης/εγγραφής</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Επαναφόρτωση βιβλιοθήκες</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Παρατηρήσεις</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Αφαιρέστε την ψήφο σας για αυτό το σχόλιο</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Επιστρεφόμενη τιμή</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF αντιγραφεί στο Πρόχειρο</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Αναζήτηση</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>ΑΝΑΖΗΤΗΣΗ B4a</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Αναζήτηση&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Δείτε επίσης:</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Σύντομη ονομασία</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Πρότυπο</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Το αρχείο προτύπου XML</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Σύνταξη</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Το κείμενο αντιγράφεται στο Πρόχειρο</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Εξαρτάται από αυτή την κατηγορία</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Αυτή η κατηγορία αναδιπλώνεται</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Εργαλεία</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Τύπος</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Αξία</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Έκδοση εφαρμογής</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Ψηφοφορίες</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(σας)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Ψηφίσατε ήδη σχετικά με αυτό το σχόλιο</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Μηδέν εξαρτήσεις]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Έχετε δώσει τα σωστά στοιχεία.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Δεν μπόρεσε να εξαγάγει ρυθμίσεις στον τρέχοντα κατάλογο. Έλεγχος ασφαλείας στο φάκελο.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου είναι ήδη σε χρήση.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Εξασφάλιση έχετε εισάγει μια τιμή για κάθε, και προσπαθήστε ξανά.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Ταυτότητα που δημιουργήθηκε.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Ταυτότητα ενημέρωση.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Εσφαλμένη διεύθυνση ηλεκτρονικού ταχυδρομείου.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Εσφαλμένος κωδικός πρόσβασης.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Εσφαλμένο κωδικό πρόσβασης ή ηλεκτρονικό ταχυδρομείο διεύθυνση.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Εσφαλμένο όνομα χρήστη.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Παρακαλώ επιλέξτε ένα φάκελο για την εξαγωγή.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Παρακαλώ επιλέξτε το αρχείο που θέλετε να εισαγάγετε.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Αυτό το όνομα χρήστη δεν υπάρχει.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Όνομα χρήστη αποθηκεύονται στις ρυθμίσεις.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Σφάλμα</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Γλώσσα</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Ιστορικό αναζήτησης</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Πιστώσεις</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Ευχαριστίες στους ακόλουθους ανθρώπους για μετάφραση και δοκιμή βοήθεια:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>Μέθοδος</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>Ιδιοκτησίας</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Επιτρέπει στις εφαρμογές να ανοίξει το πρίζες δικτύου</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Αλλάζοντας αυτή τη ρύθμιση απαιτεί μια επανεκκίνηση της εφαρμογής.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Εμφάνιση Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Εμφάνιση ιδιότητα παίρνει και καθορισμένη ιδιότητα</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Εμφάνιση DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Μείνετε στην κορυφή</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Έλεγχος για ενημέρωση</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>Δωρίσουν</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 δολάρια (η τιμή ενός γεύματος McDonalds) θα με κρατήσει ευτυχείς.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Έχετε εξετάσει δωρεά;
+Μια μικρή δωρεά θα μου επιτρέψει να συνεχίσει την υποστήριξη της Κοινότητας B4x.
+Μόλις μπορείτε να δωρίσετε, θα δεν θα σας ζητηθεί και πάλι.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x φόρουμ</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x βοήθεια</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x περιεχόμενο Κοινότητας αντικείμενο Browser ενεργοποιημένη</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>ΑΝΑΖΗΤΗΣΗ B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>Ίος API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a αντικειμένων</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Έκδοση doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i βοήθεια</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j βοήθεια</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Επιτρέπει αλλαγές</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>Τμήματα του κώδικα B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Προσθέστε το απόσπασμα</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Αφαιρέστε το απόσπασμα</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Ενεργοποίηση απόσπασμα απόθεση</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Τμήματα του κώδικα</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Αντικείμενο</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Ετικέτα</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Απόσπασμα κειμένου</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r βοήθεια</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Αυτή η κλάση έχει το ίδιο ShortName με το &lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Μία ή περισσότερες τάξεις μέσα σε αυτήν τη Βιβλιοθήκη έχουν διπλό ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Διαγραφή αποσπάσματος</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Επεξεργασία αποσπάσματος</value>
+	</data>
+</root>

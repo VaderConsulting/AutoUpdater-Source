@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+    <value>A proposito di…</value>
+  </data>
+	<data name="ClassName" xml:space="preserve">
+    <value>Nome della classe</value>
+  </data>
+	<data name="ClassShortName" xml:space="preserve">
+    <value>Nome breve della classe </value>
+  </data>
+	<data name="Libraries" xml:space="preserve">
+    <value>Librerie</value>
+  </data>
+	<data name="Library" xml:space="preserve">
+    <value>Libreria</value>
+  </data>
+	<data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+	<data name="Version" xml:space="preserve">
+    <value>Versione</value>
+  </data>
+	<data name="Add" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+	<data name="BuymeaBeer" xml:space="preserve">
+    <value>Giusto per una birra…</value>
+  </data>
+	<data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+	<data name="Check" xml:space="preserve">
+    <value>Verifica</value>
+  </data>
+	<data name="Community" xml:space="preserve">
+    <value>Comunità</value>
+  </data>
+	<data name="Create" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+	<data name="EmailAddress" xml:space="preserve">
+    <value>Indirizzo e-mail</value>
+  </data>
+	<data name="Export" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+	<data name="Fields" xml:space="preserve">
+    <value>Campi</value>
+  </data>
+	<data name="Help" xml:space="preserve">
+    <value>Aiuto</value>
+  </data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+    <value>Nascondi l'oggetto BA se è il primo parametro</value>
+  </data>
+	<data name="Identity" xml:space="preserve">
+    <value>Identità</value>
+  </data>
+	<data name="Import" xml:space="preserve">
+    <value>Importa</value>
+  </data>
+	<data name="LibraryPaths" xml:space="preserve">
+    <value>Percorso alla cartella che contiene le librerie</value>
+  </data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+    <value>Carica il file XML su richiesta</value>
+  </data>
+	<data name="Methods" xml:space="preserve">
+    <value>Metodi</value>
+  </data>
+	<data name="Options" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+	<data name="Password" xml:space="preserve">
+    <value>Parola chiave</value>
+  </data>
+	<data name="Properties" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+	<data name="Release" xml:space="preserve">
+    <value>Distribuzione</value>
+  </data>
+	<data name="Remove" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+	<data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+    <value>Mostra le parentesi vuote</value>
+  </data>
+	<data name="ShowFullTypename" xml:space="preserve">
+    <value>Mostra il nome completo del type</value>
+  </data>
+	<data name="ShowLabels" xml:space="preserve">
+    <value>Mostra le etichette</value>
+  </data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+    <value>Mostra i risultati della ricerca nella TreeView delle classi della libreria</value>
+  </data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+    <value>Mostra i Void</value>
+  </data>
+	<data name="Update" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+	<data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+	<data name="UseCommunityData" xml:space="preserve">
+    <value>Usa i dati della comunità</value>
+  </data>
+	<data name="Username" xml:space="preserve">
+    <value>Nome Utente</value>
+  </data>
+	<data name="View" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+    <value>Permette la lettura/scrittura della tabella delle "proprietà" nel database di checkin, per modificare i valori che vengono caricati</value>
+  </data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+    <value>Permette ad un'applicazione di accedere alla posizione approssimativa provenienti dalle fonti dei percorsi di rete, come le torri per i cellulari e i Wi-Fi</value>
+  </data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+    <value>Permette ad un'applicazione di accedere al percorso preciso fornito dalle fonti di localizzazione come il GPS, torri per i cellulari, e i Wi-Fi</value>
+  </data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+    <value>Permette ad un'applicazione di accedere ai comandi aggiuntivi del provider di localizzazione</value>
+  </data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+    <value>Permette ad un'applicazione di creare provider di localizzazione fittizi, da usare come test</value>
+  </data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+    <value>Permette alle applicazioni di accedere alle informazioni sulle reti</value>
+  </data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+    <value>Permette ad un'applicazione di utilizzare le funzionalità a basso livello di SurfaceFlinger </value>
+  </data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+    <value>Permette alle applicazioni di accedere alle informazioni sulle reti Wi-Fi</value>
+  </data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+    <value>Permette alle applicazioni di chiamare AccountAuthenticators</value>
+  </data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+    <value>Aggiungi il tuo voto per questo commento</value>
+  </data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+    <value>Consente ad un'applicazione di aggiungere messaggi vocali al sistema</value>
+  </data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+    <value>Copiata negli appunti la documentazione per tutti (RTF)</value>
+  </data>
+	<data name="AndroidPackages" xml:space="preserve">
+    <value>Pacchetti Android</value>
+  </data>
+	<data name="Annotation" xml:space="preserve">
+    <value>Note</value>
+  </data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+    <value>Questa operazione richiede molto tempo e non può essere interrotta. Confermi?</value>
+  </data>
+	<data name="As" xml:space="preserve">
+    <value>Come</value>
+  </data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+    <value>Consente ad un'applicazione di agire come un AccountAuthenticator per la AccountManager</value>
+  </data>
+	<data name="Author" xml:space="preserve">
+    <value>Autore</value>
+  </data>
+	<data name="B4aForum" xml:space="preserve">
+    <value>Forum B4a</value>
+  </data>
+	<data name="B4aHelp" xml:space="preserve">
+    <value>Aiuto B4a</value>
+  </data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+    <value>Esploratore di Oggetti B4a</value>
+  </data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+    <value>Esploratore di Oggetti B4a (Contenuto della comunità Abilitato)</value>
+  </data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+    <value>Cerca sul sito di B4x</value>
+  </data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+    <value>Permette all'applicazione di raccogliere le statistiche della batteria</value>
+  </data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+    <value>Deve essere richiesto da un AccessibilityService, per assicurare che solo il sistema possa legarsi ad esso</value>
+  </data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+    <value>Permette ad un'applicazione di comunicare al servizio AppWidget quale applicazione può accedere ai dati di AppWidget</value>
+  </data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+    <value>Deve essere richiesto dal dispositivo che gestisce la ricezione, per assicurare che solo il sistema possa interagire con esso</value>
+  </data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+    <value>Deve essere richiesto da un InputMethodService, per assicurare che solo il sistema possa legarsi ad esso</value>
+  </data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+    <value>Deve essere richiesto da un RemoteViewsService, per assicurare che solo il sistema possa legarsi ad esso</value>
+  </data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+    <value>Deve essere richiesto da un TextService</value>
+  </data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+    <value>Deve essere richiesto da un VpnService, per assicurare che solo il sistema possa legarsi ad esso</value>
+  </data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+    <value>Deve essere richiesto da un WallpaperService, per assicurare che solo il sistema possa legarsi ad esso</value>
+  </data>
+	<data name="BLUETOOTH" xml:space="preserve">
+    <value>Permette alle applicazioni di connettersi a dispositivi Bluetooth associati</value>
+  </data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+    <value>Permette alle applicazioni di rilevare e abbinare i dispositivi bluetooth</value>
+  </data>
+	<data name="BRICK" xml:space="preserve">
+    <value>E' Necessario essere in grado di disabilitare il dispositivo (molto pericoloso!)</value>
+  </data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+    <value>Permette ad un'applicazione di inviare una notifica che un pacchetto dell'applicazione è stato rimosso</value>
+  </data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+    <value>Permette ad un'applicazione di trasmettere una notifica di ricezione SMS</value>
+  </data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+    <value>Permette ad un'applicazione di trasmettere intenzioni appiccicose</value>
+  </data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+    <value>Permette ad un'applicazione di trasmettere una notifica di ricezione WAP PUSH</value>
+  </data>
+	<data name="CALL_PHONE" xml:space="preserve">
+    <value>Permette ad un'applicazione di avviare una chiamata telefonica, senza passare attraverso l'interfaccia di chiamata dell'utente, per evitare che l'utente faccia inserimenti per confermarla</value>
+  </data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+    <value>Permette ad un'applicazione di chiamare qualsiasi numero telefonico, compresi i numeri di emergenza, senza passare attraverso l'interfaccia di chiamata dell'utente, per evitare che l'utente faccia inserimenti per confermarlo</value>
+  </data>
+	<data name="CAMERA" xml:space="preserve">
+    <value>E' necessario essere in grado di accedere al dispositivo Fotocamera</value>
+  </data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+    <value>Permette ad un'applicazione di modificare un componente dell'applicazione (diversa dalla propria) sia che sia o non sia abilitato</value>
+  </data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+    <value>Permette ad un'applicazione di modificare la configurazione corrente, ad esempio come quella locale</value>
+  </data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+    <value>Permette alle applicazioni di modificare lo stato della connettività di rete</value>
+  </data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+    <value>Permette alle applicazioni di entrare in modalità Wi-Fi Multicast</value>
+  </data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+    <value>Permette alle applicazioni di modificare lo stato della connettività Wi-Fi</value>
+  </data>
+	<data name="ClassDetails" xml:space="preserve">
+    <value>Dettagli della classe</value>
+  </data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+    <value>Documentazione per la classe copiata negli appunti (RTF)</value>
+  </data>
+	<data name="Classes" xml:space="preserve">
+    <value>Classi</value>
+  </data>
+	<data name="Clear" xml:space="preserve">
+    <value>Pulisci</value>
+  </data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+    <value>Permette ad un'applicazione di cancellare le cache di tutte le applicazioni installate sul dispositivo</value>
+  </data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+    <value>Permette ad un'applicazione di cancellare i dati degli utenti</value>
+  </data>
+	<data name="Comment" xml:space="preserve">
+    <value>Commento</value>
+  </data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+    <value>Permette di abilitare/disabilitare le notifiche di aggiornamento della posizione radio</value>
+  </data>
+	<data name="Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+	<data name="CopyFullPath" xml:space="preserve">
+    <value>Copia percorso completo</value>
+  </data>
+	<data name="CopyName" xml:space="preserve">
+    <value>Copia Nome</value>
+  </data>
+	<data name="CopyNames" xml:space="preserve">
+    <value>Copia Nomi</value>
+  </data>
+	<data name="CopyRTF" xml:space="preserve">
+    <value>Copia RTF</value>
+  </data>
+	<data name="CopyText" xml:space="preserve">
+    <value>Copia Testo</value>
+  </data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+    <value>Permette all'applicazione di eliminare i file di cache</value>
+  </data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+    <value>Permette ad un'applicazione di eliminare i pacchetti</value>
+  </data>
+	<data name="DependsOn" xml:space="preserve">
+    <value>Dipendenze</value>
+  </data>
+	<data name="Description" xml:space="preserve">
+    <value>Descrizione</value>
+  </data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+    <value>Permette l'accesso a basso livello del gestione dell'energia</value>
+  </data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+    <value>Permette alle applicazioni di RW di accedere alla risorse diagnostiche</value>
+  </data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+    <value>Permette alle applicazioni di disattivare il blocco della tastiera</value>
+  </data>
+	<data name="DocumentAll" xml:space="preserve">
+    <value>Documentare Tutto</value>
+  </data>
+	<data name="DocumentClass" xml:space="preserve">
+    <value>Documentare la Classe</value>
+  </data>
+	<data name="Documenting" xml:space="preserve">
+    <value>Documentare</value>
+  </data>
+	<data name="DocumentLibrary" xml:space="preserve">
+    <value>Documentare la Libreria</value>
+  </data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+    <value>Scarica i dati della comunità</value>
+  </data>
+	<data name="DUMP" xml:space="preserve">
+    <value>Permette ad un'applicazione di recuperare le informazioni sullo stato di dump dei servizi del sistema</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+	<data name="EditComment" xml:space="preserve">
+    <value>Modifica Commento</value>
+  </data>
+	<data name="EditDescription" xml:space="preserve">
+    <value>Modifica Descrizione</value>
+  </data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+    <value>Inserire il termine da ricercare</value>
+  </data>
+	<data name="Events" xml:space="preserve">
+    <value>Eventi</value>
+  </data>
+	<data name="Example" xml:space="preserve">
+    <value>Esempio</value>
+  </data>
+	<data name="Exit" xml:space="preserve">
+    <value>Uscita</value>
+  </data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+    <value>Permette ad un'applicazione di espandere o comprimere la barra di stato</value>
+  </data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+    <value>Funziona come un'applicazione di test del produttore, in esecuzione come utente root</value>
+  </data>
+	<data name="Field" xml:space="preserve">
+    <value>Campo</value>
+  </data>
+	<data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+    <value>Permette l'accesso alla torcia</value>
+  </data>
+	<data name="FORCE_BACK" xml:space="preserve">
+    <value>Permette ad un'applicazione di forzare un'operazione BACK sull'attività principale</value>
+  </data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+    <value>Permette l'accesso alla lista di account nel Servizio  di Accounts</value>
+  </data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+    <value>Permette ad un'applicazione di conoscere lo spazio utilizzato da un qualsiasi pacchetto</value>
+  </data>
+	<data name="GET_TASKS" xml:space="preserve">
+    <value>Permette ad un'applicazione di ottenere informazioni sulle attività attualmente in esecuzione o recenti</value>
+  </data>
+	<data name="Idle" xml:space="preserve">
+    <value>Inattivo</value>
+  </data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+    <value>Copiata negli appunti la documentazione per la libreria (RTF)</value>
+  </data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+    <value>Libreria selezionata; scegliere una classe</value>
+  </data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+    <value>Caricamento commenti della comunità</value>
+  </data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+    <value>Caricamento voti della comunità</value>
+  </data>
+	<data name="LoadingLibraries" xml:space="preserve">
+    <value>Caricamento Librerie</value>
+  </data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+    <value>Caricamento file di libreria</value>
+  </data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+    <value>Metodi Proprietà Campi</value>
+  </data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+    <value>Copiati negli appun Metodi, Proprietà e Campi</value>
+  </data>
+	<data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+    <value>Non si dispone di un percorso configurato per l'applicazione, ma si dispone di una copia di backup della configurazione. Caricare questa configurazione?</value>
+  </data>
+	<data name="ObjectWrapper" xml:space="preserve">
+    <value>Incapsula l'Oggetto</value>
+  </data>
+	<data name="Overview" xml:space="preserve">
+    <value>Panoramica</value>
+  </data>
+	<data name="Owner" xml:space="preserve">
+    <value>Proprietario</value>
+  </data>
+	<data name="Permissions" xml:space="preserve">
+    <value>Autorizzazioni</value>
+  </data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+    <value>Si prega di configurare le opzioni, compresa la cartella in cui sono installate le librerie di B4x</value>
+  </data>
+	<data name="PleaseConfirm" xml:space="preserve">
+    <value>Si prega di confermare</value>
+  </data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>La Proprietà è di sola lettura</value>
+  </data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+    <value>La Proprietà è di lettura/scrittura</value>
+  </data>
+	<data name="ReloadLibraries" xml:space="preserve">
+    <value>Ricarica Librerie</value>
+  </data>
+	<data name="Remarks" xml:space="preserve">
+    <value>Commento</value>
+  </data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+    <value>Rimuovi il tuo voto per questo commento</value>
+  </data>
+	<data name="ReturnValue" xml:space="preserve">
+    <value>Valore restituito</value>
+  </data>
+	<data name="RTFCopied" xml:space="preserve">
+    <value>RTF copiato negli appunti</value>
+  </data>
+	<data name="Search" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+	<data name="SearchB4aSite" xml:space="preserve">
+    <value>Cerca sul sito di B4a</value>
+  </data>
+	<data name="SearchText" xml:space="preserve">
+    <value>&lt;Cerca&gt;</value>
+  </data>
+	<data name="SeeAlso" xml:space="preserve">
+    <value>Vedere anche</value>
+  </data>
+	<data name="ShortName" xml:space="preserve">
+    <value>Nome breve</value>
+  </data>
+	<data name="Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+	<data name="StandardXMLFile" xml:space="preserve">
+    <value>File standard XML</value>
+  </data>
+	<data name="Syntax" xml:space="preserve">
+    <value>Sintassi</value>
+  </data>
+	<data name="TextCopied" xml:space="preserve">
+    <value>Testo copiato negli appunti</value>
+  </data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+    <value>Questa classe dipende da</value>
+  </data>
+	<data name="ThisClassWraps" xml:space="preserve">
+    <value>Questa classe incapsula</value>
+  </data>
+	<data name="Tools" xml:space="preserve">
+    <value>Strumenti</value>
+  </data>
+	<data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+	<data name="Value" xml:space="preserve">
+    <value>Valore</value>
+  </data>
+	<data name="VersionApplicability" xml:space="preserve">
+    <value>Versione Applicabilità</value>
+  </data>
+	<data name="Votes" xml:space="preserve">
+    <value>Voti</value>
+  </data>
+	<data name="You" xml:space="preserve">
+    <value>(Tu)</value>
+  </data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+    <value>Hai già votato questo commento</value>
+  </data>
+	<data name="ZeroDependencies" xml:space="preserve">
+    <value>[Zero Dipendenze]</value>
+  </data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Le informazioni fornite sono corrette.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Impossibile esportare le impostazioni nella directory corrente. Verificare le proprietà della cartella.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Questo indirizzo e-mail è già in uso.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Assicurarsi di aver immesso un valore per ciascuno, e riprovare.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Creta Identità.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Aggiornata Identità.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Indirizzo e-mail non corretto.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Parola chiave non corretta.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>La parola chiave o l'indirizzo e-mail non sono corretti.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Nome utente non corretto.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Si prega di scegliere una cartella per l'esportazione.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Si prega di selezionare il file che si desidera importare.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Questo nome utente non esiste.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Il nome utente è stato salvato nelle impostazioni.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Errore</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Lingua</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Cronologia ricerche</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Credits</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Un ringraziamento alle seguenti persone per l'assistenza di traduzione e test:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>metodo</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>proprietà</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Consente alle applicazioni di aprire socket di rete</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>La modifica di questa impostazione richiede un riavvio dell'applicazione.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Mostra Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Mostra Property Get y Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Mostra DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Rimanere in cima</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Controllare l'aggiornamento</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>donare
+</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 dollari (il prezzo di un pasto McDonalds) mi manterrà felice.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Avete considerato donare?
+Un piccolo contributo mi permetterà di continuare a sostenere la comunità B4x.
+Una volta donare, non verrà chiesto di nuovo.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>Forum B4x</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x aiuto</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x oggetto Browser comunità contenuto abilitato</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Cerca sul sito di B4x</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>API Java</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x oggetto Browser</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Versione doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>Aiuto B4i</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>Aiuto B4j</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Abilitare le modifiche</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x frammenti di codice</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Aggiungere il frammento</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Rimuovere il frammento</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Abilitare il frammento Drag Drop</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Frammenti di codice</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Oggetto</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Etichetta</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Testo del frammento</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>Aiuto B4r</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Questa classe ha lo stesso ShortName come '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Una o più classi di questa libreria hanno un duplicato ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Elimina Snippet</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Modifica snippet</value>
+	</data>
+</root>

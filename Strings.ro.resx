@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>Despre</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Adauga</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Cumpara-mi o bere</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Anulati</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Verificati</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Numele clasei</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Numele scurt al clasei</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>Comunitate</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>Creati</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Adresa e-mail</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>Exportati</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Campuri</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>Ajutor</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Mascati obiectul B4A daca primul parametru</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>Identitate</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>Importati</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Biblioteci</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>Biblioteca</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Dosare de biblioteci</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Incarcati fisierul XML la cerere</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Metode</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Optiuni</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>Parola</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Proprietati</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>Eliberati</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Indepartati</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Inregistrati</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Vedeti paranteze goale</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Vedeti numele tipului in intreg</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Afisati etichetele</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Afisati rezultatele cautarii in arborescenta claselor de biblioteca</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Afiseaza Void-urile</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>Actualizeaza</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Adresa internet</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Utilizati datele comunitare</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Nume de utilizator</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>Versiune</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>Vedeti</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Permite citirea/scrierea tabloului de proprietati in baza de date "checkin", modificarea valorilor descarcate</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Permite accesul la locatia aproximativa a surselor de provenienta : retea (celulara sau fara fir)</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Permite accesul la locatia exacta a surselor de provenienta : localizare  (gps, celulara sau fara fir)</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Permite accesul comenzilor care furnizeaza pozitie geografica suplimentara</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Permite crearea furnizatorilor de localizare fictiva pentru a testa</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Permite accesul la informatiile de retea</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Permite utilizarea functiilor de nivel scazut SurfaceFlinger</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Permite accesul la informatii din retelele fara fir</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Permite apelarea in AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Adauga un vot pentru acest comentariu</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Permite adaugarea de mesaje vocale in sistem</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Documentatie pentru a copia tot</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Pachete Android</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>Notita</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Sunteti sigur? Aceasta operatie va dura mult timp si nu poate fi intrerupta</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>Ca si</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Permite de a actiona ca un AccountAuthenticator pentru AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Autor</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>Forum B4A</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>Ajutor B4A</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>Explorator de obiecte B4A</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>Explorator de obiecte B4x (continut in comunitatea activata)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>Cautati pe site-ule B4X</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Permite colectarea de statistica a bateriei</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Trebuie detinut de catre AccessibilityService pentru ca doar sistemul sa poata avea legatura</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Permite explicarea unui serviciu AppWidget, ce aplicatie poate accesa datele AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Trebuie detinut de catre administrarea receptirului numeric, pentru a se asigura ca doar sistemul poate reactiona cu acesta</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Trebuie detinut de catre un InputMethodService</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Trebuie detinut de catre un RemoteViewsService</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Trebuie detinut de catre un TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Trebuie detinut de catre un VPNService</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Trebuie detinut de catre un WallpaperService</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Permite conectarea cu aparatele blootooth cuplate</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Permite descoperirea aparatelor Blootooth</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Necesar pentru a fi in masura de a dezactiva un periferic</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Permite difuzarea unei notificare precum ca dosarul cerut a fost retras</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Permite difuzarea unei notificari de receptie SMS</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Permite difuzarea unei intentii lipicioase</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Permite difuzarea unei notificatii de receptie WAP PUSH</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Permite lansarea unui appel telefonic fara a utiliza interfata Dialer</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Necesar pentru a putea accesa perifericul "camera"</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Permite activarea/dezactivarea unui component al aplicatiei</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Permite modificarea configuratiei actuale, ca si loc</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Permite modificarea starii de conectivitate retea</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Permite setarea WI-FI ca si multicast</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Permite modificarea conectivitatii WI-FI</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Detaliile clasei</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Documentatia clasei este copiata</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>Clase</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>Stergeti</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Permite stergerea memoriei "cache" din toate aplicatiile instalate</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Permite stergerea datelor de utilizator</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>Comentati</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Permite activarea/dezactivarea notificarilor de actualizare a localizarii radio</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>Copiati</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Copiati ruta completa</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Copiati numele</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Copiati nume</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Copiati RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Copiati textul</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Permite stergerea fisierelor cache</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Permite stergerea pachetelor</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>Dependinte</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Descriere</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Permite un nivel scazut de acces la gestiunea energiei</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Permite accesul la resursele diagnosticate</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Permite dezactivarea tastaturii</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Documentati tot</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Documentati clasa</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>Documentare</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Documentati biblioteca</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Descarcati datele comunitare</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Permite recuperarea informatiilor de golire a starii serviciilor sistemului</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Editati</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Modificati comentariul</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Modificati descrierea</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Introduceti un termen pentru cautare</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Evenimente</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Exemplu</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Iesire</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Permite redimensionarea barii de stare</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Functioneaza ca o aplicatie de test constructor, in curs de executie ca si utilizator "root"</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>Camp </value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>Fisier</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Ofera accesul la flash</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Permite fortarea unei operatii "back" la activitatea principala</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Permite accesul la listele de conturi din functia conturi</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Permite descoperirea spatiului utilizat de catre un alt pachet</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Permite obtinerea de informatii despre sarcinile in curs de executie sau recente</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>Inactiv</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Documentatia pentru biblioteca este copiata</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Biblioteca selectionata, alegeti o clasa</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Incarcarea comentariilor din comunitate</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Incarcarea voturilor din comunitate</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Incarcarea bibliotecilor</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Incarcarea fisierului din biblioteca</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Campuri, proprietati si metode</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Metode, proprietati si campuri copiate</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>Nume</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Incapsulati obiectul</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>Vedere de ansamblu</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>Proprietar</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Autorizatii</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Va rog sa configurati optiunile si dosarul unde sunt instalate bibliotecile B4A</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Confirmati va rog</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Proprietate in citire</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Proprietate in citire/scriere</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Reincarcati bibliotecile</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Remarci</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Stergeti votul pentru acest comentariu</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Valoare de retur</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF copiat</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Cautati</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Cautati pe site-ul B4A</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;Cautati&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Vedeti de asemenea</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Nume scurt</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>Standard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Fisier standard XML</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>Sintaxa</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Text copiat</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Aceasta clasa depinde de</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Aceasta clasa incapsuleaza</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>Unelte</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>Tip</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>Valoare</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Versiunea de aplicabilitate</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Voturi</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>Dumneavoastra</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Ati evaluat déjà acest comentariu</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>Nici o dependenta</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Informatiile furnizate sunt corecte</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Exportarea fisierului de configuratie in acest dosar este imposibila. Verificati proprietatile dosarului</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Aceasta adresa de e-mail este deja utilizata</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Verificati ca ati introdus toate informatiile si reincercati</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identifiant creat</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identifiant actualizat</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Adresa e-mail incorecta</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Parola incorecta</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Adresa e-mail sau parola incorecta</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Nume de utilizator incorect</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Alegeti dosarul de exportare</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Selectionati fisierul de importat</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Acest nume de utilizator nu exista</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Numele de utilizator a fost inregistrat in parametrii de configuratie</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Eroare</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>Limba</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Istoricul de cautare</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Credite</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Multumesc urmatoarelor persoane pentru serviciile de traducere si de incercari</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>Metoda</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>Proprietate</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Permite deschiderea de Socket retea</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Modificare acestui parametru necesita o repornire a aplicatiei</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Vedeti Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Vedeti Property Get și Property Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Vedeti DesignerCreateView</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Nu trebuie poteci aplicației configurat, dar aveți o copie de rezervă a configurației. Încărca această configurație?</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Rămâi pe partea de sus</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Verifica pentru actualizare</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>dona</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>10 dolari (prețul unei mese McDonalds) mă va menține fericit.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Ați luat în considerare donarea?
+O mică contribuție mă va permite să continue să sprijine comunitatea B4x.
+Odată ce ați dona, nu vi se va cere din nou.</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Permite o cerere pentru a apela orice număr de telefon, inclusiv numerele de urgenţă, fără a trece prin interfaţa cu utilizatorul Dialer pentru utilizator de a confirma apelul plasate</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>Forum B4A</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x ajutor</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x obiect conținut comunitate Browser activat</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Cautati pe site-ul B4A</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Object Browser</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet versiune</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i ajutor</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j ajutor</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Permite editări</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>Fragmente de cod B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Adauga fragment</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Elimina fragment</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Permite fragmentul de glisare</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Fragmente de cod</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Obiect</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Eticheta</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Fragment de text</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r ajutor</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Această clasă are același ShortName ca și &lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Una sau mai multe clase din cadrul acestei Biblioteci au un duplicat ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Ștergeți fragmentul</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Editați fragmentul</value>
+	</data>
+</root>

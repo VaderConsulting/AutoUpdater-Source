@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<configuration>
+    <configSections>
+        <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="Browser.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+    <!--<System.Windows.Forms.ApplicationConfigurationSection>       <add key="DpiAwareness" value="PerMonitorV2"/>
+    </System.Windows.Forms.ApplicationConfigurationSection>-->
+    <entityFramework>
+        <defaultConnectionFactory type="System.Data.Entity.Infrastructure.LocalDbConnectionFactory, EntityFramework">
+            <parameters>
+                <parameter value="v11.0"/>
+            </parameters>
+        </defaultConnectionFactory>
+    </entityFramework>
+    <userSettings>
+        <Browser.Properties.Settings>
+            <setting name="ShowMethods" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowProperties" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowFields" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowEmptyParentheses" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowVoidInUsage" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowFullTypeName" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AdditionalB4aLibraryPaths" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+                </value>
+            </setting>
+            <setting name="LoadXMLOnDemand" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="HideBAObjectIfFirstParameter" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="B4aHelpURL" serializeAs="String">
+                <value>http://www.b4x.com/android/documentation.html</value>
+            </setting>
+            <setting name="frmMainLocation" serializeAs="String">
+                <value>0, 0</value>
+            </setting>
+            <setting name="frmMainWindowState" serializeAs="String">
+                <value>Normal</value>
+            </setting>
+            <setting name="frmMainWidth" serializeAs="String">
+                <value>800</value>
+            </setting>
+            <setting name="frmMainHeight" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="LastSelectedClass" serializeAs="String">
+                <value>Core</value>
+            </setting>
+            <setting name="FirstRun" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="Release" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ClassDetailsVisible" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowLabels" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="ShowSearchResultsInLibraryClassTreeView" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Language" serializeAs="String">
+                <value>English</value>
+            </setting>
+            <setting name="ShowPropertyGetAndSet" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowClass_Global" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="ShowDesignerCreateView" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DonateDate" serializeAs="String">
+                <value>1900-01-01</value>
+            </setting>
+            <setting name="InstallDate" serializeAs="String">
+                <value>2013-11-11</value>
+            </setting>
+            <setting name="AlwaysOnTop" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AdditionalB4iLibraryPaths" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+                </value>
+            </setting>
+            <setting name="AdditionalB4jLibraryPaths" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+                </value>
+            </setting>
+            <setting name="B4iHelpURL" serializeAs="String">
+                <value>http://www.b4x.com/b4i/documentation.html</value>
+            </setting>
+            <setting name="B4jHelpURL" serializeAs="String">
+                <value>http://www.b4x.com/b4j/documentation.html</value>
+            </setting>
+            <setting name="LastLanguage" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="EnableSnippetDragDrop" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AdditionalB4rLibraryPaths" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+                </value>
+            </setting>
+            <setting name="B4rHelpURL" serializeAs="String">
+                <value>http://www.b4x.com/b4r/documentation.html</value>
+            </setting>
+        </Browser.Properties.Settings>
+    </userSettings>
+    <system.serviceModel>
+        <bindings/>
+        <client/>
+    </system.serviceModel>
+</configuration>

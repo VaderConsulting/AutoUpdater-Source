@@ -1,0 +1,30 @@
+﻿To override language settings:
+
+Open the existing language.txt file (in the same folder as Browser.exe)
+Place one of the following as the only text in this file:
+
+English
+Afrikaans
+العربية
+български
+中文（简体
+Deutsch
+español
+français
+עברית
+Bahasa Indonesia
+italiano
+日本語
+Nederlands
+norsk
+polski
+português
+русский
+svenska
+ภาษาไทย
+Український
+
+
+
+Save and close language.txt
+Open Browser.exe

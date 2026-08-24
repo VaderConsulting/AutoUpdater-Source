@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x Object Browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (Content Community Omogućeno)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x Site Search</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Omogućuje aplikacija za prikupljanje statistike o bateriji</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Forum</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>B4x Pomoć</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>Sadržaj B4x Object Browser Zajednica Omogućeno</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>B4i Pomoć</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>B4j Pomoć</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>B4x Koda</value>
+	</data>
+	<data name="About" xml:space="preserve">
+		<value>o</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Omogućuje čitanje / pisanje pristupa stolu 'Properties' u Checkin baze podataka, za promjenu vrijednosti koji se učitavaju</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Omogućuje aplikaciji pristup približnu lokaciju potječe iz izvora mrežnom mjestu, kao što su stanica kule i Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Omogućuje aplikaciji pristup točnu lokaciju iz izvora lokacije kao što su GPS, stanica kule i Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Omogućuje aplikaciji pristup davatelja naredbe extra lokacija</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Aplikaciji omogućuje stvaranje lažne pružatelje lokacija za testiranje</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Aplikacijama omogućuje pristup informacijama o mrežama</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>b4a Pomoć</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Potrebno je da je AccessibilityService, kako bi se osiguralo da je samo sustav može vezati na nju</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Omogućuje aplikaciji reći AppWidget servis koji aplikacija može pristupiti AppWidget podacima</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Potrebno je da uprava uređaj primatelja, kako bi se osiguralo da samo sustav može komunicirati s njom</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Potrebno je da je InputMethodService, kako bi se osiguralo da je samo sustav može vezati na nju</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Potrebno je da se RemoteViewsService, kako bi se osiguralo da samo sustav može vezati za njega</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a Object Browser</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>dodati</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Aplikaciji omogućuje korištenje SurfaceFlinger nisku razinu značajke</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Aplikacijama omogućuje pristup informacijama o Wi-Fi mrežama</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Dodajte svoj glas za ovaj komentar</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Omogućuje aplikaciji dodavanje govorne pošte u sustav</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Dokumentacija za sve kopirati u međuspremnik (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>Android Paketi</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>pribilješka</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Jeste li sigurni? Ova operacija će potrajati dugo vremena i ne može biti prekinut.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>kao</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Omogućuje aplikaciji djelovati kao AccountAuthenticator za AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>autor</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>b4a Forum</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Potrebno je da se TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Potrebno je da se VpnService, kako bi se osiguralo da samo sustav može vezati za njega</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Potrebno je da se WallpaperService, kako bi se osiguralo da samo sustav može vezati za njega</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Aplikacijama omogućuje spajanje na upareni Bluetooth uređaji</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Aplikacijama omogućuje otkrivanje i uparivanje Bluetooth uređaja</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Potrebna da bi mogli onemogućiti uređaj (vrlo opasno!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Aplikaciji omogućuje emitiranje obavijesti da je paket aplikacija uklonjen</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Aplikaciji omogućuje emitiranje obavijesti SMS primitka</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Omogućuje aplikaciji emitirati ljepljive namjere</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Kupite mi pivo</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>otkazati</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Aplikaciji omogućuje emitiranje obavijesti o primitku WAP PUSH</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Aplikaciji omogućuje pokretanje telefona bez prolazi kroz Birač korisničkog sučelja za korisnika kako bi potvrdili poziv se stavlja</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Omogućuje aplikaciji pozivanje bilo kojeg telefonskog broja, uključujući hitne brojeve, bez prolazi kroz Birač korisničkog sučelja za korisnika kako bi potvrdili poziv se stavlja</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Potrebna da bi mogli pristupiti fotoaparatom uređaja</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Omogućuje aplikaciji promjenu li prijava komponentu (osim vlastitih) je omogućena ili ne</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Omogućuje aplikaciji izmjenu trenutnu konfiguraciju, kao što locale</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Aplikacijama omogućuje promjenu povezivanja stanje mreže</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>Provjerite</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Klasa Ime</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Klasa Kratko Ime</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>zajednica</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>stvoriti</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Aplikacijama omogućuje unos Wi-Fi za više načina</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Aplikacijama omogućuje promjenu Wi-Fi povezivost stanje</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>Klasa Detalji</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Dokumentacija za klasu kopirati u međuspremnik (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>klase</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>jasan</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Omogućuje prijavu na jasan sprema svih instaliranih aplikacija na uređaju</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Omogućuje zahtjev za brisanje korisničkih podataka</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>komentar</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Omogućuje omogućavanje / onemogućavanje obavijesti o ažuriranju lokacije s radija</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>kopija</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Kopiraj stazu</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>Naziv Copy</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Kopiraj imena</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>Kopiraj RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>Kopiraj tekst</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Aplikaciji omogućuje brisanje datoteka predmemorije</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Aplikaciji omogućuje brisanje paketa</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>ovisi o</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>opis</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Vi ste unijeli ispravne podatke.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Ne mogu izvoziti postavke na trenutnom direktoriju. Provjerite sigurnost na mapi.</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>Krediti</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Zahvaljujući potražite u sljedećim osobama za prevođenje i ispitivanje pomoći:</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Promjena ove postavke zahtijeva ponovno pokretanje aplikacija.</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Provjeri ažuriranja</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Omogućuje pristup upravljanju energijom niske razine</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Aplikacijama omogućuje RW za dijagnostičke resursima</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Aplikacijama omogućuje onemogućiti tipkovnice</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Dokument Sve</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Klasa dokumenta</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>dokumentiranje</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Dokument knjižnica</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>darovati</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>AUD10 (cijena jedne McDonalds obrok) će me rado.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Jeste li razmišljali o doniranju?
+Mali doprinos me omogućit će nastaviti pružati potporu u B4x zajednicu.
+Nakon što donirati, nećete biti pitani opet.</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Doclet verzija</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>E-mail adresa</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>izvoz</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>Polja</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>pomoći</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Sakrij BA Objekt Ako prvi parametar</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>identitet</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>uvoz</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>Knjižnice</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>knjižnica</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Knjižnica Putevi</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Opterećenje XML na zahtjev</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>Metode</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Mogućnosti</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>lozinka</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>Nekretnine</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>puštanje</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>ukloniti</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Spremi</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Pokaži Prazne zagradi</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Pokaži Cijeli Typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Pokaži oznake</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Pokaži Rezultati pretraživanja knjižnici klase TREEVIEW</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Pokaži Void u uporabi</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>ažuriranje</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>Internet adresa</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Koristite Zajednica podataka</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Korisničko ime</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>verzija</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>pogled</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Preuzmite Zajednice podataka</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Omogućuje aplikaciji dohvaćanje informacija državnu izvatkom iz usluge sustava</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>Uredi</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>Uredi Komentar</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>Uredi Opis</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Unesite pojam za pretraživanje</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Događanja</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>primjer</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>Izlaz</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Aplikaciji omogućuje proširivanje ili sažimanje trake statusa</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Trčanje kao proizvođač za ispitivanje prijave, radi kao root korisnika</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>polje</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>File</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Omogućuje pristup svjetiljke</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Omogućuje aplikaciji prisilno rad vrati na ono što je vrh djelatnost</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Omogućuje pristup popisu računa na računima usluge</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Omogućuje aplikaciji saznati prostor koristi bilo paketu</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Omogućuje aplikaciji dobili informacije o trenutno ili nedavno pokrenutih poslova</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>besposlen</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Dokumentacija za knjižnice kopirati u međuspremnik (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Odabrani knjižnica; Odaberite klasa</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Ulaganje Komentari Zajednice</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Ulaganje glasova Zajednice</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>Učitavanje Knjižnice</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Ulaganje Knjižnica datoteke</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Metode Nekretnine Polja</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Metoda, svojstava i Fields kopirati u međuspremnik</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>naziv</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Nemate aplikacija staze konfiguriran, ali imate sigurnosnu kopiju konfiguracije. Učitaj ovu konfiguraciju?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>Objekt omot</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>pregled</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>vlasnik</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Dozvole</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Molimo konfigurirati opcije, uključujući i mapu u kojoj su B4x Knjižnice instaliran</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>Molimo Potvrdi</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Objekat je samo za čitanje</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Objekat se čita / Zapiši</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Reload Knjižnice</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>primjedbe</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Izvadite svoj glas za ovaj komentar</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>Povratak vrijednost</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF kopirati u međuspremnik</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>pretraživanje</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Traži b4a stranice</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;pretraživanje&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>Vidi također</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Kratko Ime</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>standard</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Standardni XML datoteke</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>sintaksa</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Tekst kopiran u međuspremnik</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Ovaj razred ovisi o</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Ovaj razred Zavrsena</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>alat</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>vrsta</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>vrijednost</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>Verzija Primjenjivost</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>Glasova</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(vi)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Već ste glasali na ovaj komentar</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Ova e-mail adresa je u uporabi već.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Provjerite jeste li unijeli vrijednost za svaki, pa pokušajte ponovno.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Identitet je stvorio.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Identitet ažurira.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Netočna adresa e-pošte.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Netočna zaporka.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Netočna zaporka ili e-mail adresa.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Netočno korisničko ime.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Odaberite mapu za izvoz.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Odaberite datoteku koju želite uvesti.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>To ime ne postoji.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Korisničko ime spremaju na postavke.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>pogreška</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>jezik</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Traži Povijest</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>način</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>svojstvo</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Aplikacijama omogućuje otvaranje mrežnih utičnica</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Pokaži Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Pokaži Nekretnine dobiti i nekretnine Set</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Pokaži DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Ostani na vrhu</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Traži B4x stranice</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>IOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Omogućavanje uređivanja</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero Ovisnosti]</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Dodaj isječak</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Uklonite isječak</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Aplikacijama omogućuje pozivanje na AccountAuthenticators</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Omogućite isječka Drag Drop</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>koda</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>objekt</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>oznaka</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>isječak teksta</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>B4r Pomoć</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Ova klasa ima isti ShortName kao i '&lt;RODITELJNO_VIDEO&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Jedna ili više klasa unutar ove knjižnice ima duplikat ShortName</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Izbriši isječak</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Uređivanje isječka</value>
+	</data>
+</root>

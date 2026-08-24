@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="About" xml:space="preserve">
+		<value>về</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>thêm</value>
+	</data>
+	<data name="BuymeaBeer" xml:space="preserve">
+		<value>Mua cho tôi một bia</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>hủy bỏ</value>
+	</data>
+	<data name="Check" xml:space="preserve">
+		<value>kiểm tra</value>
+	</data>
+	<data name="ClassName" xml:space="preserve">
+		<value>Tên lớp</value>
+	</data>
+	<data name="ClassShortName" xml:space="preserve">
+		<value>Lớp ngắn Tên</value>
+	</data>
+	<data name="Community" xml:space="preserve">
+		<value>cộng đồng</value>
+	</data>
+	<data name="Create" xml:space="preserve">
+		<value>tạo</value>
+	</data>
+	<data name="EmailAddress" xml:space="preserve">
+		<value>Địa chỉ email</value>
+	</data>
+	<data name="Export" xml:space="preserve">
+		<value>xuất khẩu</value>
+	</data>
+	<data name="Fields" xml:space="preserve">
+		<value>lĩnh vực</value>
+	</data>
+	<data name="Help" xml:space="preserve">
+		<value>giúp</value>
+	</data>
+	<data name="HideBAObjectIfFirstParameter" xml:space="preserve">
+		<value>Ẩn BA đối tượng Nếu tham số đầu tiên</value>
+	</data>
+	<data name="Identity" xml:space="preserve">
+		<value>bản sắc</value>
+	</data>
+	<data name="Import" xml:space="preserve">
+		<value>nhập khẩu</value>
+	</data>
+	<data name="Libraries" xml:space="preserve">
+		<value>thư viện</value>
+	</data>
+	<data name="Library" xml:space="preserve">
+		<value>thư viện</value>
+	</data>
+	<data name="LibraryPaths" xml:space="preserve">
+		<value>Đường dẫn thư viện</value>
+	</data>
+	<data name="LoadXMLOnDemand" xml:space="preserve">
+		<value>Tải XML theo nhu cầu</value>
+	</data>
+	<data name="Methods" xml:space="preserve">
+		<value>phương pháp</value>
+	</data>
+	<data name="OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Tùy chọn</value>
+	</data>
+	<data name="Password" xml:space="preserve">
+		<value>mật khẩu</value>
+	</data>
+	<data name="Properties" xml:space="preserve">
+		<value>bất động sản</value>
+	</data>
+	<data name="Release" xml:space="preserve">
+		<value>phát hành</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Hủy bỏ</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>tiết kiệm</value>
+	</data>
+	<data name="ShowEmptyParentheses" xml:space="preserve">
+		<value>Hiện ngoặc rỗng</value>
+	</data>
+	<data name="ShowFullTypename" xml:space="preserve">
+		<value>Hiển thị toàn typename</value>
+	</data>
+	<data name="ShowLabels" xml:space="preserve">
+		<value>Hiện Nhãn</value>
+	</data>
+	<data name="ShowSearchResultsInLibraryClassTreeView" xml:space="preserve">
+		<value>Kết quả tìm kiếm hiển thị trong thư viện lớp TreeView</value>
+	</data>
+	<data name="ShowVoidInUsage" xml:space="preserve">
+		<value>Hiện Void Trong Cách sử dụng</value>
+	</data>
+	<data name="Update" xml:space="preserve">
+		<value>cập nhật</value>
+	</data>
+	<data name="URL" xml:space="preserve">
+		<value>địa chỉ internet</value>
+	</data>
+	<data name="UseCommunityData" xml:space="preserve">
+		<value>Sử dụng dữ liệu cộng đồng</value>
+	</data>
+	<data name="Username" xml:space="preserve">
+		<value>Tên truy nhập</value>
+	</data>
+	<data name="Version" xml:space="preserve">
+		<value>phiên bản</value>
+	</data>
+	<data name="View" xml:space="preserve">
+		<value>xem</value>
+	</data>
+	<data name="ACCESS_CHECKIN_PROPERTIES" xml:space="preserve">
+		<value>Cho phép đọc / ghi truy cập vào bảng 'tài sản' trong cơ sở dữ liệu checkin, thay đổi giá trị đó được tải lên</value>
+	</data>
+	<data name="ACCESS_COARSE_LOCATION" xml:space="preserve">
+		<value>Cho phép một ứng dụng để truy cập vào vị trí gần đúng từ các nguồn vị trí mạng như các tháp di động và Wi-Fi</value>
+	</data>
+	<data name="ACCESS_FINE_LOCATION" xml:space="preserve">
+		<value>Cho phép một ứng dụng để truy cập vào vị trí chính xác từ các nguồn vị trí như GPS, tháp di động và Wi-Fi</value>
+	</data>
+	<data name="ACCESS_LOCATION_EXTRA_COMMANDS" xml:space="preserve">
+		<value>Cho phép một ứng dụng để truy cập thêm vị trí lệnh nhà cung cấp</value>
+	</data>
+	<data name="ACCESS_MOCK_LOCATION" xml:space="preserve">
+		<value>Cho phép một ứng dụng để tạo ra các nhà cung cấp vị trí mô phỏng để thử nghiệm</value>
+	</data>
+	<data name="ACCESS_NETWORK_STATE" xml:space="preserve">
+		<value>Cho phép ứng dụng truy cập thông tin về mạng</value>
+	</data>
+	<data name="ACCESS_SURFACE_FLINGER" xml:space="preserve">
+		<value>Cho phép một ứng dụng để sử dụng tính năng cấp thấp của SurfaceFlinger</value>
+	</data>
+	<data name="ACCESS_WIFI_STATE" xml:space="preserve">
+		<value>Cho phép ứng dụng truy cập thông tin về mạng Wi-Fi</value>
+	</data>
+	<data name="ACCOUNT_MANAGER" xml:space="preserve">
+		<value>Cho phép các ứng dụng để gọi vào AccountAuthenticators</value>
+	</data>
+	<data name="AddYourVoteForThisComment" xml:space="preserve">
+		<value>Thêm phiếu cho bình luận này</value>
+	</data>
+	<data name="ADD_VOICEMAIL" xml:space="preserve">
+		<value>Cho phép ứng dụng thêm thư thoại vào hệ thống</value>
+	</data>
+	<data name="AllDocumentationCopied" xml:space="preserve">
+		<value>Tài liệu hướng dẫn cho tất cả các sao chép vào clipboard (RTF)</value>
+	</data>
+	<data name="AndroidPackages" xml:space="preserve">
+		<value>gói Android</value>
+	</data>
+	<data name="Annotation" xml:space="preserve">
+		<value>chú thích</value>
+	</data>
+	<data name="AreYouSureLongTimeOperation" xml:space="preserve">
+		<value>Bạn có chắc chắn? Hoạt động này sẽ mất nhiều thời gian và không thể bị gián đoạn.</value>
+	</data>
+	<data name="As" xml:space="preserve">
+		<value>như</value>
+	</data>
+	<data name="AUTHENTICATE_ACCOUNTS" xml:space="preserve">
+		<value>Cho phép một ứng dụng hoạt động như một AccountAuthenticator cho AccountManager</value>
+	</data>
+	<data name="Author" xml:space="preserve">
+		<value>Tác giả</value>
+	</data>
+	<data name="B4aForum" xml:space="preserve">
+		<value>B4a Diễn đàn</value>
+	</data>
+	<data name="B4aHelp" xml:space="preserve">
+		<value>B4a Trợ giúp</value>
+	</data>
+	<data name="B4aObjectBrowser" xml:space="preserve">
+		<value>B4a Object Browser</value>
+	</data>
+	<data name="B4aObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4a Object Browser (Nội dung Cộng đồng Bật)</value>
+	</data>
+	<data name="B4aSiteSearch" xml:space="preserve">
+		<value>B4x Tìm kiếm trang web</value>
+	</data>
+	<data name="BATTERY_STATS" xml:space="preserve">
+		<value>Cho phép một ứng dụng để thu thập số liệu thống kê pin</value>
+	</data>
+	<data name="BIND_ACCESSIBILITY_SERVICE" xml:space="preserve">
+		<value>Phải được yêu cầu của một AccessibilityService, để đảm bảo rằng chỉ những hệ thống có thể liên kết với nó</value>
+	</data>
+	<data name="BIND_APPWIDGET" xml:space="preserve">
+		<value>Cho phép ứng dụng cho các dịch vụ AppWidget mà ứng dụng có thể truy cập dữ liệu của AppWidget</value>
+	</data>
+	<data name="BIND_DEVICE_ADMIN" xml:space="preserve">
+		<value>Phải được yêu cầu nhận quản lý thiết bị, để đảm bảo rằng chỉ những hệ thống có thể tương tác với nó</value>
+	</data>
+	<data name="BIND_INPUT_METHOD" xml:space="preserve">
+		<value>Phải được yêu cầu của một InputMethodService, để đảm bảo rằng chỉ những hệ thống có thể liên kết với nó</value>
+	</data>
+	<data name="BIND_REMOTEVIEWS" xml:space="preserve">
+		<value>Phải được yêu cầu của một RemoteViewsService, để đảm bảo rằng chỉ những hệ thống có thể liên kết với nó</value>
+	</data>
+	<data name="BIND_TEXT_SERVICE" xml:space="preserve">
+		<value>Phải được yêu cầu của một TextService</value>
+	</data>
+	<data name="BIND_VPN_SERVICE" xml:space="preserve">
+		<value>Phải được yêu cầu của một VpnService, để đảm bảo rằng chỉ những hệ thống có thể liên kết với nó</value>
+	</data>
+	<data name="BIND_WALLPAPER" xml:space="preserve">
+		<value>Phải được yêu cầu của một WallpaperService, để đảm bảo rằng chỉ những hệ thống có thể liên kết với nó</value>
+	</data>
+	<data name="BLUETOOTH" xml:space="preserve">
+		<value>Cho phép các ứng dụng để kết nối với các thiết bị bluetooth kết hợp</value>
+	</data>
+	<data name="BLUETOOTH_ADMIN" xml:space="preserve">
+		<value>Cho phép các ứng dụng để phát hiện và ghép các thiết bị bluetooth</value>
+	</data>
+	<data name="BRICK" xml:space="preserve">
+		<value>Cần thiết để có thể vô hiệu hóa các thiết bị (rất nguy hiểm!)</value>
+	</data>
+	<data name="BROADCAST_PACKAGE_REMOVED" xml:space="preserve">
+		<value>Cho phép một ứng dụng truyền phát thông báo rằng một gói ứng dụng đã được gỡ bỏ</value>
+	</data>
+	<data name="BROADCAST_SMS" xml:space="preserve">
+		<value>Cho phép ứng dụng truyền phát thông báo nhận tin nhắn SMS</value>
+	</data>
+	<data name="BROADCAST_STICKY" xml:space="preserve">
+		<value>Cho phép một ứng dụng để phát sóng ý nghĩa dính</value>
+	</data>
+	<data name="BROADCAST_WAP_PUSH" xml:space="preserve">
+		<value>Cho phép một ứng dụng truyền phát WAP PUSH thông báo nhận</value>
+	</data>
+	<data name="CALL_PHONE" xml:space="preserve">
+		<value>Cho phép một ứng dụng thực hiện cuộc gọi điện thoại mà không cần phải thông qua giao diện người dùng quay số cho người sử dụng để xác nhận các cuộc gọi được đặt</value>
+	</data>
+	<data name="CALL_PRIVILEGED" xml:space="preserve">
+		<value>Cho phép một ứng dụng để gọi bất kỳ số điện thoại, bao gồm cả số trường hợp khẩn cấp, mà không cần phải thông qua giao diện người dùng quay số cho người sử dụng để xác nhận các cuộc gọi được đặt</value>
+	</data>
+	<data name="CAMERA" xml:space="preserve">
+		<value>Cần thiết để có thể truy cập các thiết bị máy ảnh</value>
+	</data>
+	<data name="CHANGE_COMPONENT_ENABLED_STATE" xml:space="preserve">
+		<value>Cho phép một ứng dụng để thay đổi cho dù một thành phần ứng dụng (khác hơn là của riêng của nó) được kích hoạt hay không</value>
+	</data>
+	<data name="CHANGE_CONFIGURATION" xml:space="preserve">
+		<value>Cho phép ứng dụng sửa đổi cấu hình hiện tại, chẳng hạn như miền địa phương</value>
+	</data>
+	<data name="CHANGE_NETWORK_STATE" xml:space="preserve">
+		<value>Cho phép các ứng dụng để thay đổi trạng thái nối mạng</value>
+	</data>
+	<data name="CHANGE_WIFI_MULTICAST_STATE" xml:space="preserve">
+		<value>Cho phép các ứng dụng để nhập Wi-Fi Multicast chế độ</value>
+	</data>
+	<data name="CHANGE_WIFI_STATE" xml:space="preserve">
+		<value>Cho phép các ứng dụng để thay đổi trạng thái kết nối Wi-Fi</value>
+	</data>
+	<data name="ClassDetails" xml:space="preserve">
+		<value>lớp chi tiết</value>
+	</data>
+	<data name="ClassDocumentationCopied" xml:space="preserve">
+		<value>Tài liệu hướng dẫn cho lớp sao chép vào clipboard (RTF)</value>
+	</data>
+	<data name="Classes" xml:space="preserve">
+		<value>các lớp học</value>
+	</data>
+	<data name="Clear" xml:space="preserve">
+		<value>rõ ràng</value>
+	</data>
+	<data name="CLEAR_APP_CACHE" xml:space="preserve">
+		<value>Cho phép một ứng dụng để xóa cache của tất cả các ứng dụng cài đặt trên thiết bị</value>
+	</data>
+	<data name="CLEAR_APP_USER_DATA" xml:space="preserve">
+		<value>Cho phép một ứng dụng để xóa dữ liệu người dùng</value>
+	</data>
+	<data name="Comment" xml:space="preserve">
+		<value>bình luận</value>
+	</data>
+	<data name="CONTROL_LOCATION_UPDATES" xml:space="preserve">
+		<value>Cho phép cho phép / vô hiệu hóa các thông báo cập nhật vị trí từ các đài phát thanh</value>
+	</data>
+	<data name="Copy" xml:space="preserve">
+		<value>sao chép</value>
+	</data>
+	<data name="CopyFullPath" xml:space="preserve">
+		<value>Sao chép Đường dẫn đầy đủ</value>
+	</data>
+	<data name="CopyName" xml:space="preserve">
+		<value>bản sao Tên</value>
+	</data>
+	<data name="CopyNames" xml:space="preserve">
+		<value>Copy Names</value>
+	</data>
+	<data name="CopyRTF" xml:space="preserve">
+		<value>bản sao RTF</value>
+	</data>
+	<data name="CopyText" xml:space="preserve">
+		<value>sao chép văn bản</value>
+	</data>
+	<data name="DELETE_CACHE_FILES" xml:space="preserve">
+		<value>Cho phép một ứng dụng để xóa các tập tin bộ nhớ cache</value>
+	</data>
+	<data name="DELETE_PACKAGES" xml:space="preserve">
+		<value>Cho phép một ứng dụng để xóa các gói</value>
+	</data>
+	<data name="DependsOn" xml:space="preserve">
+		<value>phụ thuộc Bật</value>
+	</data>
+	<data name="Description" xml:space="preserve">
+		<value>Mô tả</value>
+	</data>
+	<data name="DEVICE_POWER" xml:space="preserve">
+		<value>Cho phép truy cập ở mức độ thấp để quản lý điện năng</value>
+	</data>
+	<data name="DIAGNOSTIC" xml:space="preserve">
+		<value>Cho phép các ứng dụng để RW với các nguồn lực chẩn đoán</value>
+	</data>
+	<data name="DISABLE_KEYGUARD" xml:space="preserve">
+		<value>Cho phép các ứng dụng để vô hiệu hóa bàn phím bị khóa</value>
+	</data>
+	<data name="DocumentAll" xml:space="preserve">
+		<value>Tất cả tài liệu</value>
+	</data>
+	<data name="DocumentClass" xml:space="preserve">
+		<value>Document Class</value>
+	</data>
+	<data name="Documenting" xml:space="preserve">
+		<value>tài liệu</value>
+	</data>
+	<data name="DocumentLibrary" xml:space="preserve">
+		<value>Thư viện tài liệu</value>
+	</data>
+	<data name="DownloadCommunityData" xml:space="preserve">
+		<value>Tải dữ liệu cộng đồng</value>
+	</data>
+	<data name="DUMP" xml:space="preserve">
+		<value>Cho phép một ứng dụng để lấy thông tin đổ nhà nước từ hệ thống dịch vụ</value>
+	</data>
+	<data name="Edit" xml:space="preserve">
+		<value>chỉnh sửa</value>
+	</data>
+	<data name="EditComment" xml:space="preserve">
+		<value>sửa Bình luận</value>
+	</data>
+	<data name="EditDescription" xml:space="preserve">
+		<value>chỉnh sửa Mô tả</value>
+	</data>
+	<data name="EnterSearchTerm" xml:space="preserve">
+		<value>Nhập thuật ngữ tìm kiếm</value>
+	</data>
+	<data name="Events" xml:space="preserve">
+		<value>Sự kiện</value>
+	</data>
+	<data name="Example" xml:space="preserve">
+		<value>Ví dụ</value>
+	</data>
+	<data name="Exit" xml:space="preserve">
+		<value>ra</value>
+	</data>
+	<data name="EXPAND_STATUS_BAR" xml:space="preserve">
+		<value>Cho phép một ứng dụng để mở rộng hoặc thu gọn thanh trạng thái</value>
+	</data>
+	<data name="FACTORY_TEST" xml:space="preserve">
+		<value>Chạy như một ứng dụng thử nghiệm sản xuất, chạy như người sử dụng gốc</value>
+	</data>
+	<data name="Field" xml:space="preserve">
+		<value>lĩnh vực</value>
+	</data>
+	<data name="File" xml:space="preserve">
+		<value>văn thư</value>
+	</data>
+	<data name="FLASHLIGHT" xml:space="preserve">
+		<value>Cho phép truy cập vào các đèn pin</value>
+	</data>
+	<data name="FORCE_BACK" xml:space="preserve">
+		<value>Cho phép một ứng dụng để buộc một hoạt động trở lại bất cứ điều gì là hoạt động đầu</value>
+	</data>
+	<data name="GET_ACCOUNTS" xml:space="preserve">
+		<value>Cho phép truy cập vào danh sách các tài khoản trong các dịch vụ Tài khoản</value>
+	</data>
+	<data name="GET_PACKAGE_SIZE" xml:space="preserve">
+		<value>Cho phép một ứng dụng để tìm ra các không gian được sử dụng bởi bất kỳ gói</value>
+	</data>
+	<data name="GET_TASKS" xml:space="preserve">
+		<value>Cho phép một ứng dụng để có được thông tin về các nhiệm vụ hiện tại hoặc gần đây chạy</value>
+	</data>
+	<data name="Idle" xml:space="preserve">
+		<value>nhàn rỗi</value>
+	</data>
+	<data name="LibraryDocumentationCopied" xml:space="preserve">
+		<value>Tài liệu hướng dẫn cho Thư viện sao chép vào clipboard (RTF)</value>
+	</data>
+	<data name="LibrarySelectedChooseAClass" xml:space="preserve">
+		<value>Thư viện chọn; Chọn một Class</value>
+	</data>
+	<data name="LoadingCommunityComments" xml:space="preserve">
+		<value>Tải Ý kiến ​​cộng đồng</value>
+	</data>
+	<data name="LoadingCommunityVotes" xml:space="preserve">
+		<value>Tải Votes Cộng đồng</value>
+	</data>
+	<data name="LoadingLibraries" xml:space="preserve">
+		<value>tải thư viện</value>
+	</data>
+	<data name="LoadingLibraryFile" xml:space="preserve">
+		<value>Tải tập tin thư viện</value>
+	</data>
+	<data name="MethodsPropertiesFields" xml:space="preserve">
+		<value>Phương pháp tính Fields</value>
+	</data>
+	<data name="MethodsPropertiesFieldsCopied" xml:space="preserve">
+		<value>Phương pháp, các tài sản và các lĩnh vực sao chép vào clipboard</value>
+	</data>
+	<data name="Name" xml:space="preserve">
+		<value>tên</value>
+	</data>
+	<data name="NoApplicationPaths" xml:space="preserve">
+		<value>Bạn không có đường dẫn ứng dụng cấu hình, nhưng bạn có một bản sao lưu của các cấu hình. Tải cấu hình này?</value>
+	</data>
+	<data name="ObjectWrapper" xml:space="preserve">
+		<value>đối tượng wrapper</value>
+	</data>
+	<data name="Overview" xml:space="preserve">
+		<value>tổng quan</value>
+	</data>
+	<data name="Owner" xml:space="preserve">
+		<value>chủ sở hữu</value>
+	</data>
+	<data name="Permissions" xml:space="preserve">
+		<value>Quyền</value>
+	</data>
+	<data name="PleaseConfigureOptions" xml:space="preserve">
+		<value>Xin cấu hình tùy chọn, bao gồm cả thư mục mà thư viện B4x được cài đặt</value>
+	</data>
+	<data name="PleaseConfirm" xml:space="preserve">
+		<value>xin Xác nhận</value>
+	</data>
+	<data name="PropertyIsReadOnly" xml:space="preserve">
+		<value>Chỉ có tài sản là đã đọc</value>
+	</data>
+	<data name="PropertyIsReadWrite" xml:space="preserve">
+		<value>Tài sản là đọc / ghi</value>
+	</data>
+	<data name="ReloadLibraries" xml:space="preserve">
+		<value>Nạp lại thư viện</value>
+	</data>
+	<data name="Remarks" xml:space="preserve">
+		<value>Bình luận</value>
+	</data>
+	<data name="RemoveYourVoteForThisComment" xml:space="preserve">
+		<value>Hủy bỏ phiếu cho bình luận này</value>
+	</data>
+	<data name="ReturnValue" xml:space="preserve">
+		<value>giá trị trả về</value>
+	</data>
+	<data name="RTFCopied" xml:space="preserve">
+		<value>RTF sao chép vào clipboard</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>tìm kiếm</value>
+	</data>
+	<data name="SearchB4aSite" xml:space="preserve">
+		<value>Tìm kiếm B4a trang web</value>
+	</data>
+	<data name="SearchText" xml:space="preserve">
+		<value>&lt;tìm kiếm&gt;</value>
+	</data>
+	<data name="SeeAlso" xml:space="preserve">
+		<value>xem thêm</value>
+	</data>
+	<data name="ShortName" xml:space="preserve">
+		<value>Tên ngắn</value>
+	</data>
+	<data name="Standard" xml:space="preserve">
+		<value>tiêu chuẩn</value>
+	</data>
+	<data name="StandardXMLFile" xml:space="preserve">
+		<value>Tiêu chuẩn XML File</value>
+	</data>
+	<data name="Syntax" xml:space="preserve">
+		<value>cú pháp</value>
+	</data>
+	<data name="TextCopied" xml:space="preserve">
+		<value>Sao chép văn bản vào clipboard</value>
+	</data>
+	<data name="ThisClassDependsOn" xml:space="preserve">
+		<value>Lớp này phụ thuộc vào</value>
+	</data>
+	<data name="ThisClassWraps" xml:space="preserve">
+		<value>Lớp này Wraps</value>
+	</data>
+	<data name="Tools" xml:space="preserve">
+		<value>công cụ</value>
+	</data>
+	<data name="Type" xml:space="preserve">
+		<value>loại</value>
+	</data>
+	<data name="Value" xml:space="preserve">
+		<value>giá trị</value>
+	</data>
+	<data name="VersionApplicability" xml:space="preserve">
+		<value>phiên bản áp dụng</value>
+	</data>
+	<data name="Votes" xml:space="preserve">
+		<value>bình chọn</value>
+	</data>
+	<data name="You" xml:space="preserve">
+		<value>(bạn)</value>
+	</data>
+	<data name="YouHaveAlreadyVoted" xml:space="preserve">
+		<value>Bạn đã bầu chọn trên nhận xét này</value>
+	</data>
+	<data name="ZeroDependencies" xml:space="preserve">
+		<value>[Zero phụ thuộc]</value>
+	</data>
+	<data name="CorrectDetails" xml:space="preserve">
+		<value>Bạn đã cung cấp các chi tiết chính xác.</value>
+	</data>
+	<data name="CouldNotExportSettings" xml:space="preserve">
+		<value>Không có thể xuất khẩu các thiết lập cho thư mục hiện hành. Kiểm tra an ninh trên các thư mục.</value>
+	</data>
+	<data name="EmailAddressInUse" xml:space="preserve">
+		<value>Địa chỉ email này đang được sử dụng rồi.</value>
+	</data>
+	<data name="EnterValues" xml:space="preserve">
+		<value>Đảm bảo bạn đã nhập một giá trị cho mỗi, và thử lại.</value>
+	</data>
+	<data name="IdentityCreated" xml:space="preserve">
+		<value>Danh tính tạo ra.</value>
+	</data>
+	<data name="IdentityUpdated" xml:space="preserve">
+		<value>Danh tính cập nhật.</value>
+	</data>
+	<data name="IncorrectEmail" xml:space="preserve">
+		<value>Địa chỉ email không chính xác.</value>
+	</data>
+	<data name="IncorrectPassword" xml:space="preserve">
+		<value>Mật khẩu không chính xác.</value>
+	</data>
+	<data name="IncorrectPasswordOrEmail" xml:space="preserve">
+		<value>Mật khẩu không chính xác hoặc địa chỉ email.</value>
+	</data>
+	<data name="IncorrectUsername" xml:space="preserve">
+		<value>Tên đăng nhập không chính xác.</value>
+	</data>
+	<data name="PleaseChooseAFolder" xml:space="preserve">
+		<value>Hãy chọn một thư mục để xuất khẩu.</value>
+	</data>
+	<data name="PleaseSelectFileToImport" xml:space="preserve">
+		<value>Vui lòng chọn các tập tin bạn muốn nhập khẩu.</value>
+	</data>
+	<data name="UsernameDoesNotExist" xml:space="preserve">
+		<value>Tên người dùng này không tồn tại.</value>
+	</data>
+	<data name="UsernameSaved" xml:space="preserve">
+		<value>Tên người dùng lưu các thiết lập.</value>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>lôi</value>
+	</data>
+	<data name="GUILanguage" xml:space="preserve">
+		<value>ngôn ngư</value>
+	</data>
+	<data name="SearchHistory" xml:space="preserve">
+		<value>Lịch sử tìm kiếm</value>
+	</data>
+	<data name="Credits" xml:space="preserve">
+		<value>tín dụng</value>
+	</data>
+	<data name="CreditThanks" xml:space="preserve">
+		<value>Tôi xin cảm tạ những người sau đây để được hỗ trợ dịch thuật và thử nghiệm:</value>
+	</data>
+	<data name="Method" xml:space="preserve">
+		<value>phương pháp</value>
+	</data>
+	<data name="Property" xml:space="preserve">
+		<value>tài sản</value>
+	</data>
+	<data name="INTERNET" xml:space="preserve">
+		<value>Cho phép các ứng dụng để mở ổ cắm mạng</value>
+	</data>
+	<data name="ChangeSettingRestart" xml:space="preserve">
+		<value>Thay đổi thiết lập này đòi hỏi một ứng dụng khởi động lại.</value>
+	</data>
+	<data name="ShowClassGlobals" xml:space="preserve">
+		<value>Hiện Class_Globals</value>
+	</data>
+	<data name="ShowPropertyGetAndSet" xml:space="preserve">
+		<value>Hiển thị Property Get và Set tài sản</value>
+	</data>
+	<data name="ShowDesignerCreateView" xml:space="preserve">
+		<value>Hiển thị DesignerCreateView</value>
+	</data>
+	<data name="StayOnTop" xml:space="preserve">
+		<value>Ở trên đầu trang</value>
+	</data>
+	<data name="CheckForUpdate" xml:space="preserve">
+		<value>Kiểm tra các bản cập nhật</value>
+	</data>
+	<data name="Donate" xml:space="preserve">
+		<value>tặng</value>
+	</data>
+	<data name="DonateExample" xml:space="preserve">
+		<value>$ 10 (giá của một bữa ăn McDonalds) sẽ giữ cho tôi hạnh phúc.</value>
+	</data>
+	<data name="DonateReason" xml:space="preserve">
+		<value>Bạn có xem xét tặng?
+Đóng góp nhỏ sẽ cho phép tôi tiếp tục hỗ trợ cộng đồng B4x.
+Một khi bạn tặng, bạn sẽ không phải nhắc lại.</value>
+	</data>
+	<data name="B4xForum" xml:space="preserve">
+		<value>B4x Diễn đàn</value>
+	</data>
+	<data name="B4xHelp" xml:space="preserve">
+		<value>Trợ giúp B4x</value>
+	</data>
+	<data name="B4xObjectBrowserCommunityContentEnabled" xml:space="preserve">
+		<value>B4x đối tượng trình duyệt nội dung cộng đồng được kích hoạt</value>
+	</data>
+	<data name="SearchB4xSite" xml:space="preserve">
+		<value>Tìm kiếm B4x trang web</value>
+	</data>
+	<data name="iosAPI" xml:space="preserve">
+		<value>iOS API</value>
+	</data>
+	<data name="JavaAPI" xml:space="preserve">
+		<value>Java API</value>
+	</data>
+	<data name="B4xObjectBrowser" xml:space="preserve">
+		<value>B4x đối tượng trình duyệt</value>
+	</data>
+	<data name="DocletVersionNOTLibraryVersion" xml:space="preserve">
+		<value>Phiên bản Doclet</value>
+	</data>
+	<data name="B4iHelp" xml:space="preserve">
+		<value>Trợ giúp B4i</value>
+	</data>
+	<data name="B4jHelp" xml:space="preserve">
+		<value>Trợ giúp B4j</value>
+	</data>
+	<data name="EnableEdits" xml:space="preserve">
+		<value>Sử chỉnh sửa</value>
+	</data>
+	<data name="B4xCodeSnippets" xml:space="preserve">
+		<value>Đoạn mã B4x</value>
+	</data>
+	<data name="AddSnippet" xml:space="preserve">
+		<value>Thêm đoạn</value>
+	</data>
+	<data name="RemoveSnippet" xml:space="preserve">
+		<value>Loại bỏ đoạn</value>
+	</data>
+	<data name="EnableSnippetDragDrop" xml:space="preserve">
+		<value>Sử đoạn kéo thả</value>
+	</data>
+	<data name="CodeSnippets" xml:space="preserve">
+		<value>Đoạn mã</value>
+	</data>
+	<data name="Object" xml:space="preserve">
+		<value>Đối tượng</value>
+	</data>
+	<data name="Label" xml:space="preserve">
+		<value>Nhãn</value>
+	</data>
+	<data name="SnippetText" xml:space="preserve">
+		<value>Đoạn văn bản</value>
+	</data>
+	<data name="ArduinoAPI" xml:space="preserve">
+		<value>Arduino API</value>
+	</data>
+	<data name="B4RHelp" xml:space="preserve">
+		<value>Trợ giúp B4r</value>
+	</data>
+	<data name="Arduino" xml:space="preserve">
+		<value>Arduino</value>
+	</data>
+	<data name="DuplicateClassName" xml:space="preserve">
+		<value>Lớp này có ShortName giống như '&lt;PARENTNAME&gt;. &lt;SHORTNAME&gt;'</value>
+	</data>
+	<data name="DuplicateClassNameInLibrary" xml:space="preserve">
+		<value>Một hoặc nhiều lớp trong Thư viện này có một ShortName trùng lặp</value>
+	</data>
+	<data name="DeleteSnippet" xml:space="preserve">
+		<value>Xóa đoạn trích</value>
+	</data>
+	<data name="EditSnippet" xml:space="preserve">
+		<value>Chỉnh sửa Snippet</value>
+	</data>
+</root>

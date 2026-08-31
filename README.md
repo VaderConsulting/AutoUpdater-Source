@@ -1,6 +1,6 @@
 # AutoUpdater-Source
 
-Desktop B4X Object Browser that loads and displays B4A, B4i, B4J and B4R API information (based on B4A Object Browser v3.2.5.14). The tree also vendors AutoUpdater.NET so the browser can check for updates. Vader Consulting assembly metadata (2012–2020). ClickOnce `.pfx` keys are gitignored and were not published.
+Desktop B4X Object Browser that loads and displays B4A, B4i, B4J and B4R API information (based on B4A Object Browser v3.2.5.14). The tree also vendors AutoUpdater.NET so the browser can check for updates. Vader Consulting assembly metadata (2012-2020). ClickOnce `.pfx` keys are gitignored and were not published.
 
 **Source last updated:** 2026-04-17  
 **Language:** C#  

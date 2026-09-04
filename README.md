@@ -20,6 +20,10 @@ Desktop B4X Object Browser that loads and displays B4A, B4i, B4J and B4R API inf
 
 Open `B4x Browser.csproj` in Visual Studio for the object browser. AutoUpdater.NET projects are under `AutoUpdater.NET/`.
 
+## Requirements
+
+- Visual Studio 2013 or later, .NET 10.0, .NET 8.0, .NET Framework 4.8
+
 ## Attribution and provenance
 
 - **Assembly company:** Vader Consulting

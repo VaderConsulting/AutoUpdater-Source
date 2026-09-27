@@ -26,6 +26,7 @@ Open `B4x Browser.csproj` in Visual Studio for the object browser. AutoUpdater.N
 
 ## Attribution and provenance
 
+my working copy from Development folder `AutoUpdater Source`.
 - **Assembly company:** Vader Consulting
 - **Based on:** B4A Object Browser v3.2.5.14
 - **Vendored:** AutoUpdater.NET (original authors; see that project's metadata under `AutoUpdater.NET/`)
